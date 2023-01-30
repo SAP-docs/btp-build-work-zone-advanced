@@ -1,8 +1,8 @@
 [![REUSE status]()]()
 
-# Contributions to YOUR-DOCUMENTATION
+# Contributions to SAP Build Work Zone, advanced edition Developer Guide
 
-Found a mistake in our documentation? Always wanted to add a step in one of our procedures that could save many others much time? Then you're at the right place! All contributions made to the Markdown files in the [docs](docs) directory are reviewed, and if deemed valuable be added to our [official documentation on SAP Help Portal](YOUR-LINK). The easiest way is to start there, and choose _Edit_ to find the right Markdown file to contribute to.
+Found a mistake in our documentation? Always wanted to add a step in one of our procedures that could save many others much time? Then you're at the right place! All contributions made to the Markdown files in the [docs](docs) directory are reviewed, and if deemed valuable be added to our [official documentation on SAP Help Portal](https://help.sap.com/docs/WZ/7d3b9c7211ca4d7a9630b524205ee836/5c0103b130de411fb2a4b5416e36d767.html). The easiest way is to start there, and choose _Edit_ to find the right Markdown file to contribute to.
 
 ## Requirements
 
