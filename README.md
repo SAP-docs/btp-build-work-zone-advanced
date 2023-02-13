@@ -1,4 +1,4 @@
-[![REUSE status]()]()
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-docs/btp-build-work-zone-advanced)](https://api.reuse.software/info/github.com/SAP-docs/btp-build-work-zone-advanced)
 
 # Contributions to SAP Build Work Zone, advanced edition Developer Guide
 
