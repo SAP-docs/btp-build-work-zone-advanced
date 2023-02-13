@@ -140,7 +140,7 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
 
     You’ve successfully created a project that contains the required content package. The newly created content package is now available in your workspace. You can now perform the following actions on your content package:
     
-    | Action for content package |   Documentation |
+    | Action for content package |   More Information |
     |:---|:---|
     | Update | [Updating a Content Package](updating-a-content-package-de85e4f.md) |
     | Deploy | [Deploying a Content Package](deploying-a-content-package-5556cbf.md) |
