@@ -52,14 +52,14 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Project Name**
 
 
     
     </td>
     <td valign="top">
-
+    
     Enter a project name.
 
 
@@ -68,14 +68,14 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     </tr>
     <tr>
     <td valign="top">
-
+    
     **NameSpace**
 
 
     
     </td>
     <td valign="top">
-
+    
     Enter a namespace. The content package ID is generated using the namespace and the project name.
 
     Content Package ID: <namespace\>.<project name\>
@@ -86,14 +86,14 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Title**
 
 
     
     </td>
     <td valign="top">
-
+    
     Enter a title
 
 
@@ -102,14 +102,14 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Subtitle**
 
 
     
     </td>
     <td valign="top">
-
+    
     Enter a subtitle
 
 
@@ -118,14 +118,14 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Include Content Samples**
 
 
     
     </td>
     <td valign="top">
-
+    
     Choose *True* to include content samples for the project.
 
     If not, an empty project is generated, and you can add artifacts later.
@@ -138,14 +138,36 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     
 5.  Choose *Finish*.
 
-    You’ve successfully created a project that contains the required content package. The newly created content package is now available in your workspace. You can now perform the following actions on your content package:
-    
-    | Action for content package |   More Information |
-    |:---|:---|
-    | Update | [Updating a Content Package](updating-a-content-package-de85e4f.md) |
-    | Deploy | [Deploying a Content Package](deploying-a-content-package-5556cbf.md) |
-    | Delete | Navigate to the newly created card project. Right-click on the project and select *Delete*. |
+    You’ve successfully created a project that contains the required content package. The newly created content package is now available in your workspace. You can now perform the following:
+
+    -   Update the content package: For more information, see [Updating a Content Package](updating-a-content-package-de85e4f.md)
+    -   Delete the content package: To do so, navigate to the newly created card project. Right-click on the project and select *Delete*.
+    -   Deploy the content package: For more information, see [Deploying a Content Package](deploying-a-content-package-5556cbf.md)
 
     You can also execute `Content Package: Create Content Package Project` to launch a command line interface for creating content package.
+
+    **Adding Destinations**
+
+    If the content package contains apps that are rendered on a remote system, you need to configure a destination to the remote system in the *Destinations* screen of the cockpit.
+
+    After the destination is created, the following code should be added to the content package manifest.json file:
+
+    ```
+    {
+    "sap.package": { 
+       				 .....
+       		 		"prerequisites":
+    						{         
+         					 "destinations": [                                             
+             
+    							{ "name": "123",             "document":"https://xxx.yyy.zzz"} 
+    								,
+              				  {"name": "456"}
+             				]
+         				   }
+       			}
+    }
+    
+    ```
 
 

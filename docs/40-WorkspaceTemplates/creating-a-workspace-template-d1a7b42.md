@@ -52,14 +52,14 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Project Name**
 
 
     
     </td>
     <td valign="top">
-
+    
     Enter a project name.
 
 
@@ -68,14 +68,14 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Namespace**
 
 
     
     </td>
     <td valign="top">
-
+    
     Enter a namespace. The workspace template ID is generated using the namespace and the project name.
 
     Workspace template ID: <namespace\>.<project name\>
@@ -86,14 +86,14 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Select a Template**
 
 
     
     </td>
     <td valign="top">
-
+    
     Choose either *New Workspace Template* or *Download Workspace Template*. If you choose *Download Workspace Template* option, the workspace templates available in the system will be listed in the next window for your selection. Also, specify *JAM* as your destination.
 
 
@@ -102,14 +102,14 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Title**
 
 
     
     </td>
     <td valign="top">
-
+    
     Enter a title of the workspace.
 
 
@@ -118,14 +118,14 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Subtitle**
 
 
     
     </td>
     <td valign="top">
-
+    
     Enter a subtitle of the workspace.
 
 
@@ -134,14 +134,14 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Short Title**
 
 
     
     </td>
     <td valign="top">
-
+    
     Enter a short title of the workspace.
 
 
@@ -150,14 +150,14 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Info**
 
 
     
     </td>
     <td valign="top">
-
+    
     Specify the info for the workspace.
 
 
@@ -166,14 +166,14 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Description**
 
 
     
     </td>
     <td valign="top">
-
+    
     Provide the description of the workspace.
 
 

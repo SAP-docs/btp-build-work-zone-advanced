@@ -16,7 +16,7 @@ For example, your chatbot can render the following cards:
 
 
 > ### Tip:  
-> For more information about cards in SAP Build Work Zone, advanced edition, see [UI Integration Cards](https://help.sap.com/viewer/b03c84105ff74f809631e494bd612e83/Cloud/en-US/0bf9adc001e446d7b458aa26f2066c95.html "SAP UI integration cards allow you to show application content from different sources side by side without the user having to switch screens. They contain a certain set of information from an app or page that&apos;s presented to users in a specific context.") :arrow_upper_right:.
+> For more information about cards in SAP Build Work Zone, advanced edition, see [UI Integration Cards](../ui-integration-cards-0bf9adc.md).
 
 
 

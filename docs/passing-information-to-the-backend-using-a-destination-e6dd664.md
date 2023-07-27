@@ -53,28 +53,28 @@ When you need to pass confidential information to a backend, and it can't be pas
     </tr>
     <tr>
     <td valign="top">
-
+    
     HTML5.DynamicDestination
 
 
     
     </td>
     <td valign="top">
-
+    
     true
 
 
     
     </td>
     <td valign="top">
-
+    
     **Mandatory**
 
 
     
     </td>
     <td valign="top">
-
+    
     `HTML5.DynamicDestination:true`
 
 
@@ -83,21 +83,21 @@ When you need to pass confidential information to a backend, and it can't be pas
     </tr>
     <tr>
     <td valign="top">
-
+    
     sap.header.<Header-Name\>
 
 
     
     </td>
     <td valign="top">
-
+    
     <Header-Value\>
 
 
     
     </td>
     <td valign="top">
-
+    
     Optional \(zero or more\)
 
     <Header-Name\> is the header name that will be replaced.
@@ -106,7 +106,7 @@ When you need to pass confidential information to a backend, and it can't be pas
     
     </td>
     <td valign="top">
-
+    
     `sap.header.CustomHeader:CustomValue`
 
     `sap.header.AnotherCustomHeader:AnotherCustomValue`
@@ -117,21 +117,21 @@ When you need to pass confidential information to a backend, and it can't be pas
     </tr>
     <tr>
     <td valign="top">
-
+    
     sap.query
 
 
     
     </td>
     <td valign="top">
-
+    
     <Query-Value\>
 
 
     
     </td>
     <td valign="top">
-
+    
     Optional \(zero or one\)
 
     URL must not be encoded.
@@ -140,7 +140,7 @@ When you need to pass confidential information to a backend, and it can't be pas
     
     </td>
     <td valign="top">
-
+    
     If you want to add the URL query parameter `s=5&api-key=111-222-333`, you need to enter `sap.query:s=5&api-key=111-222-333`
 
 

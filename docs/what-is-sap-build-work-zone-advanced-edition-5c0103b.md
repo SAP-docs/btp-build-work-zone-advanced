@@ -14,7 +14,7 @@ You can create an outstanding user experience for business application users tha
 > -   For more information about HR-specific content provided by SAP SuccessFactors, see [SAP SuccessFactors Work Zone Content](https://help.sap.com/viewer/04877e17a5da4908a6fea94949e160b5/Cloud/en-US)
 > -   For more information about migration and implementation considerations, see [Implementation Design Principle](https://d.dam.sap.com/a/3nZVVDd)
 
-![](images/Welcome_to_SAP_Work_Zone_b111600.png)
+![An example of a SAP Build Work Zone, advanced edition site](images/Welcome_to_SAP_Work_Zone_b111600.png)
 
 
 
@@ -64,7 +64,7 @@ Simple, modern, and consistent user interface that provides a unified intelligen
 
 Create a dynamic, modern, and personalized user experience, using tools that require minimum coding.
 
-![](images/Unified_UI_d288d68.png)
+![Shows different tools that help build a dynamic, modern, and personalized user experience.](images/Unified_UI_d288d68.png)
 
 
 
@@ -128,7 +128,7 @@ Integrating on-premise and cloud apps 
 </td>
 <td valign="top">
 
- SAP Build Work Zone, advanced edition can integrate with cloud, hybrid, and on-premise enterprise applications and services.
+SAP Build Work Zone, advanced edition can integrate with cloud, hybrid, and on-premise enterprise applications and services.
 
 
 
@@ -180,7 +180,7 @@ Support of Multi-Tenancy concept
 
 If you’ve developed a multi-tenant application and want your consumers to use the SAP Build Work Zone, advanced edition capabilities in the application, see:
 
--   [Getting Started](https://help.sap.com/viewer/b03c84105ff74f809631e494bd612e83/Cloud/en-US/627b9e36a3da430199133c6ca0db45d8.html "Step-by-step guides for onboarding to SAP Build Work Zone, advanced edition and SAP SuccessFactors Work Zone.") :arrow_upper_right:
+-   [Getting Started](getting-started-627b9e3.md)
 -   [**Developing Multitenant Applications in the Cloud Foundry Environment**](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/5e8a2b74e4f2442b8257c850ed912f48.html)
 
 

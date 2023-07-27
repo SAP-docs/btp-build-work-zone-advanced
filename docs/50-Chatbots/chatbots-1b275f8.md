@@ -218,7 +218,7 @@ You must be logged on to SAP Conversational AI to perform the following steps. K
 
 ### Register a new OAuth Client
 
-To authorize the chatbot to access the SAP Build Work Zone, advanced edition API, you must register it as an OAuth client. For more information, see [Add an OAuth Client](https://help.sap.com/viewer/b03c84105ff74f809631e494bd612e83/Cloud/en-US/b3c804e1f999448b8011a475fea1da6c.html "") :arrow_upper_right:.
+To authorize the chatbot to access the SAP Build Work Zone, advanced edition API, you must register it as an OAuth client. For more information, see [Add an OAuth Client](../add-an-oauth-client-b3c804e.md).
 
 In the following table, the configuration steps are explained. Note that different steps \(left column\) are done in different places: In SAP Build Work Zone, advanced edition \(middle column\) and in SAP Conversational AI \(right column\). As you move through the steps, check in which application the step takes place.
 
@@ -334,7 +334,7 @@ Skip the other entry fields.
 
 ### Manage Alias Account
 
-You need an alias account as a system user to work with the chatbot. A system user allows you to post to SAP Build Work Zone, advanced edition with your chatbot. For more information, see [Alias Accounts](https://help.sap.com/viewer/b03c84105ff74f809631e494bd612e83/Cloud/en-US/8857401c21b94dec9143cf14fa57d2d3.html "As a Company administrator, you can create user alias accounts and assign users to the account using a specific email address.") :arrow_upper_right:.
+You need an alias account as a system user to work with the chatbot. A system user allows you to post to SAP Build Work Zone, advanced edition with your chatbot. For more information, see [Alias Accounts](../alias-accounts-8857401.md).
 
 In the following table, the configuration steps are explained. Note that different steps \(left column\) are done in different places: In SAP Build Work Zone, advanced edition \(middle column\) and in SAP Conversational AI \(right column\). To navigate more easily, we recommend that you place the windows side by side or stacked on your screen.
 

@@ -54,14 +54,14 @@ You’re developing a UI card. The following procedure describes steps on how to
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Project Name**
 
 
     
     </td>
     <td valign="top">
-
+    
     Enter a project name.
 
 
@@ -70,14 +70,14 @@ You’re developing a UI card. The following procedure describes steps on how to
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Select a Card Type**
 
 
     
     </td>
     <td valign="top">
-
+    
     Select a card type from the available samples. .
 
     > ### Note:  
@@ -89,14 +89,14 @@ You’re developing a UI card. The following procedure describes steps on how to
     </tr>
     <tr>
     <td valign="top">
-
+    
     **NameSpace**
 
 
     
     </td>
     <td valign="top">
-
+    
     Enter a namespace. The card ID is generated using the namespace and the project name.
 
     Card ID: <namespace\>.<project name\>
@@ -107,14 +107,14 @@ You’re developing a UI card. The following procedure describes steps on how to
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Card Title**
 
 
     
     </td>
     <td valign="top">
-
+    
     Enter a title
 
 
@@ -123,14 +123,14 @@ You’re developing a UI card. The following procedure describes steps on how to
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Card Subtitle**
 
 
     
     </td>
     <td valign="top">
-
+    
     Enter a subtitle
 
 
@@ -139,14 +139,14 @@ You’re developing a UI card. The following procedure describes steps on how to
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Mobile Card Compatible**
 
 
     
     </td>
     <td valign="top">
-
+    
     Select *True* to enable mobile card compatibility.
 
     After the UI Card is deployed, if this feature is enabled, then you can use the option *add to mobile* on the card.
@@ -179,14 +179,14 @@ You’re developing a UI card. The following procedure describes steps on how to
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Select a Destination**
 
 
     
     </td>
     <td valign="top">
-
+    
     Select a destination from the dropdown. For more information on creating a destination, refer to this [link](https://help.sap.com/doc/f53c64b93e5140918d676b927a3cd65b/Cloud/en-US/docs-en/guides/getting-started/mtb/introduction.html).
 
 
@@ -195,14 +195,14 @@ You’re developing a UI card. The following procedure describes steps on how to
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Select an Application**
 
 
     
     </td>
     <td valign="top">
-
+    
     Select an application from the dropdown.
 
 
@@ -211,14 +211,14 @@ You’re developing a UI card. The following procedure describes steps on how to
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Select a Data Source**
 
 
     
     </td>
     <td valign="top">
-
+    
     Select a data source from the dropdown.
 
 
@@ -227,14 +227,14 @@ You’re developing a UI card. The following procedure describes steps on how to
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Select a Function**
 
 
     
     </td>
     <td valign="top">
-
+    
     Select a function from the dropdown.
 
 
@@ -265,14 +265,14 @@ You’re developing a UI card. The following procedure describes steps on how to
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Value for Parameter <parameter name\>**
 
 
     
     </td>
     <td valign="top">
-
+    
     Enter a value for the parameter.
 
 
@@ -281,14 +281,14 @@ You’re developing a UI card. The following procedure describes steps on how to
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Do you want to generate card configuration and content automatically?**
 
 
     
     </td>
     <td valign="top">
-
+    
     Select either *Yes* or *No*. If you chose yes, then the card content is generated automatically and the required UI card is created. If you chose no, then proceed to the next step to create the card content manually.
 
 

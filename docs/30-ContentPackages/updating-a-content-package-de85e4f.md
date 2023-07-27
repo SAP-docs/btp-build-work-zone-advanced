@@ -56,14 +56,14 @@ You’ve created a content package, see [Creating a Content Package](creating-a-
             </tr>
             <tr>
             <td valign="top">
-
+            
             Name
 
 
             
             </td>
             <td valign="top">
-
+            
             Enter the name of the artifacts folder in the package.
 
 
@@ -72,14 +72,14 @@ You’ve created a content package, see [Creating a Content Package](creating-a-
             </tr>
             <tr>
             <td valign="top">
-
+            
             Type
 
 
             
             </td>
             <td valign="top">
-
+            
             Enter the type of the artifact currently supported: card, workflow, workspace-template
 
 
@@ -88,14 +88,14 @@ You’ve created a content package, see [Creating a Content Package](creating-a-
             </tr>
             <tr>
             <td valign="top">
-
+            
             Mode
 
 
             
             </td>
             <td valign="top">
-
+            
             Specify if the source is from Git or from existing project.
 
 
@@ -104,14 +104,14 @@ You’ve created a content package, see [Creating a Content Package](creating-a-
             </tr>
             <tr>
             <td valign="top">
-
+            
             Git
 
 
             
             </td>
             <td valign="top">
-
+            
             Enter the name of the Git repository to pull the content. \(Git mode\)
 
 
@@ -120,14 +120,14 @@ You’ve created a content package, see [Creating a Content Package](creating-a-
             </tr>
             <tr>
             <td valign="top">
-
+            
             Branch
 
 
             
             </td>
             <td valign="top">
-
+            
             Specify branch or label of the repository. \(Git mode\)
 
 
@@ -136,14 +136,14 @@ You’ve created a content package, see [Creating a Content Package](creating-a-
             </tr>
             <tr>
             <td valign="top">
-
+            
             From
 
 
             
             </td>
             <td valign="top">
-
+            
             Enter the path to source folder. \(project mode\)
 
 
@@ -152,14 +152,14 @@ You’ve created a content package, see [Creating a Content Package](creating-a-
             </tr>
             <tr>
             <td valign="top">
-
+            
             Path
 
 
             
             </td>
             <td valign="top">
-
+            
             Specify the path within the folder to execute the build.
 
 
@@ -168,14 +168,14 @@ You’ve created a content package, see [Creating a Content Package](creating-a-
             </tr>
             <tr>
             <td valign="top">
-
+            
             Build
 
 
             
             </td>
             <td valign="top">
-
+            
             Specify the build scripts to create the artifact package. If this field is empty, the general build process is executed by default.
 
 
@@ -184,14 +184,14 @@ You’ve created a content package, see [Creating a Content Package](creating-a-
             </tr>
             <tr>
             <td valign="top">
-
+            
             Package
 
 
             
             </td>
             <td valign="top">
-
+            
             Specify the location of the artifact's package after the build.
 
 
@@ -200,14 +200,14 @@ You’ve created a content package, see [Creating a Content Package](creating-a-
             </tr>
             <tr>
             <td valign="top">
-
+            
             Manifest
 
 
             
             </td>
             <td valign="top">
-
+            
             Specify the location of the manifest to extract the settings for the Content Package.
 
 

@@ -4,7 +4,7 @@
 
 Card actions provide a mechanism to make elements interactive. Card actions are either attached by the card developer to the desired element \(card header, content, list item, etc.\), or built into the element. Upon user interaction, a corresponding event is dispatched for handling. If there is a predefined behavior for the action \(for example, for Navigation\) it will be executed. To add or update a context, you need to use a customized SAP UI5 Card action named *updateContext*.
 
-The *updateContext* action is used to send a context value, and all cards in the page will be refreshed after the context is updated with the new context value. For more information about this action, see [Card Actions](https://sapui5untested.int.sap.eu2.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/features/cardActions).
+The *updateContext* action is used to send a context value, and all cards in the page will be refreshed after the context is updated with the new context value. For more information, see [Card Features](https://ui5.sap.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/features).
 
 
 
@@ -302,6 +302,8 @@ There are some reserved namespaces for system environment context or other uses:
     > "currentUser": {
     >     "id", ID of current user
     >     "name", Name of current user
+    >     "firstName", First name of current user
+    >     "lastName", Last name of current user
     >     "email" Email of current user
     >     "global_uuid" SAP global UUID
     >     "user_type" Whether this user is internal or external

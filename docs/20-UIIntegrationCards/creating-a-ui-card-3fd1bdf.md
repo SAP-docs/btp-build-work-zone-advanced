@@ -52,14 +52,14 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Project Name**
 
 
     
     </td>
     <td valign="top">
-
+    
     Enter a project name.
 
 
@@ -68,14 +68,14 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Select a Card Sample**
 
 
     
     </td>
     <td valign="top">
-
+    
     Select a card sample from the available samples.
 
 
@@ -84,14 +84,14 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     </tr>
     <tr>
     <td valign="top">
-
+    
     **NameSpace**
 
 
     
     </td>
     <td valign="top">
-
+    
     Enter a namespace. The card ID is generated using the namespace and the project name.
 
     Card ID: <namespace\>.<project name\>
@@ -102,14 +102,14 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Card Title**
 
 
     
     </td>
     <td valign="top">
-
+    
     Enter a title
 
 
@@ -118,14 +118,14 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Card Subtitle**
 
 
     
     </td>
     <td valign="top">
-
+    
     Enter a subtitle
 
 
@@ -134,14 +134,14 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     </tr>
     <tr>
     <td valign="top">
-
+    
     **Mobile Card Compatible**
 
 
     
     </td>
     <td valign="top">
-
+    
     Select *True* to enable mobile card compatibility.
 
     After the UI Card is deployed, if this feature is enabled, then you can use the option *add to mobile* on the card.

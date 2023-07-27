@@ -10,3 +10,10 @@ In the *SAP Cloud Portal Service* package in the API Hub, you can find informati
 
 For more information, see [API Hub](https://api.sap.com/package/SAPCLOUDPLATFORMPORTAL/overview)
 
+
+
+In addition, you can refer to the following resources:
+
+-   [OData API Documentation](https://jam2.sapjam.com/work_zone/ODataDocs/ui)
+-   [Webhook Documentation](https://jam2.sapjam.com/work_zone/ODataDocs/webhook_reference)
+

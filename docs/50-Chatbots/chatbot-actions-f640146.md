@@ -18,7 +18,7 @@ The chatbot can deliver specific functionalities in SAP Build Work Zone, advance
 
 Webhooks provide a means for the chatbot to call these services. Your chatbot can also subscribe to certain changes on SAP Build Work Zone, advanced edition and receive real-time updates.
 
-For more information about configuration and customization, see [https://cai.tools.sap/docs/concepts/code-and-webhook](https://cai.tools.sap/docs/concepts/code-and-webhook).
+For more information about configuration and customization, see [SAP Build Work Zone Webhook Documentation](https://jam2.sapjam.com/work_zone/ODataDocs/webhook_reference).
 
 
 
