@@ -1,0 +1,10 @@
+version = 1
+SPDX-PackageName = "https://github.com/SAP-docs/btp-build-work-zone-advanced"
+SPDX-PackageSupplier = "Anat Koren (anat.koren@sap.com)"
+SPDX-PackageDownloadLocation = "https://github.com/sap-docs/btp-build-work-zone-advanced"
+
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2023 SAP SE or an SAP affiliate company and btp-build-work-zone-advanced contributors"
+SPDX-License-Identifier = "CC-BY-4.0"
