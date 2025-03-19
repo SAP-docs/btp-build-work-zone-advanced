@@ -1,8 +1,0 @@
-Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: https://github.com/SAP-docs/btp-build-work-zone-advanced
-Upstream-Contact: Anat Koren (anat.koren@sap.com)
-Source: https://github.com/sap-docs/btp-build-work-zone-advanced
-
-Files: *
-Copyright:  2023 SAP SE or an SAP affiliate company and btp-build-work-zone-advanced contributors
-License: CC-BY-4.0
