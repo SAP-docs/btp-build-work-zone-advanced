@@ -2,13 +2,15 @@
 
 # External Solutions
 
-On the *External Integrations* \> *External Solutions* screen, you can set up and configure solutions to integrate with SAP Build Work Zone, advanced edition.
+You can set up and configure solutions to integrate with SAP Build Work Zone, advanced edition. In the *External Integrations* \> *External Solutions* screen, open the *Add Application* dropdown to see which types of external solutions are supported.
 
 
 
-The *External Solutions* screen displays the external solutions that have already been configured.
+## Overall Procedure
 
-You can add additional solutions from the *Add Application* menu.
+![Diagram summarizing the procedures for integrating new business records into SAP Build Work Zone, advanced edition.](images/SJDG-3ExtApps-01IntegrateNewBusinessRecords01_png_f1ad33b.png)
+
+For detailed information, see [External Solutions: Integrate New Business Records](external-solutions-integrate-new-business-records-4f75370.md)
 
 
 

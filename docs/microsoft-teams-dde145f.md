@@ -20,7 +20,7 @@ For more information about the administrator tasks, see [Integrating with Micros
 
 1.  Open Microsoft Teams on your system, and click *Apps*.
 
-    ![](images/Screenshot_Open_Apps_44114b4.png)
+    ![Screen capture of Microsoft Teams showing where to find the SAP Build Work Zone, advanced edition tile.](images/Screenshot_Open_Apps_44114b4.png)
 
 2.  Type in `SAP Build Work Zone` to search for the app.
 

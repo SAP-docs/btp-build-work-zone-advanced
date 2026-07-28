@@ -16,14 +16,10 @@ To activate the various content items if they're part of your content package, d
 
 Content type
 
-
-
 </th>
 <th valign="top">
 
 How to add to a content package
-
-
 
 </th>
 </tr>
@@ -31,8 +27,6 @@ How to add to a content package
 <td valign="top">
 
 **Workspace Templates**
-
-
 
 </td>
 <td valign="top">
@@ -46,7 +40,7 @@ How to add to a content package
 4.  Use the toggle switch to activate the templates that are used in your content package.
 
     > ### Note:  
-    > If the workspace template contains cards, the cards are activated automatically and can be added to your workpages using the widget gallery. For more information, see [How to Add Content to Workspaces](how-to-add-content-to-workspaces-19bf8aa.md).
+    > If the workspace template contains cards, the cards are activated automatically and can be added to your workpages using the content finder. For more information, see [How to Use the Workpage Editor](how-to-use-the-workpage-editor-9164929.md).
 
 
 
@@ -57,8 +51,6 @@ How to add to a content package
 <td valign="top">
 
 **UI Integration Cards**
-
-
 
 </td>
 <td valign="top">
@@ -71,9 +63,9 @@ How to add to a content package
 
 4.  Use the toggle switch to activate the cards that are used in your content package.
 
-5.  Once activated, add the cards to your workpages by selecting them from the widget gallery.
+5.  Once activated, add the cards to your workpages by selecting them from the content finder.
 
-    For more information, see [How to Add Content to Workspaces](how-to-add-content-to-workspaces-19bf8aa.md)
+    For more information, see [How to Use the Workpage Editor](how-to-use-the-workpage-editor-9164929.md).
 
 
 
@@ -84,8 +76,6 @@ How to add to a content package
 <td valign="top">
 
 **Workflows**
-
-
 
 </td>
 <td valign="top">
@@ -100,7 +90,7 @@ How to add to a content package
 
 5.  Once activated, add the cards displaying the workflow to your workpages.
 
-    For more information about how to add cards to a workpage, see [How to Add Content to Workspaces](how-to-add-content-to-workspaces-19bf8aa.md)
+    For more information about how to add cards to a workpage, see [How to Use the Workpage Editor](how-to-use-the-workpage-editor-9164929.md).
 
 
 

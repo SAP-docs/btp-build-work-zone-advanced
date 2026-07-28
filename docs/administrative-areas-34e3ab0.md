@@ -15,14 +15,10 @@ From the Administrative Areas screen, you can:
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -30,8 +26,6 @@ Description
 <td valign="top">
 
 Add a new area
-
-
 
 </td>
 <td valign="top">
@@ -50,14 +44,10 @@ Add a new area
 
 Change the order of areas
 
-
-
 </td>
 <td valign="top">
 
 To change the order in which the area home pages are displayed, drag the area to the required location.
-
-
 
 </td>
 </tr>
@@ -65,8 +55,6 @@ To change the order in which the area home pages are displayed, drag the area to
 <td valign="top">
 
 Go to the Administration Console for an area
-
-
 
 </td>
 <td valign="top">
@@ -87,16 +75,12 @@ In the Administration Console, the *Overview* screen for the area is displayed.
 
 Delete area
 
-
-
 </td>
 <td valign="top">
 
 Choose *Action* \> *Delete*.
 
 Any resources assigned to this area are also deleted. Workspaces aren't deleted, but they're removed from the area.
-
-
 
 </td>
 </tr>

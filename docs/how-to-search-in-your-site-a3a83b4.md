@@ -12,10 +12,10 @@ Using the search tool in the header bar of your site, you can use one of the fol
 
 -   Enterprise search
 
-    If enabled, and depending on whether the S/4 HANA systems have been configured to work with enterprise search, you'll be able to search for S/4 HANA applications in all S/4 HANA systems, as well as local apps \(for example, HTML5 apps, federated apps, and manually added apps that you've added to your subaccount\). Searching for site content from the search bar, is not available if enterprise search is enabled.
+    If enabled, and depending on whether the SAP S/4HANA systems have been configured to work with enterprise search, you'll be able to search for S/4 HANA applications in all SAP S/4HANA systems, as well as local apps \(for example, HTML5 apps, federated apps, and manually added apps that you've added to your subaccount\). Searching for site content from the search bar, is not available if enterprise search is enabled.
 
     > ### Note:  
-    > Even if enterprise search is enabled, you can still use the site search by adding a dedicated *Search* widget to a workpage. For more information, see [How to Add Content to Workspaces](how-to-add-content-to-workspaces-19bf8aa.md).
+    > Even if enterprise search is enabled, you can still use the standard search by adding a dedicated *Search* widget to a workpage. For more information, see [How to Use the Workpage Editor](how-to-use-the-workpage-editor-9164929.md).
 
 
 
@@ -32,11 +32,12 @@ You can enter search terms that include letters, numbers, or characters. By defa
 
 The following options are available to restrict your search:
 
--   Select a category from the dropdown menu to find only matches that are assigned to this category
+-   Select a category from the dropdown menu to find only matches that are assigned to this category.
 
--   Enclose your search term in double quotation marks \("\) to find exact matches for the search term
+-   Enclose your search term in double quotation marks \("\) to find exact matches for the search term.
 
--   Add a hashtag \(\#\) before your search term to find matches for specific tags
+-   Add a hashtag \(\#\) before your search term to find matches for specific tags.
+
 
 
 
@@ -55,11 +56,21 @@ Searches can be executed in context of the screen in focus.
 
 When searching from a workpage in a workspace, you can choose to search the workspace that you're in \(using "This Workspace" filter\). You can also search by any of the other filters \(for example, All, Content, Events, Forums, Workspaces, Knowledge Base, Messages, People, Tasks, and Tags\). You can also search other workspaces that you're a member of, as well as public workspaces.
 
+Users with permissions can also search for workpages located in a workspace navigation bar. In the *Workpages* category, there are two sub-categories:
+
+-   **Workspace tabs** - for searching for workpages located in the navigation bar of the workspace.
+
+-   *Content* - for searching workpages located in the content list of the workspace.
+
+
 
 
 ### Restrictions
 
 The following restriction applies:
 
-When you upload documents, they are automatically indexed and taken into account for the search. This also applies to tagged content within a document. However, indexing is not performed for content items larger than 50 MB. For this reason, large content items are not included in the search results.
+-   Search results display apps, but not the cards that wrap them.
+
+-   When you upload documents, they are automatically indexed and taken into account for the search. This also applies to tagged content within a document. However, indexing is not performed for content items larger than 50 MB. For this reason, large content items are not included in the search results.
+
 

@@ -15,14 +15,10 @@ The following table describes the accessibility features in the Administration C
 
 Feature or function
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -31,14 +27,10 @@ Description
 
 **Alert messages** 
 
-
-
 </td>
 <td valign="top">
 
 When an alert message prompts you to enter information or correct the information you just entered, the screen reader reads the message prompt.
-
-
 
 </td>
 </tr>
@@ -47,14 +39,10 @@ When an alert message prompts you to enter information or correct the informatio
 
 **Alt tags and keyboard entries** 
 
-
-
 </td>
 <td valign="top">
 
 Screen readers can read the alt tags added to pages, buttons, links, menus, navigation regions, light boxes, and field entry elements. They also announce keyboard actions as they are performed, for example, [Tab\], [shift tab\], or [enter\]. Page headings, column headings, button names, and links are also read by the screen reader.
-
-
 
 </td>
 </tr>
@@ -63,14 +51,10 @@ Screen readers can read the alt tags added to pages, buttons, links, menus, navi
 
 **Calendars with events** 
 
-
-
 </td>
 <td valign="top">
 
 The cog icon on the calendar can be accessed by the keyboard, allowing it to be read by screen readers. Day cells on the calendar date picker are read as the full date.
-
-
 
 </td>
 </tr>
@@ -79,14 +63,10 @@ The cog icon on the calendar can be accessed by the keyboard, allowing it to be 
 
 **Color contrast** 
 
-
-
 </td>
 <td valign="top">
 
 Page elements can display in high contrast mode.
-
-
 
 </td>
 </tr>
@@ -95,14 +75,10 @@ Page elements can display in high contrast mode.
 
 **Content rating** 
 
-
-
 </td>
 <td valign="top">
 
 The screen reader provides a detailed explanation of what appears in the ratings section for a content item.
-
-
 
 </td>
 </tr>
@@ -111,14 +87,10 @@ The screen reader provides a detailed explanation of what appears in the ratings
 
 **Content widget focus** 
 
-
-
 </td>
 <td valign="top">
 
 When tabbing through a content widget, elements of the content widget that are in focus display within a four-sided visible indicator.
-
-
 
 </td>
 </tr>
@@ -127,14 +99,10 @@ When tabbing through a content widget, elements of the content widget that are i
 
 **Descriptive browser page titles** 
 
-
-
 </td>
 <td valign="top">
 
 The titles that display on browser page tabs are more detailed. The screen reader can provide more information to the user about the current page.
-
-
 
 </td>
 </tr>
@@ -143,14 +111,10 @@ The titles that display on browser page tabs are more detailed. The screen reade
 
 **Edit button in single item view** 
 
-
-
 </td>
 <td valign="top">
 
 The edit action for a document is correctly identified by screen readers.
-
-
 
 </td>
 </tr>
@@ -159,8 +123,6 @@ The edit action for a document is correctly identified by screen readers.
 
 **Personal feed and company feed tabs** 
 
-
-
 </td>
 <td valign="top">
 
@@ -168,16 +130,12 @@ Personal Feed and Company Feed tabs are identified by the screen reader as tabs 
 
 The screen reader reads the content of feed posts and the names of members who like a post.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 **Workspace pages and workpages** 
-
-
 
 </td>
 <td valign="top">
@@ -188,8 +146,6 @@ Page tabs names are correctly read by screen readers when tabbing through the wo
 
 On the workspace page, from the table of listed workspaces, the menu items in the *More* dropdown menu for each row are read when you select the dropdown.
 
-
-
 </td>
 </tr>
 <tr>
@@ -197,14 +153,10 @@ On the workspace page, from the table of listed workspaces, the menu items in th
 
 **Home page and heading structure** 
 
-
-
 </td>
 <td valign="top">
 
 Standard heading elements in HTML are used for the titles of the Feed, Recently Visited Workspaces, and Recently Viewed Content sections to facilitate screen reader navigation.
-
-
 
 </td>
 </tr>
@@ -213,16 +165,12 @@ Standard heading elements in HTML are used for the titles of the Feed, Recently 
 
 **HTML header elements** 
 
-
-
 </td>
 <td valign="top">
 
 On the workspace content page, the metadata details, tags, content rating, related content, and comments sections are recognized as headers. On the workpages, widgets are recognized as headers.
 
 On the workspace feed updates page, the Feed section and Common Actions section are recognized as headers.
-
-
 
 </td>
 </tr>
@@ -231,14 +179,10 @@ On the workspace feed updates page, the Feed section and Common Actions section 
 
 **Image tool tips** 
 
-
-
 </td>
 <td valign="top">
 
 All icons and images in the site have tooltips that appear when you hover the cursor over them. Tooltips are also read out by the screen reader.
-
-
 
 </td>
 </tr>
@@ -246,8 +190,6 @@ All icons and images in the site have tooltips that appear when you hover the cu
 <td valign="top">
 
 **Item count** 
-
-
 
 </td>
 <td valign="top">
@@ -268,16 +210,12 @@ The item count for a menu's listed items are read:
 
 **Keyboard controls** 
 
-
-
 </td>
 <td valign="top">
 
 A tab sequence supports keyboard tab actions to navigate through menus, jump to pages \(for example, [F6/Shift\] + [F6\] , buttons, links, text boxes, and other fields with the option or requirement for data entry or data selection. For polls, where *Allow users to add their own options*has been enabled, the keyboard control also moves to the option to *Add your own answer*at the end of the list.
 
 Dropdown menus for Languages and Knowledge Base Article dialogs can be activated with keyboard controls.
-
-
 
 </td>
 </tr>
@@ -286,14 +224,22 @@ Dropdown menus for Languages and Knowledge Base Article dialogs can be activated
 
 **Page element focus** 
 
+</td>
+<td valign="top">
 
+For hearing imparied users, a visual indicator displays when the cursor focus is placed on page elements \(for example, buttons, text boxes, or checkboxes\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**PDFs** 
 
 </td>
 <td valign="top">
 
-A visual indicator displays when the cursor focus is placed on page elements \(for example, buttons, text boxes, or checkboxes\).
-
-
+This option needs to be enabled by the administrator to allow users to view PDFs in a browser built-in PDF renderer.
 
 </td>
 </tr>
@@ -302,14 +248,10 @@ A visual indicator displays when the cursor focus is placed on page elements \(f
 
 **Processing action** 
 
-
-
 </td>
 <td valign="top">
 
 When you are waiting for an action to complete and there is a visual representation of the processing, the screen reader explains that the action is in progress.
-
-
 
 </td>
 </tr>
@@ -318,14 +260,10 @@ When you are waiting for an action to complete and there is a visual representat
 
 **Profile pages** 
 
-
-
 </td>
 <td valign="top">
 
 Keyboard support for all page elements using [Tab\] and [enter\], [arrow\], or [escape\]keys. All page elements are identified with labels. All table cells are identified in the order of value, title, row, and column.
-
-
 
 </td>
 </tr>
@@ -333,8 +271,6 @@ Keyboard support for all page elements using [Tab\] and [enter\], [arrow\], or [
 <td valign="top">
 
 **Rich text editor** 
-
-
 
 </td>
 <td valign="top">
@@ -344,8 +280,6 @@ Keyboard support for all page elements using [Tab\] and [enter\], [arrow\], or [
 
 To access the toolbar in rich text editors that appear with features such as wiki pages and blog posts, use [Alt\] + [F10\] . To return to the text editor, press [Esc\].
 
-
-
 </td>
 </tr>
 <tr>
@@ -353,14 +287,10 @@ To access the toolbar in rich text editors that appear with features such as wik
 
 **Success and error messages** 
 
-
-
 </td>
 <td valign="top">
 
 When an action is successful, the screen reader can read a success message for confirmation. When an action results in an error, the screen reader can read the error message. To reread the messages, press [Ctrl\] + [Shift\] + [M\] .
-
-
 
 </td>
 </tr>
@@ -369,14 +299,10 @@ When an action is successful, the screen reader can read a success message for c
 
 **Tab chain** 
 
-
-
 </td>
 <td valign="top">
 
 You can use the keyboard controls to reset the tab focus for a given element. For example, you can use [Ctrl\] + [L\] to change the location focus or [Alt\] + [D\]  to move to the search box.
-
-
 
 </td>
 </tr>
@@ -385,14 +311,10 @@ You can use the keyboard controls to reset the tab focus for a given element. Fo
 
 **Tables** 
 
-
-
 </td>
 <td valign="top">
 
 When you tab to a table cell, the screen reader reads its location and content by row number, column title, and column number.
-
-
 
 </td>
 </tr>
@@ -401,14 +323,10 @@ When you tab to a table cell, the screen reader reads its location and content b
 
 **Upload message** 
 
-
-
 </td>
 <td valign="top">
 
 When uploading files, the upload process is read by screen readers.
-
-
 
 </td>
 </tr>
@@ -417,14 +335,10 @@ When uploading files, the upload process is read by screen readers.
 
 **Videos and playlists** 
 
-
-
 </td>
 <td valign="top">
 
 Page elements are identified by screen readers when tabbing to the buttons used for navigating videos and video playlists.
-
-
 
 </td>
 </tr>
@@ -433,14 +347,10 @@ Page elements are identified by screen readers when tabbing to the buttons used 
 
 **Widgets** 
 
-
-
 </td>
 <td valign="top">
 
 Screen readers read elements in the Recommended Content widget such as widget title and title of content items. List items are detected by keyboard.
-
-
 
 </td>
 </tr>

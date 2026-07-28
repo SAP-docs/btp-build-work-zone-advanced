@@ -2,18 +2,62 @@
 
 # Mobile Apps
 
-With the SAP Build Work Zone mobile app, users can access their workspaces when they are on the go, and use common features of SAP Build Work Zone, advanced edition. If you're using UI cards that are mobile compatible on home pages, you can also add these cards to the SAP Mobile Cards app.
+Understand the set up and features of the two mobile apps that are available to users of SAP Build Work Zone, advanced edition.
 
 
 
-Users download and set up the SAP Build Work Zone, advanced edition app themselves. The app is available on the Apple App Store and Google Play Store. Users can scan the QR codes that contain the relevant links from their user settings.
+In SAP Build Work Zone, advanced edition/SAP SuccessFactors Work Zone there are two mobile apps available - the Joule Work mobile app that can display all kinds of content as well as workspaces and the legacy mobile app that can only display SAP Build Work Zone, advanced edition content such as workspaces.
 
 > ### Note:  
-> You can check the release notes of Apple App Store and Google Play Store to learn more about mobile enhancements.
+> The SAP Build Work Zone, advanced edition mobile app is in maintenance mode. It is highly recommended to switch to the Joule Work mobile app as the mobile app in use. For more information, see [Joule Work Mobile App: Overview](joule-work-mobile-app-overview-aee73c5.md).
 
-For more information about downloading, installing, and using the SAP Build Work Zone, advanced edition app or about using the SAP Mobile Cards app with SAP Build Work Zone, advanced edition, in the User Guide, see [Mobile Apps](mobile-apps-a7c2e37.md).
+The mobile app in use is configured in the *Site Settings* screen of your site:
 
-Users of Android devices sold in Mainland China can download the SAP Build Work Zone mobile app from the Tencent Appstore. You have to send them the link that they have to access to register the SAP Build Work Zone mobile app from the Tencent Appstore and connect it with their user accounts. For more information, see: [Onboarding for Tencent Appstore Users](onboarding-for-tencent-appstore-users-2dd9d7c.md)
 
-For troubleshooting information, see [SAP Build Work Zone Mobile Troubleshooting](https://ga.support.sap.com/dtp/viewer/index.html#/tree/3177/actions/49026) 
+<table>
+<tr>
+<th valign="top">
+
+Mobile App
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Joule Work Mobile App
+
+</td>
+<td valign="top">
+
+Using the Joule Work mobile app, users can access business content in the site, such as spaces, pages, groups, and apps as well as additional content such as notifications and tasks.
+
+For more information, see [Joule Work Mobile App: Overview](joule-work-mobile-app-overview-aee73c5.md).
+
+You can also create web views to view workspaces.
+
+For more information, see [Using Web Views to Integrate Content](using-web-views-to-integrate-content-6ff27f1.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Build Work Zone Advanced mobile application
+
+</td>
+<td valign="top">
+
+Using the existing advanced mobile app, users can access workspaces and other features specific to SAP Build Work Zone, advanced edition.
+
+For more information, see [SAP Build Work Zone Advanced Mobile App: Overview](sap-build-work-zone-advanced-mobile-app-overview-f9bbe55.md).
+
+</td>
+</tr>
+</table>
 

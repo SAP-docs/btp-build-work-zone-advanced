@@ -1,25 +1,39 @@
 <!-- loiob65c218d16b44532abeec4ea1cf0e091 -->
 
+<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
+
 # Integrating Cards into a Site
 
-Learn how to add UI5 integration cards to workpages in your site.
+Learn how to add UI integration cards to workpages in your site.
 
 Cards can come from the following sources:
 
--   Out-of-the-box cards - provided by SAP. For example, the Web Content Card.
+-   Out-of-the-box cards - provided by SAP.
 
--   Uploaded cards - custom cards that are created by a developer and sent to you in a ZIP file for uploading.
+-   Custom cards - custom cards that are created by a developer and either directly deployed from SAP Business Application Studio to the subaccount, or uploaded as local app card visualization ZIP files.
 
--   Content Packages - cards that are used in a content package with other content and are bundled together in a ZIP file that can easily be uploaded and installed to your subaccount.
+    > ### Note:  
+    > If you directly deploy the card from SAP Business Application Studio to the subaccount, there is no need to create a local app. The deployed card is already associated with an app which is assigned to the *Everyone* role. If you choose to upload a ZIP file that contains the card, you need to create a local app in the Content Manager, and then upload the ZIP file as an app visualization. For more information, see [Configuring Apps with a Card Visualization](configuring-apps-with-a-card-visualization-25b3d37.md).
+    > 
+    > Once the card is added to the Content Manager, you can go to the *Cards* screen in the Administration Console to perform any configurations you need for the card, such as creating a destination, or enabling the card.
+    > 
+    > The card is associated with an app, therefore access to the card depends on the app role assignment. The user must be assigned to the same role as the role that is assigned to the app. To allow all users to access the card, assign the app to the *Everyone* role. To retrict the access even further, assign the app to a specific role.
+
+-   Content Packages - cards that are used in a content package with other content and are bundled together in a ZIP file that can easily be uploaded and installed from the Content Manager screen in the Administration Console. You don't have to upload the cards in a content package separately.
 
     For more information, see [Content Packages](content-packages-da203f9.md).
 
 
-The cards are displayed in the *Cards* screen in the *Administration Console* under *UI Integration*.
+The available cards are displayed in the *Cards* screen in the *Administration Console* under *UI Integration*.
 
 **Out-of-the-box cards**
 
-The Web Content card is an out-of-the-box card that you can use to embed content from any web page to display on a workpage. The following table explains the end to end flow of how to add a Web Content card to your site.
+SAP provides the following two out-of-the box cards:
+
+-   **Web Content Card**: a card that you can use to embed other web pages as content of a UI Integration Card.
+
+-   **Button Card**: a component card that renders as a fully configurable button that includes a title, subtitle, icon, and more.
+
 
 
 <table>
@@ -28,70 +42,71 @@ The Web Content card is an out-of-the-box card that you can use to embed content
 
 Step
 
-
-
 </th>
 <th valign="top">
 
 Persona
-
-
 
 </th>
 <th valign="top">
 
 More information
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
-1. Enable the Web Content Card.
-
-
+1. Enable the card with the toggle to make it available for end users so they can add it to their workpages.
 
 </td>
 <td valign="top">
 
 Administrator
 
-
-
 </td>
 <td valign="top">
 
-You can do this in the *Cards* screen in the Administration Console.
-
-
+In the Administration Console, go to *UI Integration* \> *Cards* to enable the card.
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-2. Configure the card - the title, subtitle, and the height.
-
-
+2. Configure the card with the various settings for your card.
 
 </td>
 <td valign="top">
 
 Administrator
 
-
-
 </td>
 <td valign="top">
 
-1.  From the *Cards* screen in the *Administration Console*, filter the cards from the *Providers* dropdown list and select *Out-Of-The-Box*.
+1.  In the *Cards* screen of the *Administration Console*, you will see the available *Out-Of-The-Box* cards.
 
 2.  Click *Configure* on the card.
 
 3.  Define the following configuration settings:
 
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    **Web Content Card**
+    
+    </th>
+    <th valign="top">
+
+    **Button Card**
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
     -   Enter the URL of the web content that you want to display in the widget.
 
         > ### Note:  
@@ -101,13 +116,70 @@ Administrator
 
     -   Specify the height of the card in pixels.
 
-        The default height is 200 pixels. The height has to be greater than zero.
+        The default height is 200 pixels. The height must be greater than zero.
 
         > ### Note:  
         > Don't forget to specify the height otherwise the content that a user wants to embed into the card can collapse to zero.
 
+    -   *Save* your settings.
 
-4.  Save your changes.
+
+    
+    </td>
+    <td valign="top">
+    
+    -   Under the *General* area, you can:
+
+        -   Use the toggle button to see the card background as well as the filling for the background.
+
+        -   Give the card a title, a subtitle, and select an icon from the dropdown list of icons.
+
+        -   Add more information if required.
+
+        -   Select font sizes for the title, subtitle, and icon.
+
+
+    -   In the *Colors* area, you can:
+
+        -   Use the slider to determine background opacity.
+
+        -   Select background color, text color, and icon colors.
+
+
+    -   In the *Border* area, you can:
+
+        -   Use the toggle button to show a border.
+
+        -   Select a color for your border.
+
+        -   Determine the border width and radius.
+
+
+    -   In the *Layout & Alignment* area, you can:
+
+        -   Select the layout direction, icon position, as well as horizontal and vertical alignment.
+
+
+    -   In the *Interaction* area, you can:
+
+        -   Use the toggle to make your button clickable.
+
+        -   Enter the URL for the button.
+
+        -   Use the toggle to open the button in a new tab.
+
+        -   Use the toggle to enable hovering.
+
+
+    -   *Save* your settings.
+
+
+
+    
+    </td>
+    </tr>
+    </table>
+    
 
 
 
@@ -116,40 +188,31 @@ Administrator
 <tr>
 <td valign="top">
 
-3. Add the card to a workpage
-
-
+3. Add the card to a workpage.
 
 </td>
 <td valign="top">
 
 Administrator, End User
 
-
-
 </td>
 <td valign="top">
 
-You can do this using the page designer, which opens a widget gallery that you access in the workpage when you edit it.
+You can do this using the workpage editor.
 
-Click *Add Widget* to open the widget gallery and select *Cards* .
+In edit mode, click *Add Content* and select *Cards*.
 
-For more information, see [How to Add Content to Workspaces](how-to-add-content-to-workspaces-19bf8aa.md).
-
-
+For more information, see [How to Use the Workpage Editor](how-to-use-the-workpage-editor-9164929.md).
 
 </td>
 </tr>
 </table>
 
-**Uploaded cards**
+**Custom cards**
 
-Uploaded cards can either be those cards that your developer has created and deployed or those that have been given to you by a provider to upload.
+Custom cards can either be those cards that your developer has created \(see steps 1-3 below\) or those given to you by a provider \(in this case start you can start from step 4 below\).
 
 The following table is an end to end flow of how to add custom cards to your site.
-
-> ### Note:  
-> If a provider has sent you the card file to upload, you only need to do steps from number 4 and onwards.
 
 
 <table>
@@ -158,21 +221,15 @@ The following table is an end to end flow of how to add custom cards to your sit
 
 Step
 
-
-
 </th>
 <th valign="top">
 
 Persona
 
-
-
 </th>
 <th valign="top">
 
 More information
-
-
 
 </th>
 </tr>
@@ -181,21 +238,15 @@ More information
 
 1. Set up your development environment.
 
-
-
 </td>
 <td valign="top">
 
 Developer
 
-
-
 </td>
 <td valign="top">
 
-For more information, see [Initial Setup](https://help.sap.com/viewer/7d3b9c7211ca4d7a9630b524205ee836/Cloud/en-US/87a6a5e1c64c4df49747b82a540701f8.html)
-
-
+For more information, see [Initial Setup](https://help.sap.com/viewer/7d3b9c7211ca4d7a9630b524205ee836/Cloud/en-US/87a6a5e1c64c4df49747b82a540701f8.html) 
 
 </td>
 </tr>
@@ -204,14 +255,10 @@ For more information, see [Initial Setup](https://help.sap.com/viewer/7d3b9c7211
 
 2. Develop a UI integration card.
 
-
-
 </td>
 <td valign="top">
 
 Developer
-
-
 
 </td>
 <td valign="top">
@@ -233,93 +280,81 @@ For more information, see
 
 3. Deliver the card.
 
+</td>
+<td valign="top">
 
+Developer
 
 </td>
 <td valign="top">
 
-Developer, Administrator
-
-
-
-</td>
-<td valign="top">
-
-Deliver the card in one of the following ways:
-
--   Deploy the card to the content repository so that it appears in the *Cards* screen in the *Administration Console*. For more information, see [Deploying a UI Card](https://help.sap.com/viewer/7d3b9c7211ca4d7a9630b524205ee836/Cloud/en-US/35e6049aff8b4495903ee16303508a76.html).
-
--   Package a developed card into a ZIP file and send it to the administrator who then uploads it from the *Cards* screen in the *Administration Console*.
-
-
-
+Either deploy the card from SAP Business Application Studio or package it into a ZIP file and download it on your system to pass it on to an administrator.
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-4. Enable the card.
-
-
+4. Upload the card.
 
 </td>
 <td valign="top">
 
 Administrator
 
-
-
 </td>
 <td valign="top">
 
-Enable cards by using the toggle button. By doing this, you're making the card available to users who can then select the card in the page designer widget gallery and add it to a workpage.
+To upload a card, you need to create a local app with a card visualization in the Content Manager.
 
+For more information, see [Configuring Apps with a Card Visualization](configuring-apps-with-a-card-visualization-25b3d37.md).
 
+Once uploaded, the card appears in the *Cards* screen in the Administration Console under the *Uploaded Cards* section.
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-5. Configure the card \(if the card is configurable\).
-
-
+5. Enable the card.
 
 </td>
 <td valign="top">
 
 Administrator
 
-
-
 </td>
 <td valign="top">
 
-Click *Configure* on the card.
+This step is done in the Administration Console in the *Cards* screen that you can access as follows:
 
+1.  From the Content Manager, select the :globe_with_meridians: to open the site directory.
 
+2.  On the site tile, click <span class="SAP-icons-V5"></span> to open the runtime site.
+
+3.  From your avatar, select *Administration Console* and go to to *UI Integration* \> *Cards*.
+
+Enable cards by using the toggle button. By doing this, you're making the card available to workspace administrators who can then select the card in the workpage editor's content finder and add it to a workpage.
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-6. Customize the card \(if necessary\).
-
-
+6. Configure the card \(if the card is configurable\).
 
 </td>
 <td valign="top">
 
-End User
-
-
+Administrator
 
 </td>
 <td valign="top">
 
-For some cards, users can configure which data they want to display on the card.
+Click *Configure* on the card to select a destination and to do other configurations.
+
+> ### Note:  
+> If the card already inlcudes a destination with a specific name and a desitnation already exists with this name, then the card will work directly without configuring a destination.
 
 
 
@@ -330,26 +365,37 @@ For some cards, users can configure which data they want to display on the card.
 
 7. Add card to a workpage.
 
-
-
 </td>
 <td valign="top">
 
 Administrator, End User
 
+</td>
+<td valign="top">
 
+For more information, see [How to Use the Workpage Editor](how-to-use-the-workpage-editor-9164929.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+8. Customize card \(if necessary\).
 
 </td>
 <td valign="top">
 
-For more information, see [How to Add Content to Workspaces](how-to-add-content-to-workspaces-19bf8aa.md).
+End User
 
+</td>
+<td valign="top">
 
+For some cards, users can configure which data they want to display on the card.
 
 </td>
 </tr>
 </table>
 
 > ### Note:  
-> If a developer makes changes to a card that you've already added to your workpage, you'll need to remove it and add it again after the changes have been made.
+> If a new version of the card is available, you need to upload the card again as explained in Step 4 above. When the user refreshes their workpage, they will see the updated version.
 

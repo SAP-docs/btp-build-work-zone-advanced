@@ -33,14 +33,10 @@ Shows a row for each template used in the specified time period with the followi
 
 Row item
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -49,14 +45,10 @@ Description
 
 **Template ID** 
 
-
-
 </td>
 <td valign="top">
 
 The numeric ID for the template
-
-
 
 </td>
 </tr>
@@ -65,14 +57,10 @@ The numeric ID for the template
 
 **Template Type** 
 
-
-
 </td>
 <td valign="top">
 
 *Workspace Template* or *Custom Workspace Template* 
-
-
 
 </td>
 </tr>
@@ -81,14 +69,10 @@ The numeric ID for the template
 
 **Template Name** 
 
-
-
 </td>
 <td valign="top">
 
 The name of the workspace template
-
-
 
 </td>
 </tr>
@@ -97,14 +81,10 @@ The name of the workspace template
 
 **Language** 
 
-
-
 </td>
 <td valign="top">
 
 The language for each workspace that is based on the template
-
-
 
 </td>
 </tr>
@@ -113,14 +93,10 @@ The language for each workspace that is based on the template
 
 **Creator** 
 
-
-
 </td>
 <td valign="top">
 
 The email address of the user who created the template. This is only shown for *Custom Workspace Template* types.
-
-
 
 </td>
 </tr>
@@ -129,14 +105,10 @@ The email address of the user who created the template. This is only shown for *
 
 **Create Date** 
 
-
-
 </td>
 <td valign="top">
 
 The date that the template was created. This is only shown for *Custom Workspace Template* types.
-
-
 
 </td>
 </tr>
@@ -145,14 +117,10 @@ The date that the template was created. This is only shown for *Custom Workspace
 
 **Last Modified** 
 
-
-
 </td>
 <td valign="top">
 
 The date and time when the template was changed recently. This is only shown for*Custom Workspace Template* types.
-
-
 
 </td>
 </tr>
@@ -161,14 +129,10 @@ The date and time when the template was changed recently. This is only shown for
 
 **Business Record Dependency** 
 
-
-
 </td>
 <td valign="top">
 
 If the template has a business record dependency, the name of the business record type that is shown in the form "<external\_application\_name\> \> <business\_record\_type\>"; for example, *CRM\>Corporate Account*.
-
-
 
 </td>
 </tr>
@@ -177,14 +141,10 @@ If the template has a business record dependency, the name of the business recor
 
 **Visible/Invisible** 
 
-
-
 </td>
 <td valign="top">
 
 Whether the template has been configured to be visible to users. This is only shown for *Custom Workspace Template* types.
-
-
 
 </td>
 </tr>
@@ -193,14 +153,10 @@ Whether the template has been configured to be visible to users. This is only sh
 
 **Consumption \(\# of workspaces created from template\)** 
 
-
-
 </td>
 <td valign="top">
 
 The number of workspaces that have been created from this template.
-
-
 
 </td>
 </tr>

@@ -30,14 +30,10 @@ In your task list, you can display your tasks according to the following categor
 
 Task Category
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -46,14 +42,10 @@ Description
 
 *My Tasks*
 
-
-
 </td>
 <td valign="top">
 
 All tasks that are assigned to you
-
-
 
 </td>
 </tr>
@@ -62,14 +54,10 @@ All tasks that are assigned to you
 
 *Assigned to Others*
 
-
-
 </td>
 <td valign="top">
 
 Tasks that you have assigned to others.
-
-
 
 </td>
 </tr>
@@ -78,14 +66,10 @@ Tasks that you have assigned to others.
 
 *Unassigned*
 
-
-
 </td>
 <td valign="top">
 
 Tasks that you have not assigned to anyone.
-
-
 
 </td>
 </tr>
@@ -94,14 +78,10 @@ Tasks that you have not assigned to anyone.
 
 *Following* 
 
-
-
 </td>
 <td valign="top">
 
 Tasks where you have been invited to follow.
-
-
 
 </td>
 </tr>
@@ -110,14 +90,10 @@ Tasks where you have been invited to follow.
 
 *Overdue Tasks*
 
-
-
 </td>
 <td valign="top">
 
 Tasks assigned to or by you that are overdue.
-
-
 
 </td>
 </tr>

@@ -74,7 +74,7 @@ To apply a local theme, make sure that local themes are enabled:
 
 1.  On the *Theme Manager* page, in the *Local Themes* section, go to the *Company Theme* tab.
 
-    ![](images/Local_Themes_dfe94e0.png)
+    ![Shows where the Local Theme Designer entry is located in the Administration Console.](images/Local_Themes_dfe94e0.png)
 
 2.  Select the *Use company theme* option.
 

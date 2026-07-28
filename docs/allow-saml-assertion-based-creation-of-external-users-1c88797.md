@@ -6,11 +6,11 @@ Administrators can enable the creation of external users using SAML assertion.
 
 
 
-When enabled, allow SAML assertion-based creation of external users based on their initial login via the connected IdP in addition to creating them via the SCIM API.
+You can use a SAML assertion to automatically create users on the first Single Sign On login. The user information is taken from the SAML Assertion attributes within the SAML Response. This is in addition to creating them via the SCIM API.
 
-You enable this option in the Administration Console *Feature Enablement* \> *Features* \> *Feature Management*. Select the option *Allow SAML assertion-based creation of external users*.
+You enable this option in the Administration Console *Users* \> *User Setup Options*. Select the option *Allow automatic creation of external users*.
 
-To create external users, use the following attributes:
+To create external users, use the following SAML Assertion attributes:
 
 
 <table>
@@ -19,28 +19,20 @@ To create external users, use the following attributes:
 
 Assertion Attribute for BTP <\> Identity Authentication/IDS trust
 
-
-
 </th>
 <th valign="top">
 
 Assertion Attribute \(sent to DWS\)
-
-
 
 </th>
 <th valign="top">
 
 Mapped SCIM attribute DWS
 
-
-
 </th>
 <th valign="top">
 
 Comments
-
-
 
 </th>
 </tr>
@@ -73,8 +65,6 @@ nameid-format:emailAddress"
 
 `SCIM.userName`
 
-
-
 </td>
 <td valign="top">
 
@@ -86,8 +76,6 @@ user\_uuid = NameID:unspecified - Identity Authentication/IDS User UUID
 
 $\['user\_attributes'\]\['user\_name'\]\[0\] = NameID:unspecified - Identity Authentication/IDS Login Name \(configured as user\_name\)
 
-
-
 </td>
 </tr>
 <tr>
@@ -95,28 +83,20 @@ $\['user\_attributes'\]\['user\_name'\]\[0\] = NameID:unspecified - Identity Aut
 
 `email`
 
-
-
 </td>
 <td valign="top">
 
 `user_attributes.email`
-
-
 
 </td>
 <td valign="top">
 
 `SCIM.emails.value`
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -125,28 +105,20 @@ $\['user\_attributes'\]\['user\_name'\]\[0\] = NameID:unspecified - Identity Aut
 
 `first_name`
 
-
-
 </td>
 <td valign="top">
 
 `user_attributes.given_name`
-
-
 
 </td>
 <td valign="top">
 
 `SCIM.name.firstName`
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -155,28 +127,20 @@ $\['user\_attributes'\]\['user\_name'\]\[0\] = NameID:unspecified - Identity Aut
 
 `last_name`
 
-
-
 </td>
 <td valign="top">
 
 `user_attributes.family_name`
-
-
 
 </td>
 <td valign="top">
 
 `SCIM.name.familyName`
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -185,28 +149,20 @@ $\['user\_attributes'\]\['user\_name'\]\[0\] = NameID:unspecified - Identity Aut
 
 `type`
 
-
-
 </td>
 <td valign="top">
 
 `user_attributes.type`
-
-
 
 </td>
 <td valign="top">
 
 `SCIM.userType`
 
-
-
 </td>
 <td valign="top">
 
 Should always be public on DWS side to ensure user is external.
-
-
 
 </td>
 </tr>
@@ -215,30 +171,24 @@ Should always be public on DWS side to ensure user is external.
 
 `/`
 
-
-
 </td>
 <td valign="top">
 
 `xs.rolecollections`
-
-
 
 </td>
 <td valign="top">
 
 `/`
 
-
-
 </td>
 <td valign="top">
 
 Role collections mapped on different attributes from Identity Authentication, for example, type=public. There can be multiple \(non-SAP Build Work Zone\) role collections assigned to the user on the subaccount, for instance for accessing other applications. DWS will only create external users with \(at least\) role collection Workzone\_External\_User assigned!
 
-
-
 </td>
 </tr>
 </table>
+
+For more information, see [\(Optional\) Configure the Name ID Format Attribute Sent to the SAML 2.0 Corporate IdP](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/4fcc0905ea3e442fb33f4cc759399646.html).
 

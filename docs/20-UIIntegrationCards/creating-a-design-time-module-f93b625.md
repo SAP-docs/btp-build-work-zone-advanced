@@ -8,9 +8,10 @@ When the user creates a new UI Card project using the *Yeoman* generator, the de
 
 For existing projects without a design time module setup, when the user opens the property editor, the design time module is set up automatically.
 
-**Create a design time module and register it in the cards manifest**
+**Create a design time module and register it in the cards `manifest.json` file**
 
-Advanced design time configuration and implementation should happen outside the manifest of the card. With that design time code won’t harm or influence the runtime or the card instance for the end user.
+> ### Note:  
+> Advanced design time configuration and implementation should be defined outside the `manifest.json` file of the card so that it won't harm or influence the runtime of the card instance for the end user.
 
 Add the following initial module setup into the `dt/configuration.js` file.
 
@@ -34,7 +35,7 @@ sap.ui.define(["sap/ui/integration/Designtime"], function (
 });
 ```
 
-Similar to a Card Extension, the design time module is registered in the manifest. As soon as the Editor is launched.
+Similar to a card extension, the design time module is registered in the `manifest.json` file as soon as the editor is launched.
 
 ```
 "sap.card": {
@@ -44,7 +45,7 @@ Similar to a Card Extension, the design time module is registered in the manifes
 
 **Configure the editor's form**
 
-Within the configuration, the form section contains the items that are shown in the Editor
+Within the configuration, the form section contains the items that are shown in the editor.
 
 ```
 sap.ui.define(["sap/ui/integration/Designtime"], function (
@@ -77,35 +78,25 @@ sap.ui.define(["sap/ui/integration/Designtime"], function (
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Required
 
-
-
 </th>
 <th valign="top">
 
 Default
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -114,37 +105,27 @@ Description
 
 manifestpath
 
-
-
 </td>
 <td valign="top">
 
 string
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
-Path to the manifest value that should be edited. In case the type of the item is "group" the path can be omitted.
+Path to the manifest that should be edited. In case the type of the item is `group`, the path can be omitted.
 
-`manifestpath : "sap.card/configuration/parameters/title/value"`
-
-
+Example: `manifestpath : "sap.card/configuration/parameters/title/value"`
 
 </td>
 </tr>
@@ -153,39 +134,29 @@ Path to the manifest value that should be edited. In case the type of the item i
 
 type
 
-
-
 </td>
 <td valign="top">
 
 string
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 string
 
-
-
 </td>
 <td valign="top">
 
-type of the value in the manifest that is edited. Currently "string", "integer", "number", "date", "datetime", "boolean", "string\[\]" are supported.
+The type of the value in the manifest that is edited. Currently "string", "integer", "number", "date", "datetime", "boolean", "string\[\]" are supported.
 
-type="group" in an item allows to set a group title within the form to cluster elements. For a group typed item the manifestpath setting can be omitted. A label should be provided.
+`type="group"` in an item allows to set a group title within the form to cluster elements. In this case, the manifestpath can be omitted and a label can be provided instead.
 
-`type : "string"`
-
-
+Example: `type : "string"`
 
 </td>
 </tr>
@@ -194,39 +165,27 @@ type="group" in an item allows to set a group title within the form to cluster e
 
 label
 
-
-
 </td>
 <td valign="top">
 
 string
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Name of the item in the form/items collection
 
-
-
 </td>
 <td valign="top">
 
-Defines the label string. This value can be bound to values in the i18n file used in the connected Card.
+Defines the label string. This value can be bound to values in the i18n file used in the connected card.
 
-`label : "fixedString`
-
-`label : "{i18n>translatedStringKey}"`
-
-
+Example: `label : "fixedString` or `label : "{i18n>translatedStringKey}"`
 
 </td>
 </tr>
@@ -235,39 +194,32 @@ Defines the label string. This value can be bound to values in the i18n file use
 
 defaultValue
 
-
-
 </td>
 <td valign="top">
 
 any
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Depending on type property
 
-
-
 </td>
 <td valign="top">
 
-Defines the default value that is used if the current value in the manifest for this property is empty.
+Defines the default value if no value is specified in the manifest.
+
+Example:
 
 ```
 defaultValue : "stringValue" //string type
 defaultValue : true //boolean type
-"
-defaultValue : "{i18n>translatedDefaultKey}" //trnaslatedDefaultValue for strings
+defaultValue : "{i18n>translatedDefaultKey}" //trnaslated default value for strings
 ```
 
 
@@ -279,37 +231,27 @@ defaultValue : "{i18n>translatedDefaultKey}" //trnaslatedDefaultValue for string
 
 required
 
-
-
 </td>
 <td valign="top">
 
 boolean
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 false
-
-
 
 </td>
 <td valign="top">
 
 Defines whether the value is required or not. The editors label for the field gets a "\*" to indicate this state.
 
-`required: true`
-
-
+Example: `required: true`
 
 </td>
 </tr>
@@ -318,37 +260,27 @@ Defines whether the value is required or not. The editors label for the field ge
 
 visible
 
-
-
 </td>
 <td valign="top">
 
 boolean
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 true
 
-
-
 </td>
 <td valign="top">
 
-Defines whether the value is visible in the editor or not. For technical parameters, it might be needed to hide them from the user. In future version an administrator is able to change the visible property for the page/content administrator. This will only apply for parameters that are visible to the administrator.
+Defines whether the value is visible in the editor or not. For technical parameters, it might be needed to hide them from the user.
 
-`visible: true`
-
-
+Example: `visible: true`
 
 </td>
 </tr>
@@ -357,37 +289,27 @@ Defines whether the value is visible in the editor or not. For technical paramet
 
 translatable
 
-
-
 </td>
 <td valign="top">
 
 boolean
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 false
 
-
-
 </td>
 <td valign="top">
 
-Defines whether the value is potentially translatable and should be shown in the Card Editor in translation mode. This setting should be used for fields of type string only. to indicate this state.
+Defines whether the value is translatable and should be shown in the card editor in translation mode. This setting should be used for fields of type string only.
 
-`translatable: true`
-
-
+Example: `translatable: true`
 
 </td>
 </tr>
@@ -396,37 +318,27 @@ Defines whether the value is potentially translatable and should be shown in the
 
 cols
 
-
-
 </td>
 <td valign="top">
 
 1 or 2
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 2
 
-
-
 </td>
 <td valign="top">
 
-By default, the form in the editor spans field to its two columns. Setting cols=1 in two sibling items, will allow to align two fields next to each other
+By default, the form in the editor spans fields in two columns. Setting `cols=1` in two sibling items, will allow to align two fields next to each other.
 
-`cols: 1`
-
-
+Example: `cols: 1`
 
 </td>
 </tr>
@@ -435,37 +347,27 @@ By default, the form in the editor spans field to its two columns. Setting cols=
 
 allowDynamicValues
 
-
-
 </td>
 <td valign="top">
 
 boolean
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 depending
 
-
-
 </td>
 <td valign="top">
 
-Defines whether the value can be bound to a context value of the host environment. The default value for an administrator and content admin is true. In translation mode this property is ignored. To activate the feature additionally the allowDynamicValues property of the Card Editor control needs to be enabled.
+Defines whether the value can be bound to a context value of the host environment. The default value for an administrator and content admin is true. In translation mode this property is ignored. To activate the feature, the `allowDynamicValues` property of the card editor control needs to be enabled.
 
-`translatable: true`
-
-
+Example: `allowDynamicValues: true`
 
 </td>
 </tr>
@@ -474,45 +376,35 @@ Defines whether the value can be bound to a context value of the host environmen
 
 allowSettings
 
-
-
 </td>
 <td valign="top">
 
 boolean
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 depending
 
-
-
 </td>
 <td valign="top">
 
-Defines whether the administrator is allowed to change the settings of the field. For example, the administrator can hide or disable fields for the content mode. To activate the feature additionally the allowSettings property of the Card Editor control needs to be enabled.
+Defines whether the administrator is allowed to change the settings of the field. For example, the administrator can hide or disable fields for the content mode. To activate the feature, the `allowSettings` property of the card editor control needs to be enabled.
 
-`translatable: true`
-
-
+Example: `allowSettings: true`
 
 </td>
 </tr>
 </table>
 
-**Providing Lists for string**
+**Providing a list of values**
 
-To allow a selection of values for fields of type "string", you can add a values section. Similar to the Card data section, the list can be filled with a static json or a request. The item section in the values definition links the data. The "key" property of the item is used as the value for the setting referred by the "manifestPath".
+To allow a selection of values for fields of type "string", you can add a value section. Similar to the card data section, the list can be filled with a static json or a request. The `item` section in the value definition links the data. The `key` property of the item is used for the setting referred by the `manifestPath`.
 
 > ### Sample Code:  
 > Static Data List:
@@ -540,7 +432,7 @@ To allow a selection of values for fields of type "string", you can add a values
 > }
 > ```
 
-Request Data List: There referred url delivers the data asynchronous. Also an extension could be used as a data provider.
+Request Data List: The referred URL delivers the data asynchronously. For the data provider you can also use an extension.
 
 > ### Sample Code:  
 > Request Values
@@ -577,7 +469,7 @@ Request Data List: There referred url delivers the data asynchronous. Also an ex
 
 **Providing Lists for string arrays**
 
-To allow a selection of values for fields of type "string\[\]", you can add the same values sections as above. Similar to the Card data section, the list can be filled with a static json or a request. The item section in the values definition links the data. The "key" property of the item is used as the value for the setting referred by the "manifestPath".
+To allow a selection of values for fields of type "string\[\]", you can add the same values sections as above. Similar to the card data section, the list can be filled with a static json or a request. The `item` section in the values definition links the data. The `key` property of the item is used as the value for the setting referred by the `manifestPath`.
 
 > ### Sample Code:  
 > Static Array List:
@@ -606,7 +498,7 @@ To allow a selection of values for fields of type "string\[\]", you can add the 
 > 
 > ```
 
-Request Data List: There referred url delivers the data asynchronous. Also an extension could be used as a data provider.
+Request Data List: The referred URL delivers the data asynchronously. For the data provider you can also use an extension.
 
 > ### Sample Code:  
 > String Array List with requests

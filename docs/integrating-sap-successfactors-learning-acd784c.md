@@ -18,11 +18,9 @@ In your SAP SuccessFactors Human Capital Management \(HCM\) Suite, obtain the SA
 
     1.  Log on to the SAP SuccessFactors HCM Suite and, from the main menu, select *Admin Center*.
     2.  In *Learning*, go to the *Learning Administration*.
-    3.  From the top menu bar, choose *System Administration*, expand the *Configuration* section, and choose *System Configuration*.
+    3.  From the top menu bar, choose *System Administration*, expand the *Configuration* section, and choose *System Configuration* \> *BIZX*.
 
-        The `LMS_ADMIN` configuration file opens.
-
-    4.  In the `LMS_ADMIN` configuration file, search for `jamIntegrationEnabled`, ensure that it’s set to *true*, and choose *Apply Changes*.
+    4.  Set the parameter `workzoneEnabled: true` and choose *Apply Changes*.
 
 2.  To enable external users for SAP Build Work Zone, advanced edition, configure SAP SuccessFactors Platform and Learning as explained in [Offering Learning to the Extended Enterprise](https://help.sap.com/viewer/0bbc2f10849d4ead870477a29921746a/latest/en-US/46f4c0c8c557460a96d2e161625e5fc4.html).
 3.  Get the OAuth information that is required for your SAP Build Work Zone, advanced edition configuration:
@@ -61,15 +59,11 @@ In SAP Build Work Zone, advanced edition, create an external application entry t
     <th valign="top">
 
     Setting
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -77,15 +71,11 @@ In SAP Build Work Zone, advanced edition, create an external application entry t
     <td valign="top">
     
     *Name*
-
-
     
     </td>
     <td valign="top">
     
     Enter a recognizable name, such as one that names the external application and its dedicated use. The name appears in the navigation and other locations.
-
-
     
     </td>
     </tr>
@@ -93,15 +83,11 @@ In SAP Build Work Zone, advanced edition, create an external application entry t
     <td valign="top">
     
     *OAuth 2.0 Client Id*
-
-
     
     </td>
     <td valign="top">
     
     Enter the value from the OAuth token server page's *Client ID* field.
-
-
     
     </td>
     </tr>
@@ -109,15 +95,11 @@ In SAP Build Work Zone, advanced edition, create an external application entry t
     <td valign="top">
     
     *Secret*
-
-
     
     </td>
     <td valign="top">
     
     Enter the value from the OAuth token server page's *Newly Generated Client Secret* field.
-
-
     
     </td>
     </tr>
@@ -125,8 +107,6 @@ In SAP Build Work Zone, advanced edition, create an external application entry t
     <td valign="top">
     
     *Service Provider*
-
-
     
     </td>
     <td valign="top">
@@ -134,8 +114,6 @@ In SAP Build Work Zone, advanced edition, create an external application entry t
     Enter the fully qualified domain name \(FQDN\) of your SAP SuccessFactors Learning service and the port number. For example, `e0363.scdemo.successfactors.com:443`.
 
     A way to determine the FQDN is to log on to SAP SuccessFactors Learning on the web. In the browser, copy the base URL for the page. The base URL is everything between the `https://` protocol and before the next slash, which indicates the path. The path field is prefilled and can’t be edited.
-
-
     
     </td>
     </tr>
@@ -143,15 +121,11 @@ In SAP Build Work Zone, advanced edition, create an external application entry t
     <td valign="top">
     
     *Service Provider Name*
-
-
     
     </td>
     <td valign="top">
     
     This field is prefilled and can’t be edited.
-
-
     
     </td>
     </tr>
@@ -159,15 +133,11 @@ In SAP Build Work Zone, advanced edition, create an external application entry t
     <td valign="top">
     
     *Administrative Area*
-
-
     
     </td>
     <td valign="top">
     
     Select the administrative area in which you want SAP SuccessFactors Learning to be available. The default is *Company*, which makes it available to all work spaces.
-
-
     
     </td>
     </tr>
@@ -193,15 +163,11 @@ To authorize SAP SuccessFactors Learning to access the SAP Build Work Zone, adva
     <th valign="top">
 
     Setting
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -209,31 +175,23 @@ To authorize SAP SuccessFactors Learning to access the SAP Build Work Zone, adva
     <td valign="top">
     
     *Name*
-
-
     
     </td>
     <td valign="top">
     
     You can keep the same name as you would have kept for your business record \(for example, LMS or Learning\).
-
-
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-    *Integration URL*
-
-
+    *Integration Description*
     
     </td>
     <td valign="top">
     
     The URL for your Learning administration. Navigate to LMS admin and obtain the URL from the address bar.
-
-
     
     </td>
     </tr>
@@ -241,15 +199,11 @@ To authorize SAP SuccessFactors Learning to access the SAP Build Work Zone, adva
     <td valign="top">
     
     *X509 Certificate \(Base64\)*
-
-
     
     </td>
     <td valign="top">
     
     Obtain under LMS admin settings from the LMS OAuth settings.
-
-
     
     </td>
     </tr>
@@ -294,15 +248,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <th valign="top">
 
             Setting
-
-
             
             </th>
             <th valign="top">
 
             Value
-
-
             
             </th>
             </tr>
@@ -310,15 +260,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Name
-
-
             
             </td>
             <td valign="top">
             
             Item
-
-
             
             </td>
             </tr>
@@ -326,15 +272,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             External Type
-
-
             
             </td>
             <td valign="top">
             
             `https://www.plateau.com/odata/v1/lms.svc/$metadata#ItemCollection`
-
-
             
             </td>
             </tr>
@@ -342,15 +284,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Annotation URL
-
-
             
             </td>
             <td valign="top">
             
             `https://www.plateau.com/odata/v1/lms.svc/AnnotationCollection`
-
-
             
             </td>
             </tr>
@@ -358,15 +296,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Can be featured or unfeatured in groups
-
-
             
             </td>
             <td valign="top">
             
             true
-
-
             
             </td>
             </tr>
@@ -374,15 +308,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Can be primary object in top-level group
-
-
             
             </td>
             <td valign="top">
             
             true
-
-
             
             </td>
             </tr>
@@ -390,15 +320,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Can be primary object in subgroup
-
-
             
             </td>
             <td valign="top">
             
             true
-
-
             
             </td>
             </tr>
@@ -406,15 +332,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Filter Feed
-
-
             
             </td>
             <td valign="top">
             
             true
-
-
             
             </td>
             </tr>
@@ -422,15 +344,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Feed History
-
-
             
             </td>
             <td valign="top">
             
             true
-
-
             
             </td>
             </tr>
@@ -438,15 +356,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Show Search
-
-
             
             </td>
             <td valign="top">
             
             true
-
-
             
             </td>
             </tr>
@@ -454,15 +368,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             \(Search\) Hint
-
-
             
             </td>
             <td valign="top">
             
             Title
-
-
             
             </td>
             </tr>
@@ -470,15 +380,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             \(Search\) Property
-
-
             
             </td>
             <td valign="top">
             
             Title
-
-
             
             </td>
             </tr>
@@ -486,15 +392,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Can be mentioned in feed posts
-
-
             
             </td>
             <td valign="top">
             
             true
-
-
             
             </td>
             </tr>
@@ -502,15 +404,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Primary \(Search\) Property
-
-
             
             </td>
             <td valign="top">
             
             Title
-
-
             
             </td>
             </tr>
@@ -518,15 +416,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Secondary \(Display Property
-
-
             
             </td>
             <td valign="top">
             
             Description
-
-
             
             </td>
             </tr>
@@ -540,15 +434,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <th valign="top">
 
             Setting
-
-
             
             </th>
             <th valign="top">
 
             Value
-
-
             
             </th>
             </tr>
@@ -556,15 +446,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Name
-
-
             
             </td>
             <td valign="top">
             
             Curriculum
-
-
             
             </td>
             </tr>
@@ -572,15 +458,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             External Type
-
-
             
             </td>
             <td valign="top">
             
             `https://www.plateau.com/odata/v1/lms.svc/$metadata#CurriculumCollection`
-
-
             
             </td>
             </tr>
@@ -588,15 +470,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Annotation URL
-
-
             
             </td>
             <td valign="top">
             
             `https://www.plateau.com/odata/v1/lms.svc/AnnotationCollection`
-
-
             
             </td>
             </tr>
@@ -604,15 +482,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Can be featured or unfeatured in groups
-
-
             
             </td>
             <td valign="top">
             
             true
-
-
             
             </td>
             </tr>
@@ -620,15 +494,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Can be primary object in top-level group
-
-
             
             </td>
             <td valign="top">
             
             true
-
-
             
             </td>
             </tr>
@@ -636,15 +506,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Can be primary object in subgroup
-
-
             
             </td>
             <td valign="top">
             
             true
-
-
             
             </td>
             </tr>
@@ -652,15 +518,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Filter Feed
-
-
             
             </td>
             <td valign="top">
             
             true
-
-
             
             </td>
             </tr>
@@ -668,15 +530,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Feed History
-
-
             
             </td>
             <td valign="top">
             
             true
-
-
             
             </td>
             </tr>
@@ -684,15 +542,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             ExternalShow Search
-
-
             
             </td>
             <td valign="top">
             
             true
-
-
             
             </td>
             </tr>
@@ -700,15 +554,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             \(Search\) Hint
-
-
             
             </td>
             <td valign="top">
             
             Title
-
-
             
             </td>
             </tr>
@@ -716,15 +566,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             \(Search\) Property
-
-
             
             </td>
             <td valign="top">
             
             Title
-
-
             
             </td>
             </tr>
@@ -732,15 +578,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Can be mentioned in feed posts
-
-
             
             </td>
             <td valign="top">
             
             true
-
-
             
             </td>
             </tr>
@@ -748,15 +590,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Primary \(Search\) Property
-
-
             
             </td>
             <td valign="top">
             
             Title
-
-
             
             </td>
             </tr>
@@ -764,15 +602,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Secondary \(Display Property
-
-
             
             </td>
             <td valign="top">
             
             Description
-
-
             
             </td>
             </tr>
@@ -786,15 +620,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <th valign="top">
 
             Setting
-
-
             
             </th>
             <th valign="top">
 
             Value
-
-
             
             </th>
             </tr>
@@ -802,15 +632,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Name
-
-
             
             </td>
             <td valign="top">
             
             Scheduled Offering
-
-
             
             </td>
             </tr>
@@ -818,15 +644,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             External Type
-
-
             
             </td>
             <td valign="top">
             
             `https://www.plateau.com/odata/v1/lms.svc/$metadata#ScheduleOfferingCollection`
-
-
             
             </td>
             </tr>
@@ -834,15 +656,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Annotation URL
-
-
             
             </td>
             <td valign="top">
             
             `https://www.plateau.com/odata/v1/lms.svc/AnnotationCollection`
-
-
             
             </td>
             </tr>
@@ -850,15 +668,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Can be featured or unfeatured in groups
-
-
             
             </td>
             <td valign="top">
             
             true
-
-
             
             </td>
             </tr>
@@ -866,15 +680,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Can be primary object in top-level group
-
-
             
             </td>
             <td valign="top">
             
             true
-
-
             
             </td>
             </tr>
@@ -882,15 +692,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Can be primary object in subgroup
-
-
             
             </td>
             <td valign="top">
             
             true
-
-
             
             </td>
             </tr>
@@ -898,15 +704,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Filter Feed
-
-
             
             </td>
             <td valign="top">
             
             false
-
-
             
             </td>
             </tr>
@@ -914,15 +716,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Feed History
-
-
             
             </td>
             <td valign="top">
             
             false
-
-
             
             </td>
             </tr>
@@ -930,15 +728,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Show Search
-
-
             
             </td>
             <td valign="top">
             
             false
-
-
             
             </td>
             </tr>
@@ -946,15 +740,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Can be mentioned in feed posts
-
-
             
             </td>
             <td valign="top">
             
             false
-
-
             
             </td>
             </tr>
@@ -968,15 +758,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <th valign="top">
 
             Setting
-
-
             
             </th>
             <th valign="top">
 
             Value
-
-
             
             </th>
             </tr>
@@ -984,15 +770,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Name
-
-
             
             </td>
             <td valign="top">
             
             Curriculum Assignment
-
-
             
             </td>
             </tr>
@@ -1000,15 +782,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             External Type
-
-
             
             </td>
             <td valign="top">
             
             `https://www.plateau.com/odata/v1/lms.svc/$metadata#CurriculumAssignmentCollection`
-
-
             
             </td>
             </tr>
@@ -1016,15 +794,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Annotation URL
-
-
             
             </td>
             <td valign="top">
             
             `https://www.plateau.com/odata/v1/lms.svc/AnnotationCollection`
-
-
             
             </td>
             </tr>
@@ -1032,15 +806,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Can be featured or unfeatured in groups
-
-
             
             </td>
             <td valign="top">
             
             false
-
-
             
             </td>
             </tr>
@@ -1048,15 +818,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Can be primary object in top-level group
-
-
             
             </td>
             <td valign="top">
             
             false
-
-
             
             </td>
             </tr>
@@ -1064,15 +830,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Can be primary object in subgroup
-
-
             
             </td>
             <td valign="top">
             
             false
-
-
             
             </td>
             </tr>
@@ -1080,15 +842,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Filter Feed
-
-
             
             </td>
             <td valign="top">
             
             false
-
-
             
             </td>
             </tr>
@@ -1096,15 +854,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Feed History
-
-
             
             </td>
             <td valign="top">
             
             false
-
-
             
             </td>
             </tr>
@@ -1112,15 +866,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Show Search
-
-
             
             </td>
             <td valign="top">
             
             false
-
-
             
             </td>
             </tr>
@@ -1128,15 +878,11 @@ For SAP SuccessFactors Learning, the following learning record types are support
             <td valign="top">
             
             Can be mentioned in feed posts
-
-
             
             </td>
             <td valign="top">
             
             false
-
-
             
             </td>
             </tr>
@@ -1164,5 +910,5 @@ As a learning administrator, you can also integrate learning programs with SAP B
 **Related Information**  
 
 
-[Add an OAuth Client](add-an-oauth-client-b3c804e.md)
+[OAuth Clients](oauth-clients-b3c804e.md "You can authorize an external application to access the SAP Build Work Zone, advanced edition API by registering an application as an OAuth client.")
 

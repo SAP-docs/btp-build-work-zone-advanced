@@ -31,7 +31,7 @@ To access your user profile:
 ### Edit Your Profile
 
 > ### Note:  
-> Company administrators customize which information is displayed and in which order, for all user profiles.
+> Company administrators customize which information is displayed and in which order they will appear for all user profiles.
 
 From your profile page, in the *Overview* section, you can edit the following information:
 
@@ -44,14 +44,10 @@ From your profile page, in the *Overview* section, you can edit the following in
 
 Information
 
-
-
 </th>
 <th valign="top">
 
 What you can do
-
-
 
 </th>
 </tr>
@@ -59,8 +55,6 @@ What you can do
 <td valign="top">
 
 *Away Alerts*
-
-
 
 </td>
 <td valign="top">
@@ -73,15 +67,13 @@ Create an away alert.
 
 3.  Select the start date and the end date for your away alert. You can also choose whether or not your alert is an all-day event.
 
-4.  Save your away alert.
+4.  Save.
 
 
 > ### Note:  
-> You cannot set an away alert for absences that occurred in the past.
+> You cant' set an away alert for absences that occurred in the past.
 
 You can also delete an away alert by choosing :wastebasket:.
-
-
 
 </td>
 </tr>
@@ -90,14 +82,12 @@ You can also delete an away alert by choosing :wastebasket:.
 
 *Expertise*
 
-
-
 </td>
 <td valign="top">
 
 Enter skills and areas of expertise that you want to advertise on your profile page.
 
-When you receive an endorsement of expertise from a colleague, it is listed on your profile page under *Hidden Expertise*. You can display a hidden expertise on your profile by selecting *Show*. If you don't want to display an expertise, choose *Remove*.
+When you receive an endorsement of expertise from a colleague, it's listed on your profile page under *Hidden Expertise*. You can display a hidden expertise on your profile by selecting *Show*. If you don't want to display an expertise, choose *Remove*.
 
 > ### Note:  
 > External users can't endorse expertise, but they can add expertise tags to their own profile.
@@ -116,7 +106,7 @@ To edit your profile information:
 
     -   *Basic Profile Information*
     -   *Contact Information*
-    -   *Office Information*
+    -   *Office Information* - this information is not editable and can only be changed by syncing via SCIM.
 
 3.  Save your changes.
 
@@ -162,8 +152,6 @@ To post an update from your profile page:
 
 1.  In the text box, enter your status update.
 
-    ![](images/Profile_page_4daa5c4.png)
-
 2.  Optional: @mention someone, add a tag, an image, a video/audio, or a document.
 
 3.  Choose *Share*.
@@ -188,14 +176,10 @@ On your profile page, below your profile image, there are several profile sectio
 
 Section
 
-
-
 </th>
 <th valign="top">
 
 What you can do
-
-
 
 </th>
 </tr>
@@ -204,14 +188,10 @@ What you can do
 
 *Overview*
 
-
-
 </td>
 <td valign="top">
 
 You can view and edit basic information about yourself.
-
-
 
 </td>
 </tr>
@@ -220,16 +200,12 @@ You can view and edit basic information about yourself.
 
 *Achievements*
 
-
-
 </td>
 <td valign="top">
 
 If enabled by your company administrator, you can view *Rewards*, *Missions*, and *Kudos*.
 
 You can choose to show or hide each kudo in this section.
-
-
 
 </td>
 </tr>
@@ -238,14 +214,10 @@ You can choose to show or hide each kudo in this section.
 
 *Social Graph*
 
-
-
 </td>
 <td valign="top">
 
 Lists people, workspaces, terms, or wiki pages that you are following and people who are following you.
-
-
 
 </td>
 </tr>
@@ -254,14 +226,10 @@ Lists people, workspaces, terms, or wiki pages that you are following and people
 
 *Workspaces*
 
-
-
 </td>
 <td valign="top">
 
 Lists workspaces of which you are a member. You can delete workspaces that you created.
-
-
 
 </td>
 </tr>
@@ -270,14 +238,10 @@ Lists workspaces of which you are a member. You can delete workspaces that you c
 
 *Blog Posts*
 
-
-
 </td>
 <td valign="top">
 
 Lists your blog posts. You can create a new blog or delete a blog.
-
-
 
 </td>
 </tr>
@@ -286,14 +250,10 @@ Lists your blog posts. You can create a new blog or delete a blog.
 
 *Documents*
 
-
-
 </td>
 <td valign="top">
 
 Lists your uploaded documents. You can share an update that includes a document. The document is saved to your profile in the documents folder.
-
-
 
 </td>
 </tr>
@@ -302,14 +262,10 @@ Lists your uploaded documents. You can share an update that includes a document.
 
 *Images*
 
-
-
 </td>
 <td valign="top">
 
 Lists images that you have added and images in which you have been tagged. You can share an update that includes an image.
-
-
 
 </td>
 </tr>
@@ -318,14 +274,10 @@ Lists images that you have added and images in which you have been tagged. You c
 
 *Polls*
 
-
-
 </td>
 <td valign="top">
 
 Lists polls that you created. You can create a new poll or delete a poll.
-
-
 
 </td>
 </tr>
@@ -334,14 +286,10 @@ Lists polls that you created. You can create a new poll or delete a poll.
 
 *Videos*
 
-
-
 </td>
 <td valign="top">
 
 Lists videos that you have created, uploaded, or videos in which you have been tagged. You can create and delete videos.
-
-
 
 </td>
 </tr>
@@ -350,14 +298,22 @@ Lists videos that you have created, uploaded, or videos in which you have been t
 
 *Wiki Pages*
 
-
-
 </td>
 <td valign="top">
 
 Lists your wiki pages. You can create and delete wiki pages.
 
+</td>
+</tr>
+<tr>
+<td valign="top">
 
+*My Exports*
+
+</td>
+<td valign="top">
+
+Displays the export jobs that you triggered in the last 7 days for internal and external users.
 
 </td>
 </tr>
@@ -389,14 +345,10 @@ On your colleague's profile page, you can choose from the following interactions
 
 Interaction
 
-
-
 </th>
 <th valign="top">
 
 What you can do
-
-
 
 </th>
 </tr>
@@ -405,14 +357,10 @@ What you can do
 
 *Follow*
 
-
-
 </td>
 <td valign="top">
 
 Receive feed updates on your colleague's activities.
-
-
 
 </td>
 </tr>
@@ -421,14 +369,10 @@ Receive feed updates on your colleague's activities.
 
 *Unfollow*
 
-
-
 </td>
 <td valign="top">
 
 Stop receiving a colleague's updates in your feed.
-
-
 
 </td>
 </tr>
@@ -437,14 +381,10 @@ Stop receiving a colleague's updates in your feed.
 
 *Actions*
 
-
-
 </td>
 <td valign="top">
 
 *Send a Kudo*, *Review Usage*, or *Endorse Expertise* 
-
-
 
 </td>
 </tr>
@@ -453,14 +393,10 @@ Stop receiving a colleague's updates in your feed.
 
 *Show Additional Info*
 
-
-
 </td>
 <td valign="top">
 
 Display more details about their job, ways to contact them, and their office location.
-
-
 
 </td>
 </tr>
@@ -469,14 +405,10 @@ Display more details about their job, ways to contact them, and their office loc
 
 *Share an update with \[Name\]*
 
-
-
 </td>
 <td valign="top">
 
 Post a message on your colleague's page. This message is also visible to other people visiting the profile page.
-
-
 
 </td>
 </tr>
@@ -493,14 +425,10 @@ From the Actions dropdown menu, you can choose the following actions:
 
 Action
 
-
-
 </th>
 <th valign="top">
 
  
-
-
 
 </th>
 </tr>
@@ -509,14 +437,10 @@ Action
 
 *Send a Kudo*
 
-
-
 </td>
 <td valign="top">
 
 Recognize a colleague by selecting a kudo that acknowledges their work \(for example, teamwork, thank you\).
-
-
 
 </td>
 </tr>
@@ -525,14 +449,10 @@ Recognize a colleague by selecting a kudo that acknowledges their work \(for exa
 
 *Review Usage*
 
-
-
 </td>
 <td valign="top">
 
 If content administration is enabled, you can audit usage or view abuse reports on a selected colleague.
-
-
 
 </td>
 </tr>
@@ -541,14 +461,10 @@ If content administration is enabled, you can audit usage or view abuse reports 
 
 *Endorse Expertise*
 
-
-
 </td>
 <td valign="top">
 
 Enter an area of expertise in which your colleague excels. The endorsement remains hidden until your colleague chooses to show it on their profile.
-
-
 
 </td>
 </tr>

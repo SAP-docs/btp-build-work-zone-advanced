@@ -16,14 +16,10 @@ The following out-of-the-box workspace templates are available by default.
 
 Template
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -33,8 +29,6 @@ Description
 *Account Management Template*
 
 Available from Business Records page.
-
-
 
 </td>
 <td valign="top">
@@ -53,14 +47,10 @@ Designed to support collaboration and decision-making for a single account. Disp
 
 *Customer Engagement Template* 
 
-
-
 </td>
 <td valign="top">
 
 Designed to support vendor and customer engagements to help close a sales opportunity for example.
-
-
 
 </td>
 </tr>
@@ -69,16 +59,12 @@ Designed to support vendor and customer engagements to help close a sales opport
 
 *Education Center Template* 
 
-
-
 </td>
 <td valign="top">
 
 Designed for subject-matter experts and students to collaborate and discuss training courses and to create and share content and knowledge.
 
 Users can use search, activity feeds, tags, most-viewed, most-liked, and featured content to find the experts or content they need.
-
-
 
 </td>
 </tr>
@@ -87,16 +73,12 @@ Users can use search, activity feeds, tags, most-viewed, most-liked, and feature
 
 *Help and Support Template* 
 
-
-
 </td>
 <td valign="top">
 
 Designed as an internal-facing Q&A for members and experts to help each other on a particular topic of interest.
 
 Most sections of the template would be questions within forums.
-
-
 
 </td>
 </tr>
@@ -105,14 +87,10 @@ Most sections of the template would be questions within forums.
 
 *Knowledge Sharing Template* 
 
-
-
 </td>
 <td valign="top">
 
 Designed for experts and coaches to help them connect and share knowledge on a particular topic.
-
-
 
 </td>
 </tr>
@@ -121,14 +99,10 @@ Designed for experts and coaches to help them connect and share knowledge on a p
 
 *Mentoring and Coaching Template* 
 
-
-
 </td>
 <td valign="top">
 
 Designed for mentors and mentees to connect and have private conversations.
-
-
 
 </td>
 </tr>
@@ -137,14 +111,10 @@ Designed for mentors and mentees to connect and have private conversations.
 
 *Planning and Implementation Template* 
 
-
-
 </td>
 <td valign="top">
 
 Designed with multiple tags to quickly create workspaces intended for collaboration teams managing date-driven deliverables, goals, and milestones.
-
-
 
 </td>
 </tr>
@@ -153,16 +123,12 @@ Designed with multiple tags to quickly create workspaces intended for collaborat
 
 *Professional Services Project Room Template* 
 
-
-
 </td>
 <td valign="top">
 
 Designed to support an extended project team to drive and coordinate planning, implementation, and rollout of a project.
 
 Team members make decisions, discuss requirements, and make decisions.
-
-
 
 </td>
 </tr>
@@ -171,14 +137,10 @@ Team members make decisions, discuss requirements, and make decisions.
 
 *Team Collaboration Template* 
 
-
-
 </td>
 <td valign="top">
 
 Designed to help members stay organized and share resources with their team.
-
-
 
 </td>
 </tr>
@@ -187,14 +149,10 @@ Designed to help members stay organized and share resources with their team.
 
 *Topic-based Collaboration Template*
 
-
-
 </td>
 <td valign="top">
 
 Designed so that members can collaborate and share knowledge around a specific topic of interest.
-
-
 
 </td>
 </tr>
@@ -203,14 +161,10 @@ Designed so that members can collaborate and share knowledge around a specific t
 
 *Training Room Template* 
 
-
-
 </td>
 <td valign="top">
 
 Designed so that instructors and participants can work together before, during, and after a training event.
-
-
 
 </td>
 </tr>
@@ -233,14 +187,10 @@ Area administrators can enable any out-of-the-box template if the company admini
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -248,8 +198,6 @@ Description
 <td valign="top">
 
 Create a workspace template from an existing template
-
-
 
 </td>
 <td valign="top">
@@ -269,8 +217,6 @@ It’s often faster to use an existing workspace template as a basis for creatin
 <td valign="top">
 
 Create a workspace template from scratch
-
-
 
 </td>
 <td valign="top">
@@ -293,9 +239,21 @@ Create a workspace template from scratch
 <tr>
 <td valign="top">
 
+Edit a workspace template
+
+</td>
+<td valign="top">
+
+The *Edit* action to edit a workspace template, is only available when the template is not set to *Visible*.
+
+Once the template is set to *Visible*, this action is no longer available.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Show and hide a workspace template
-
-
 
 </td>
 <td valign="top">
@@ -315,8 +273,6 @@ In contrast, before you can delete a custom template that you no longer need, yo
 <td valign="top">
 
 Import and export workspace templates
-
-
 
 </td>
 <td valign="top">
@@ -343,8 +299,6 @@ Import and export workspace templates
 
 Choose which administrative areas can use the template
 
-
-
 </td>
 <td valign="top">
 
@@ -364,8 +318,6 @@ You can move a custom workspace template between administrative areas and the co
 
 Create a workspace from a template
 
-
-
 </td>
 <td valign="top">
 
@@ -373,16 +325,12 @@ You can create workspaces from any published workspace template.
 
 Choose *Actions* \> *Create a Workspace*.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Delete a custom workspace template
-
-
 
 </td>
 <td valign="top">
@@ -402,8 +350,6 @@ Choose *Actions* \> *Delete*.
 <td valign="top">
 
 You can add various workpages as placeholders to the template and then add content or forum pages later using the page designer.
-
-
 
 </td>
 <td valign="top">

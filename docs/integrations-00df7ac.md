@@ -17,14 +17,10 @@ SAP Build Work Zone, advanced edition can conveniently integrate with the third-
 
 Application
 
-
-
 </th>
 <th valign="top">
 
 Integration
-
-
 
 </th>
 </tr>
@@ -33,14 +29,10 @@ Integration
 
 Google Drive
 
-
-
 </td>
 <td valign="top">
 
 Available: Google Drive as a document repository
-
-
 
 </td>
 </tr>
@@ -49,14 +41,10 @@ Available: Google Drive as a document repository
 
 Microsoft SharePoint
 
-
-
 </td>
 <td valign="top">
 
 Available: SharePoint Online for Microsoft Office 365
-
-
 
 </td>
 </tr>
@@ -65,14 +53,10 @@ Available: SharePoint Online for Microsoft Office 365
 
 Microsoft Teams
 
-
-
 </td>
 <td valign="top">
 
 Available
-
-
 
 </td>
 </tr>
@@ -81,14 +65,10 @@ Available
 
 SAP SuccessFactors Learning
 
-
-
 </td>
 <td valign="top">
 
 Available
-
-
 
 </td>
 </tr>
@@ -97,14 +77,10 @@ Available
 
 SAP SuccessFactors Platform
 
-
-
 </td>
 <td valign="top">
 
 Available
-
-
 
 </td>
 </tr>

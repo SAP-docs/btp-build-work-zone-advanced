@@ -33,14 +33,10 @@ Shows a row for each user who has defined an expertise with the following column
 
 Row item
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -49,14 +45,10 @@ Description
 
 **User ID** 
 
-
-
 </td>
 <td valign="top">
 
 The user's SAP Build Work Zone, advanced edition ID
-
-
 
 </td>
 </tr>
@@ -65,14 +57,10 @@ The user's SAP Build Work Zone, advanced edition ID
 
 **Email Address** 
 
-
-
 </td>
 <td valign="top">
 
 The user's email address
-
-
 
 </td>
 </tr>
@@ -81,14 +69,10 @@ The user's email address
 
 **First Name** 
 
-
-
 </td>
 <td valign="top">
 
 The user's first name
-
-
 
 </td>
 </tr>
@@ -97,14 +81,10 @@ The user's first name
 
 **Last Name** 
 
-
-
 </td>
 <td valign="top">
 
 The user's last name
-
-
 
 </td>
 </tr>
@@ -112,8 +92,6 @@ The user's last name
 <td valign="top">
 
 **Expertise** 
-
-
 
 </td>
 <td valign="top">
@@ -132,14 +110,10 @@ A comma-separated list of the user's areas of expertise.
 
 **Visible** 
 
-
-
 </td>
 <td valign="top">
 
 Whether the user's areas of expertise are set as visible to other users, yes or no
-
-
 
 </td>
 </tr>
@@ -148,14 +122,10 @@ Whether the user's areas of expertise are set as visible to other users, yes or 
 
 **Endorsements** 
 
-
-
 </td>
 <td valign="top">
 
 The total count of the user's endorsements
-
-
 
 </td>
 </tr>

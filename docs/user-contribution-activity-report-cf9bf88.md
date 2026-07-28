@@ -38,14 +38,10 @@ Shows a row for each user with the following columns of information:
 
 Row item
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -54,14 +50,10 @@ Description
 
 **User ID** 
 
-
-
 </td>
 <td valign="top">
 
 The user's SAP Build Work Zone, advanced edition user ID Select the start and end dates for the reporting period. .
-
-
 
 </td>
 </tr>
@@ -70,14 +62,10 @@ The user's SAP Build Work Zone, advanced edition user ID Select the start and en
 
 **Email Address** 
 
-
-
 </td>
 <td valign="top">
 
 The user's email address
-
-
 
 </td>
 </tr>
@@ -86,14 +74,10 @@ The user's email address
 
 **First Name** 
 
-
-
 </td>
 <td valign="top">
 
 The user's first name
-
-
 
 </td>
 </tr>
@@ -102,14 +86,10 @@ The user's first name
 
 **Last Name** 
 
-
-
 </td>
 <td valign="top">
 
 The user's last name
-
-
 
 </td>
 </tr>
@@ -118,14 +98,10 @@ The user's last name
 
 **Status** 
 
-
-
 </td>
 <td valign="top">
 
 Active or Alumni
-
-
 
 </td>
 </tr>
@@ -134,14 +110,10 @@ Active or Alumni
 
 **Workspaces Created** 
 
-
-
 </td>
 <td valign="top">
 
 A count of the workspaces created in the specified period
-
-
 
 </td>
 </tr>
@@ -150,14 +122,10 @@ A count of the workspaces created in the specified period
 
 **Blogs** 
 
-
-
 </td>
 <td valign="top">
 
 A count of the blogs posted in the specified period
-
-
 
 </td>
 </tr>
@@ -166,14 +134,10 @@ A count of the blogs posted in the specified period
 
 **Comments** 
 
-
-
 </td>
 <td valign="top">
 
 A count of the comments made in the specified period
-
-
 
 </td>
 </tr>
@@ -182,14 +146,10 @@ A count of the comments made in the specified period
 
 **Discussions** 
 
-
-
 </td>
 <td valign="top">
 
 A count of the discussions created in the specified period
-
-
 
 </td>
 </tr>
@@ -198,14 +158,10 @@ A count of the discussions created in the specified period
 
 **Documents** 
 
-
-
 </td>
 <td valign="top">
 
 A count of the documents uploaded in the specified period
-
-
 
 </td>
 </tr>
@@ -214,14 +170,10 @@ A count of the documents uploaded in the specified period
 
 **Expertise Added** 
 
-
-
 </td>
 <td valign="top">
 
 A count of the areas of expertise added in the specified period
-
-
 
 </td>
 </tr>
@@ -230,14 +182,10 @@ A count of the areas of expertise added in the specified period
 
 **Expertise Endorsed** 
 
-
-
 </td>
 <td valign="top">
 
 Select the start and end dates for the reporting period. .A count of the endorsements of other users' areas of expertise in the specified period
-
-
 
 </td>
 </tr>
@@ -246,14 +194,10 @@ Select the start and end dates for the reporting period. .A count of the endorse
 
 **Ideas** 
 
-
-
 </td>
 <td valign="top">
 
 A count of the ideas proposed in the specified period
-
-
 
 </td>
 </tr>
@@ -262,14 +206,10 @@ A count of the ideas proposed in the specified period
 
 **Questions** 
 
-
-
 </td>
 <td valign="top">
 
 A count of the questions asked in the specified period
-
-
 
 </td>
 </tr>
@@ -278,14 +218,10 @@ A count of the questions asked in the specified period
 
 **Knowledge Base Articles** 
 
-
-
 </td>
 <td valign="top">
 
 A count of the knowledge base articles asked in the specified period
-
-
 
 </td>
 </tr>
@@ -294,14 +230,10 @@ A count of the knowledge base articles asked in the specified period
 
 **Kudos Sent** 
 
-
-
 </td>
 <td valign="top">
 
 A count of the kudos awarded in the specified period
-
-
 
 </td>
 </tr>
@@ -310,14 +242,10 @@ A count of the kudos awarded in the specified period
 
 **Links** 
 
-
-
 </td>
 <td valign="top">
 
 A count of the links added in the specified period
-
-
 
 </td>
 </tr>
@@ -326,14 +254,10 @@ A count of the links added in the specified period
 
 **Images** 
 
-
-
 </td>
 <td valign="top">
 
 A count of the images uploaded in the specified period
-
-
 
 </td>
 </tr>
@@ -342,14 +266,10 @@ A count of the images uploaded in the specified period
 
 **Polls** 
 
-
-
 </td>
 <td valign="top">
 
 A count of the polls created in the specified period
-
-
 
 </td>
 </tr>
@@ -358,14 +278,10 @@ A count of the polls created in the specified period
 
 **Poll Votes** 
 
-
-
 </td>
 <td valign="top">
 
 A count of the poll votes cast in the specified period
-
-
 
 </td>
 </tr>
@@ -374,14 +290,10 @@ A count of the poll votes cast in the specified period
 
 **Status Updates** 
 
-
-
 </td>
 <td valign="top">
 
 A count of the status updates made in the specified period
-
-
 
 </td>
 </tr>
@@ -390,14 +302,10 @@ A count of the status updates made in the specified period
 
 **Tasks** 
 
-
-
 </td>
 <td valign="top">
 
 A count of the tasks assigned in the specified period
-
-
 
 </td>
 </tr>
@@ -406,14 +314,10 @@ A count of the tasks assigned in the specified period
 
 **Tags** 
 
-
-
 </td>
 <td valign="top">
 
 A count of the tags created in the specified period
-
-
 
 </td>
 </tr>
@@ -422,14 +326,10 @@ A count of the tags created in the specified period
 
 **Videos** 
 
-
-
 </td>
 <td valign="top">
 
 A count of the videos created in the specified period
-
-
 
 </td>
 </tr>
@@ -438,14 +338,10 @@ A count of the videos created in the specified period
 
 **Wikis** 
 
-
-
 </td>
 <td valign="top">
 
 A count of the wiki pages created in the specified period
-
-
 
 </td>
 </tr>
@@ -454,14 +350,10 @@ A count of the wiki pages created in the specified period
 
 **Workpages** 
 
-
-
 </td>
 <td valign="top">
 
 A count of the workpages created in the specified period
-
-
 
 </td>
 </tr>
@@ -470,14 +362,10 @@ A count of the workpages created in the specified period
 
 **Total Contribution** 
 
-
-
 </td>
 <td valign="top">
 
 A total count of all content created in the specified period.
-
-
 
 </td>
 </tr>

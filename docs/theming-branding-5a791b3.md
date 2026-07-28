@@ -13,14 +13,10 @@ From this section in the Administration Console you can apply themes and brand y
 
 Screen
 
-
-
 </th>
 <th valign="top">
 
 What you can do
-
-
 
 </th>
 </tr>
@@ -28,8 +24,6 @@ What you can do
 <td valign="top">
 
 *Theme Manager*
-
-
 
 </td>
 <td valign="top">
@@ -61,8 +55,6 @@ From this screen, you can directly access the Theme Manager where you can:
 
 *Local Theme Designer*
 
-
-
 </td>
 <td valign="top">
 
@@ -73,16 +65,12 @@ From this screen, you can create local themes for your site.
 
 For more information, see [About Local and Global Themes](about-local-and-global-themes-f68b18b.md)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 *Email Templates*
-
-
 
 </td>
 <td valign="top">
@@ -95,8 +83,6 @@ From this screen, you can brand your emails as follows:
 
 
 For more information, see [Email Templates](email-templates-b998d91.md)
-
-
 
 </td>
 </tr>

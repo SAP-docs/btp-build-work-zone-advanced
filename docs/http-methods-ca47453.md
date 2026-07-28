@@ -15,35 +15,25 @@ Both this SAP Build Work Zone, advanced edition OData API Tutorial and theSAP Bu
 
 Protocol
 
-
-
 </th>
 <th valign="top">
 
 Create
-
-
 
 </th>
 <th valign="top">
 
 Retrieve
 
-
-
 </th>
 <th valign="top">
 
 Update
 
-
-
 </th>
 <th valign="top">
 
 Delete
-
-
 
 </th>
 </tr>
@@ -52,35 +42,25 @@ Delete
 
 ReST
 
-
-
 </td>
 <td valign="top">
 
 POST
-
-
 
 </td>
 <td valign="top">
 
 GET
 
-
-
 </td>
 <td valign="top">
 
 PUT or PATCH
 
-
-
 </td>
 <td valign="top">
 
 DELETE
-
-
 
 </td>
 </tr>
@@ -89,35 +69,25 @@ DELETE
 
 SAP Build Work Zone, advanced edition OData
 
-
-
 </td>
 <td valign="top">
 
 POST
-
-
 
 </td>
 <td valign="top">
 
 GET
 
-
-
 </td>
 <td valign="top">
 
 PATCH
 
-
-
 </td>
 <td valign="top">
 
 DELETE
-
-
 
 </td>
 </tr>

@@ -17,14 +17,10 @@ Static user lists are created and managed from the *User Lists* screen that you 
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 More Information
-
-
 
 </th>
 </tr>
@@ -33,8 +29,6 @@ More Information
 
 Create, edit, or delete a user list.
 
-
-
 </td>
 <td valign="top">
 
@@ -42,16 +36,12 @@ Use the dedicated button to create a new static user list. To edit or delete an 
 
 For more information, see the section below - **How to create and manage a static user list**.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Add users to a user list.
-
-
 
 </td>
 <td valign="top">
@@ -74,14 +64,10 @@ You can add users to a static user list in one of the following ways:
 
 View the usage details of a list.
 
-
-
 </td>
 <td valign="top">
 
 From the *Actions* menu, choose *View Usage* next to a user list. The usage report screen opens of the list. If you haven't enabled content administration yet, you can enable it now in the *Content Administration* screen in order to see where the user list is used.
-
-
 
 </td>
 </tr>
@@ -90,16 +76,12 @@ From the *Actions* menu, choose *View Usage* next to a user list. The usage repo
 
 Use the lists to assign or invite users to workspaces.
 
-
-
 </td>
 <td valign="top">
 
-Assign multiple users to a workspace all at one time.
+Simultaneously assign multiple users to a workspace.
 
 For more information, see [Assigning Required User Lists to Workspaces](assigning-required-user-lists-to-workspaces-290599f.md).
-
-
 
 </td>
 </tr>
@@ -107,8 +89,6 @@ For more information, see [Assigning Required User Lists to Workspaces](assignin
 <td valign="top">
 
 Add a user list to an administrative area.
-
-
 
 </td>
 <td valign="top">
@@ -124,8 +104,6 @@ Add a user list to an administrative area.
 
 
 Everyone in this user list is added to the selected area. Changes to a user list are automatically reflected in the area's list of users.
-
-
 
 </td>
 </tr>

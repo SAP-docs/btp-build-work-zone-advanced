@@ -34,14 +34,10 @@ Shows a column for each week or month in the selected time period, plus a total 
 
 Row item
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -50,14 +46,10 @@ Description
 
 **Blogs** 
 
-
-
 </td>
 <td valign="top">
 
 The number of blogs created in the week/month, plus a total for the entire period.
-
-
 
 </td>
 </tr>
@@ -66,14 +58,10 @@ The number of blogs created in the week/month, plus a total for the entire perio
 
 **Comments** 
 
-
-
 </td>
 <td valign="top">
 
 The number of comments made in the week/month, not counting those in Discussions or Ideas, plus a total for the entire period.
-
-
 
 </td>
 </tr>
@@ -82,14 +70,10 @@ The number of comments made in the week/month, not counting those in Discussions
 
 **Discussion Comments** 
 
-
-
 </td>
 <td valign="top">
 
 The number of comments made in discussions in each week/month, plus a total for the entire period.
-
-
 
 </td>
 </tr>
@@ -98,14 +82,10 @@ The number of comments made in discussions in each week/month, plus a total for 
 
 **Discussions Created** 
 
-
-
 </td>
 <td valign="top">
 
 The number of discussions created in each week/month, plus a total for the entire period.
-
-
 
 </td>
 </tr>
@@ -114,14 +94,10 @@ The number of discussions created in each week/month, plus a total for the entir
 
 **Document Annotations** 
 
-
-
 </td>
 <td valign="top">
 
 The number of documents annotated in each week/month, plus a total for the entire period.
-
-
 
 </td>
 </tr>
@@ -130,14 +106,10 @@ The number of documents annotated in each week/month, plus a total for the entir
 
 **Documents** 
 
-
-
 </td>
 <td valign="top">
 
 The number of documents uploaded in the week/month, plus a total for the entire period.
-
-
 
 </td>
 </tr>
@@ -146,14 +118,10 @@ The number of documents uploaded in the week/month, plus a total for the entire 
 
 **Events Created** 
 
-
-
 </td>
 <td valign="top">
 
 The number of calendar events created in the week/month, plus a total for the entire period.
-
-
 
 </td>
 </tr>
@@ -162,14 +130,10 @@ The number of calendar events created in the week/month, plus a total for the en
 
 **Workspaces Created** 
 
-
-
 </td>
 <td valign="top">
 
 The number of workspaces created in the week/month, plus a total for the entire period.
-
-
 
 </td>
 </tr>
@@ -178,14 +142,10 @@ The number of workspaces created in the week/month, plus a total for the entire 
 
 **Idea Comments** 
 
-
-
 </td>
 <td valign="top">
 
 The number of comments made in the week/month on ideas, plus a total for the entire period.
-
-
 
 </td>
 </tr>
@@ -194,14 +154,10 @@ The number of comments made in the week/month on ideas, plus a total for the ent
 
 **Ideas Created** 
 
-
-
 </td>
 <td valign="top">
 
 The number of ideas created in the week/month, plus a total for the entire period.
-
-
 
 </td>
 </tr>
@@ -210,14 +166,10 @@ The number of ideas created in the week/month, plus a total for the entire perio
 
 **Knowledge Base Articles** 
 
-
-
 </td>
 <td valign="top">
 
 The number of knowledge base articles created in the week/month, plus a total for the entire period.
-
-
 
 </td>
 </tr>
@@ -226,14 +178,10 @@ The number of knowledge base articles created in the week/month, plus a total fo
 
 **Kudos Sent** 
 
-
-
 </td>
 <td valign="top">
 
 The number of kudos sent in the week/month, plus a total for the entire period.
-
-
 
 </td>
 </tr>
@@ -242,14 +190,10 @@ The number of kudos sent in the week/month, plus a total for the entire period.
 
 **Links** 
 
-
-
 </td>
 <td valign="top">
 
 The number of links added in the week/month, plus a total for the entire period.
-
-
 
 </td>
 </tr>
@@ -258,14 +202,10 @@ The number of links added in the week/month, plus a total for the entire period.
 
 **New Invitations** 
 
-
-
 </td>
 <td valign="top">
 
 The number of invitations to join a workspace in the week/month, plus a total for the entire period.
-
-
 
 </td>
 </tr>
@@ -274,14 +214,10 @@ The number of invitations to join a workspace in the week/month, plus a total fo
 
 **New Members** 
 
-
-
 </td>
 <td valign="top">
 
 The number of new workspace members in the week/month, plus a total for the entire period.
-
-
 
 </td>
 </tr>
@@ -290,14 +226,10 @@ The number of new workspace members in the week/month, plus a total for the enti
 
 **Photo Annotations** 
 
-
-
 </td>
 <td valign="top">
 
 The number of photo annotations added in the week/month, plus a total for the entire period.
-
-
 
 </td>
 </tr>
@@ -306,14 +238,10 @@ The number of photo annotations added in the week/month, plus a total for the en
 
 **Photos** 
 
-
-
 </td>
 <td valign="top">
 
 The number of photos uploaded in the week/month, plus a total for the entire period.
-
-
 
 </td>
 </tr>
@@ -322,14 +250,10 @@ The number of photos uploaded in the week/month, plus a total for the entire per
 
 **Poll Votes** 
 
-
-
 </td>
 <td valign="top">
 
 The number of poll votes cast in the week/month, plus a total for the entire period.
-
-
 
 </td>
 </tr>
@@ -338,14 +262,10 @@ The number of poll votes cast in the week/month, plus a total for the entire per
 
 **Polls** 
 
-
-
 </td>
 <td valign="top">
 
 The number of polls created in the week/month, plus a total for the entire period.
-
-
 
 </td>
 </tr>
@@ -354,14 +274,10 @@ The number of polls created in the week/month, plus a total for the entire perio
 
 **Questions Answered** 
 
-
-
 </td>
 <td valign="top">
 
 The number of answers to questions added in the week/month, plus a total for the entire period.
-
-
 
 </td>
 </tr>
@@ -370,14 +286,10 @@ The number of answers to questions added in the week/month, plus a total for the
 
 **Questions Created** 
 
-
-
 </td>
 <td valign="top">
 
 The number of questions created in the week/month, plus a total for the entire period.
-
-
 
 </td>
 </tr>
@@ -386,14 +298,10 @@ The number of questions created in the week/month, plus a total for the entire p
 
 **Status Updates** 
 
-
-
 </td>
 <td valign="top">
 
 The number of status updates made in the week/month, plus a total for the entire period.
-
-
 
 </td>
 </tr>
@@ -402,14 +310,10 @@ The number of status updates made in the week/month, plus a total for the entire
 
 **Tasks Created** 
 
-
-
 </td>
 <td valign="top">
 
 The number of tasks created in the week/month, plus a total for the entire period.
-
-
 
 </td>
 </tr>
@@ -418,14 +322,10 @@ The number of tasks created in the week/month, plus a total for the entire perio
 
 **Videos** 
 
-
-
 </td>
 <td valign="top">
 
 The number of videos created in the week/month, plus a total for the entire period.
-
-
 
 </td>
 </tr>
@@ -434,14 +334,10 @@ The number of videos created in the week/month, plus a total for the entire peri
 
 **Wiki Pages** 
 
-
-
 </td>
 <td valign="top">
 
 The number of wiki pages created in the week/month, plus a total for the entire period.
-
-
 
 </td>
 </tr>
@@ -450,14 +346,10 @@ The number of wiki pages created in the week/month, plus a total for the entire 
 
 **Workpages** 
 
-
-
 </td>
 <td valign="top">
 
 The number of workpages created in the week/month, plus a total for the entire period.
-
-
 
 </td>
 </tr>

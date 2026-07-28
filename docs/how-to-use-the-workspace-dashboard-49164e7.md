@@ -10,7 +10,7 @@ The dashboard displays statistics about which workspace members are most active,
 
 Run your worksapce dashboard as follows:
 
-From your workspace, open the <span class="SAP-icons"></span> \(page navigator\) and choose *Dashboard*.
+From your workspace, open the <span class="SAP-icons-V5"></span> \(workspace navigator\) and choose *Dashboard*.
 
 > ### Note:  
 > When starting up the dashboard for the first time, you may see a message stating that it's preparing to initialize. You can navigate away from the page and return to it later. Subsequent dashboard displays for your workspace will take less time to generate.

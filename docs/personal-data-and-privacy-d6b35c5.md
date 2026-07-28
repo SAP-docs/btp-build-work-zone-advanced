@@ -34,7 +34,7 @@ When you leave the company, in the *Administration Console* \> *Feature Enableme
 
 -   **Show profile pages for alumni:** 
 
-    If this option is selected, you profile page is still visible. Your profile contributions \(for example, wiki pages, photos, any content you’ve created and uploaded to your profile, or content that you’re tagged in\) are is still available for others to reference.
+    If this option is selected, your profile page is still visible. Your profile contributions \(for example, wiki pages, photos, any content you’ve created and uploaded to your profile, or content that you’re tagged in\) are still available for others to reference.
 
     The company administrator can deselect this option to block access to, and the visibility of, your alumni profile page.
 
@@ -45,17 +45,30 @@ When you leave the company, in the *Administration Console* \> *Feature Enableme
 
 When either option is enabled, your alumni personal information is removed from all underlying database tables. All posts, uploads, and activity performed by you is now attributed to the text string, 'Alumni' or its corresponding localized strings in languages other than English.
 
+> ### Note:  
+> When a user's status is 'alumni' and their 30-day retention period has expired, all of their profile's change logs \(for example, change logs for email, telephone, custom fields, etc.\), will be deleted.
 
 
-## Personal Data Erasure: External User Account Deletion
 
-As an external user, when you’re finished using your site and no longer require your account: From your Account Settings, you can choose *Delete My Account*, which permanently removes your User ID and prevents reactivation of your account. For any work associated with your ID \(for example, comments, content items\), your name will be replaced with the label 'Alumni'.
+<a name="loiod6b35c55d91a4231b3f9b390ae89c0d8__section_cng_stp_m1c"/>
 
-As an external user, if you choose not to accept the custom Terms of Service, you can choose *Delete My Account* in the Terms of Service dialog to log out and disable your account. This account can’t be recovered.
+## Retention period
+
+If the *Clear profile info for alumni* option is enabled, the retention period for alumni data is 30 days.
 
 
 
 ## Profile Data Disclosure
 
 In the User Action menu, under *Settings* \> *Advanced Settings* \> *Profile Data Disclosure*, you can view a list of your personal data. Disclosure details satisfy the compliance requirements for national and regional data privacy standards. Personal data from your provisioning system \(for example, e-mail addresses, phone numbers, location addresses\) can also display on this page.
+
+
+
+<a name="loiod6b35c55d91a4231b3f9b390ae89c0d8__section_yy2_z12_ldc"/>
+
+## Downloading Personal Data
+
+Users can request administrators to download their personal data.
+
+As an administrator, you can do this from the *Administration Console* \> *Users* by clicking *Export User Data* from the *Actions* menu. If the export is successful, a ZIP file is added to your user profile under *My Exports*. You can then download the extracted ZIP file and send it to the user.
 

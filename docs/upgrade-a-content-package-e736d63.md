@@ -15,8 +15,6 @@ When there’s a new version of a content package available, the status of your 
 
 For globally provided content packages
 
-
-
 </td>
 <td valign="top">
 
@@ -33,8 +31,6 @@ In this case, the provider of the content package \(SAP or a third party\), has 
 <td valign="top">
 
 For locally provided content packages
-
-
 
 </td>
 <td valign="top">
@@ -62,14 +58,10 @@ In both scenarios, you can determine when to be notified when a major, minor, or
 
 Version update option
 
-
-
 </th>
 <th valign="top">
 
 What does it mean?
-
-
 
 </th>
 </tr>
@@ -78,14 +70,10 @@ What does it mean?
 
 Default value
 
-
-
 </td>
 <td valign="top">
 
 In this case, the developer of the content package has set one of the options below as the default option. The user can then override this default value by selecting one of the options in the rows below. This affects the current version of the content package and any future versions of it.
-
-
 
 </td>
 </tr>
@@ -94,14 +82,10 @@ In this case, the developer of the content package has set one of the options be
 
 Automatic update for all versions
 
-
-
 </td>
 <td valign="top">
 
 Each time there's a new version - whether it's a major, minor, or a patch update, the content package is upgraded automatically. You won't get notified that a new version is available, but you'll see that the version number of the content package has changed.
-
-
 
 </td>
 </tr>
@@ -110,16 +94,12 @@ Each time there's a new version - whether it's a major, minor, or a patch update
 
 Automatic update for Minor and Patch versions only
 
-
-
 </td>
 <td valign="top">
 
 When there are minor or patch updates, the content package is upgraded automatically without a notification. You'll see that the version number of the content package has changed.
 
 When there’s a major update, an *Upgrade Available* banner displays at the top of your content package and you can manually install.
-
-
 
 </td>
 </tr>
@@ -128,14 +108,10 @@ When there’s a major update, an *Upgrade Available* banner displays at the top
 
 Automatic update for Patch version only
 
-
-
 </td>
 <td valign="top">
 
 When there’s only a patch update, the content package is upgraded automatically without a notification. You'll see that the version number of the content package has changed. When there are major or minor updates, an *Upgrade Available* banner displays at the top of your content package and you can manually install.
-
-
 
 </td>
 </tr>
@@ -144,14 +120,10 @@ When there’s only a patch update, the content package is upgraded automaticall
 
 Manual update
 
-
-
 </td>
 <td valign="top">
 
 Each time there's a new version - whether it's a major, minor, or a patch update, an *Upgrade Available* banner displays at the top of your content package and you’ll need to manually install.
-
-
 
 </td>
 </tr>

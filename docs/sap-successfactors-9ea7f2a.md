@@ -8,9 +8,6 @@
 
 ## SAP SuccessFactors Learning
 
-> ### Note:  
-> This capability is only relevant to SAP SuccessFactors Work Zone.
-
 By integrating SAP SuccessFactors Work Zone with a social learning management system such as SuccessFactors Learning, a workspace in SAP SuccessFactors Work Zone can be created from a curriculum, learning item, or scheduled offering. Course administrators \(who are workspace administrators\) can create social learning workspaces. They can use a specific learning template \(for example, Education Center, Training Room templates\), provide a community for instructors to moderate forums and enable students to share information with instructors and peers.
 
 > ### Note:  

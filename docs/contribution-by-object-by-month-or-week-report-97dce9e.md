@@ -36,14 +36,10 @@ Shows a row for each of the following activities:
 
 Row item
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -52,14 +48,10 @@ Description
 
 **Blogs** 
 
-
-
 </td>
 <td valign="top">
 
 The number of created or edited blog posts.
-
-
 
 </td>
 </tr>
@@ -68,14 +60,10 @@ The number of created or edited blog posts.
 
 **Comments** 
 
-
-
 </td>
 <td valign="top">
 
 The number of comments.
-
-
 
 </td>
 </tr>
@@ -84,14 +72,10 @@ The number of comments.
 
 **Discussions** 
 
-
-
 </td>
 <td valign="top">
 
 The number of discussions.
-
-
 
 </td>
 </tr>
@@ -100,14 +84,10 @@ The number of discussions.
 
 **Documents** 
 
-
-
 </td>
 <td valign="top">
 
 The number of uploaded documents .
-
-
 
 </td>
 </tr>
@@ -116,14 +96,10 @@ The number of uploaded documents .
 
 **Expertise Added** 
 
-
-
 </td>
 <td valign="top">
 
 The number of expertise entries.
-
-
 
 </td>
 </tr>
@@ -132,14 +108,10 @@ The number of expertise entries.
 
 **Expertise Endorsed** 
 
-
-
 </td>
 <td valign="top">
 
 The number of expertise endorsements.
-
-
 
 </td>
 </tr>
@@ -148,14 +120,10 @@ The number of expertise endorsements.
 
 **Ideas** 
 
-
-
 </td>
 <td valign="top">
 
 The number of added ideas.
-
-
 
 </td>
 </tr>
@@ -164,14 +132,10 @@ The number of added ideas.
 
 **Questions** 
 
-
-
 </td>
 <td valign="top">
 
 The number of asked questions.
-
-
 
 </td>
 </tr>
@@ -180,14 +144,10 @@ The number of asked questions.
 
 **Knowledge Base Articles** 
 
-
-
 </td>
 <td valign="top">
 
 The number of created knowledge base articles.
-
-
 
 </td>
 </tr>
@@ -196,14 +156,10 @@ The number of created knowledge base articles.
 
 **Kudos Sent** 
 
-
-
 </td>
 <td valign="top">
 
 The number of awarded kudos.
-
-
 
 </td>
 </tr>
@@ -212,14 +168,10 @@ The number of awarded kudos.
 
 **Links** 
 
-
-
 </td>
 <td valign="top">
 
 The number of added links.
-
-
 
 </td>
 </tr>
@@ -228,14 +180,10 @@ The number of added links.
 
 **Images** 
 
-
-
 </td>
 <td valign="top">
 
 The number of uploaded images.
-
-
 
 </td>
 </tr>
@@ -244,14 +192,10 @@ The number of uploaded images.
 
 **Polls** 
 
-
-
 </td>
 <td valign="top">
 
 The number of created polls.
-
-
 
 </td>
 </tr>
@@ -260,14 +204,10 @@ The number of created polls.
 
 **Poll Votes** 
 
-
-
 </td>
 <td valign="top">
 
 The number of casted poll votes.
-
-
 
 </td>
 </tr>
@@ -276,14 +216,10 @@ The number of casted poll votes.
 
 **Status Updates** 
 
-
-
 </td>
 <td valign="top">
 
 The number of status updates.
-
-
 
 </td>
 </tr>
@@ -292,14 +228,10 @@ The number of status updates.
 
 **Tasks** 
 
-
-
 </td>
 <td valign="top">
 
 The number of assigned tasks.
-
-
 
 </td>
 </tr>
@@ -308,14 +240,10 @@ The number of assigned tasks.
 
 **Events** 
 
-
-
 </td>
 <td valign="top">
 
 The number of created calendar events.
-
-
 
 </td>
 </tr>
@@ -324,14 +252,10 @@ The number of created calendar events.
 
 **Tags** 
 
-
-
 </td>
 <td valign="top">
 
 The number of applied tags.
-
-
 
 </td>
 </tr>
@@ -340,14 +264,10 @@ The number of applied tags.
 
 **Videos** 
 
-
-
 </td>
 <td valign="top">
 
 The number of added videos.
-
-
 
 </td>
 </tr>
@@ -356,14 +276,10 @@ The number of added videos.
 
 **Wikis** 
 
-
-
 </td>
 <td valign="top">
 
 The number of created wiki pages.
-
-
 
 </td>
 </tr>
@@ -372,14 +288,10 @@ The number of created wiki pages.
 
 **Workpages** 
 
-
-
 </td>
 <td valign="top">
 
 The number of created workpages.
-
-
 
 </td>
 </tr>
@@ -388,14 +300,10 @@ The number of created workpages.
 
 **Workspaces Created** 
 
-
-
 </td>
 <td valign="top">
 
 The number of created workspaces.
-
-
 
 </td>
 </tr>

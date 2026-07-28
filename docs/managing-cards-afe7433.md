@@ -4,7 +4,7 @@
 
 # Managing Cards
 
-You can manage your UI integration cards from the *Cards* screen in the *Administration Console*.
+How you can manage your UI integration cards from the *Cards* screen in the *Administration Console*.
 
 
 
@@ -12,9 +12,7 @@ You can manage your UI integration cards from the *Cards* screen in the *Adminis
 
 ## Access the Cards screen
 
-1.  Under your avatar, click *Administration Console*.
-
-2.  Expand the *UI Integration* section, and click *Cards*.
+1.  From the Administration Console, expand the *UI Integration* section, and click *Cards*.
 
 
 
@@ -34,48 +32,22 @@ From the *Cards* screen you can:
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
-</tr>
-<tr>
-<td valign="top">
-
-Upload a custom card.
-
-
-
-</td>
-<td valign="top">
-
-Upload custom cards that a developer has created. In this case, the developer sends you a ZIP file with the card files and you simply click *Upload Card*.
-
-The card is disabled by default.
-
-
-
-</td>
 </tr>
 <tr>
 <td valign="top">
 
 Enable a card.
 
-
-
 </td>
 <td valign="top">
 
 Enable cards by using the toggle button on the card tile. By doing this, you're making the card available to users to add to a workpage.
-
-
 
 </td>
 </tr>
@@ -84,14 +56,12 @@ Enable cards by using the toggle button on the card tile. By doing this, you're 
 
 Define access to a card.
 
-
-
 </td>
 <td valign="top">
 
-Once you've uploaded and enabled a UI integration card, the card can be embedded into any workpage for all members to see. To limit the access to a specific card, you can do the following:
+Once you've uploaded and enabled a UI integration card, the card can be embedded into any workpage for all members who have access to the card. To limit the access to a specific card, you can do the following:
 
-1.  On the card tile, click the overflow icon <span class="SAP-icons"></span> on the right and select *Card Access List*. You can see that the card has unrestricted access by default.
+1.  On the card tile, click the overflow icon <span class="SAP-icons-V5"></span> on the right and select *Card Access List*. You can see that the card has unrestricted access by default.
 
 2.  To restrict access to the card, select the *Restricted Access* radio button.
 
@@ -101,7 +71,7 @@ Once you've uploaded and enabled a UI integration card, the card can be embedded
 
 5.  Click *Save*.
 
-    Now, if you go to any workspace that you've added to the list, you'll find the card in the widget gallery under the *Cards* category. If the workspace isn’t added to the list, the card won't appear in the widget gallery for selection.
+    Now, if you go to any workspace that you've added to the list, you'll find the card in the content finder under the *Cards* category. If the workspace isn’t added to the list, the card won't appear in the content finder and can't be selected.
 
 
 
@@ -113,14 +83,10 @@ Once you've uploaded and enabled a UI integration card, the card can be embedded
 
 Navigate directly to where a card is used.
 
-
-
 </td>
 <td valign="top">
 
 Each card tile displays how often it's used in your site and gives a detailed list where it appears. Click the workspace name to navigate directly to the workpage where the card is used.
-
-
 
 </td>
 </tr>
@@ -129,8 +95,6 @@ Each card tile displays how often it's used in your site and gives a detailed li
 
 Configure a custom card.
 
-
-
 </td>
 <td valign="top">
 
@@ -138,16 +102,12 @@ You can only do this if the developer has enabled customization.
 
 You can also configure the Web Content Card - this is an out-of-the-box card that administrators and users can customize.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Download a card.
-
-
 
 </td>
 <td valign="top">
@@ -168,8 +128,6 @@ Download a version of a card and create a new version that you can later upload.
 
 Disable a card.
 
-
-
 </td>
 <td valign="top">
 
@@ -185,38 +143,12 @@ Disable a card by using the toggle button to prevent a user from adding it to a 
 <tr>
 <td valign="top">
 
-Delete a card.
-
-> ### Note:  
-> You can only delete a card or widget that you've uploaded.
-
-
-
-</td>
-<td valign="top">
-
-You can only delete content that you’ve uploaded. Out-of-the-box cards, or cards that are part of a content package, can't be deleted.
-
-> ### Note:  
-> Again, if you delete it, an empty container displays on the page - so make sure that you first remove it from the workpage.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Filter cards.
-
-
 
 </td>
 <td valign="top">
 
 You can filter the cards depending on their source by selecting one of the following providers: Out-Of-The-Box, Uploaded, or those that are provided in a Content Package.
-
-
 
 </td>
 </tr>

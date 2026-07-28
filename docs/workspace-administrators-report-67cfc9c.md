@@ -32,14 +32,10 @@ Shows a row for each workspace with the following columns of information:
 
 Row item
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -48,14 +44,10 @@ Description
 
 **Workspace name** 
 
-
-
 </td>
 <td valign="top">
 
 The name of the workspace
-
-
 
 </td>
 </tr>
@@ -64,14 +56,10 @@ The name of the workspace
 
 **Workspace Type** 
 
-
-
 </td>
 <td valign="top">
 
 Private or Public
-
-
 
 </td>
 </tr>
@@ -80,14 +68,10 @@ Private or Public
 
 **Admin Name** 
 
-
-
 </td>
 <td valign="top">
 
 First and last name of workspace administrator
-
-
 
 </td>
 </tr>
@@ -96,14 +80,10 @@ First and last name of workspace administrator
 
 **Admin Email** 
 
-
-
 </td>
 <td valign="top">
 
 Email address of workspace administrator
-
-
 
 </td>
 </tr>
@@ -112,14 +92,10 @@ Email address of workspace administrator
 
 **Admin Status** 
 
-
-
 </td>
 <td valign="top">
 
 Active or Alumni
-
-
 
 </td>
 </tr>
@@ -128,14 +104,10 @@ Active or Alumni
 
 **Workspace URL** 
 
-
-
 </td>
 <td valign="top">
 
 The URL address for the workspace
-
-
 
 </td>
 </tr>
@@ -144,14 +116,10 @@ The URL address for the workspace
 
 **Last Modified Date** 
 
-
-
 </td>
 <td valign="top">
 
 The date and time for when the workspace was last modified
-
-
 
 </td>
 </tr>

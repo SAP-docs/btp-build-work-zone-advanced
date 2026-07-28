@@ -33,14 +33,10 @@ Shows a row for each user with the following columns of information:
 
 Row item
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -49,14 +45,10 @@ Description
 
 **User ID** 
 
-
-
 </td>
 <td valign="top">
 
 The SAP Build Work Zone, advanced edition user ID of the user who has accepted the Terms of Service
-
-
 
 </td>
 </tr>
@@ -65,14 +57,10 @@ The SAP Build Work Zone, advanced edition user ID of the user who has accepted t
 
 **First Name** 
 
-
-
 </td>
 <td valign="top">
 
 The first name of the user who has accepted the Terms of Service
-
-
 
 </td>
 </tr>
@@ -81,14 +69,10 @@ The first name of the user who has accepted the Terms of Service
 
 **Last Name** 
 
-
-
 </td>
 <td valign="top">
 
 The last name of the user who has accepted the Terms of Service
-
-
 
 </td>
 </tr>
@@ -97,14 +81,10 @@ The last name of the user who has accepted the Terms of Service
 
 **Email Address** 
 
-
-
 </td>
 <td valign="top">
 
 The email address of the user who has accepted the Terms of Service
-
-
 
 </td>
 </tr>
@@ -113,14 +93,10 @@ The email address of the user who has accepted the Terms of Service
 
 **Status** 
 
-
-
 </td>
 <td valign="top">
 
 The status of the user who has accepted the Terms of Service \(Active or Alumni\)
-
-
 
 </td>
 </tr>
@@ -129,14 +105,10 @@ The status of the user who has accepted the Terms of Service \(Active or Alumni\
 
 **Accepted Version** 
 
-
-
 </td>
 <td valign="top">
 
 The version number of the Terms of Service accepted by the user. Terms of Service contracts are incrementally numbered as they're added.
-
-
 
 </td>
 </tr>
@@ -145,14 +117,10 @@ The version number of the Terms of Service accepted by the user. Terms of Servic
 
 **Accepted Time** 
 
-
-
 </td>
 <td valign="top">
 
 The time at which the user accepted the Terms of Service
-
-
 
 </td>
 </tr>
@@ -161,14 +129,10 @@ The time at which the user accepted the Terms of Service
 
 **Link** 
 
-
-
 </td>
 <td valign="top">
 
 The URL of the Terms of Service accepted by the user
-
-
 
 </td>
 </tr>

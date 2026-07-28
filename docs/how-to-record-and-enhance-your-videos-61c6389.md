@@ -141,14 +141,10 @@ When you play video files, you can use a replay feature to play it again. You ca
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 What you can do
-
-
 
 </th>
 </tr>
@@ -156,8 +152,6 @@ What you can do
 <td valign="top">
 
 Replay an audio or video file.
-
-
 
 </td>
 <td valign="top">
@@ -168,8 +162,6 @@ When the file is finished playing, it will replay automatically.
 
 If you want to stop the replay, toggle the playback icon.
 
-
-
 </td>
 </tr>
 <tr>
@@ -177,14 +169,10 @@ If you want to stop the replay, toggle the playback icon.
 
 Adjust playback speed.
 
-
-
 </td>
 <td valign="top">
 
 While a video or audio file is playing, at the bottom of the video, click through the slow and fast speed arrows to choose one of the playback speeds.
-
-
 
 </td>
 </tr>
@@ -205,14 +193,10 @@ Closed captioning for videos supports Section 508 accessibility requirements. Yo
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 What you can do
-
-
 
 </th>
 </tr>
@@ -220,8 +204,6 @@ What you can do
 <td valign="top">
 
 Upload and apply closed captions.
-
-
 
 </td>
 <td valign="top">
@@ -242,14 +224,10 @@ Upload and apply closed captions.
 
 Activate or deactivate captions.
 
-
-
 </td>
 <td valign="top">
 
 While the video is playing, from the bottom-right toolbar, turn captions on or off.
-
-
 
 </td>
 </tr>
@@ -258,16 +236,12 @@ While the video is playing, from the bottom-right toolbar, turn captions on or o
 
 Select a language.
 
-
-
 </td>
 <td valign="top">
 
 While the video is playing, from the bottom-right toolbar, select your preferred language.
 
 Your preference is kept.
-
-
 
 </td>
 </tr>
@@ -293,14 +267,10 @@ You can annotate time frames at a specific point in the video or throughout its 
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 What you can do
-
-
 
 </th>
 </tr>
@@ -308,8 +278,6 @@ What you can do
 <td valign="top">
 
 Annotate a video.
-
-
 
 </td>
 <td valign="top">
@@ -332,8 +300,6 @@ Annotate a video.
 <td valign="top">
 
 Edit or delete an annotation.
-
-
 
 </td>
 <td valign="top">
@@ -384,4 +350,6 @@ To select a video thumbnail image:
 
 
 The video thumbnail is bundled with the video. They're subject together to content approval, if configured. For example, if the thumbnail is changed, the video and thumbnail are both subject to content approval.
+
+For more information, see [How to Add Thumbnails to Your Content](how-to-add-thumbnails-to-your-content-0174ab7.md).
 

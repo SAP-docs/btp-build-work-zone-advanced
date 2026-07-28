@@ -19,14 +19,10 @@ If your workspace administrator has enabled the Microsoft SharePoint integration
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 What you can do
-
-
 
 </th>
 </tr>
@@ -34,8 +30,6 @@ What you can do
 <td valign="top">
 
 *Browse SharePoint documents*.
-
-
 
 </td>
 <td valign="top">
@@ -61,8 +55,6 @@ What you can do
 <td valign="top">
 
 *Copy documents from SharePoint repository to* a site.
-
-
 
 </td>
 <td valign="top">

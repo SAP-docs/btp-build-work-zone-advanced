@@ -26,21 +26,15 @@ You can access and share content that you created in a workspace with various co
 
 Step
 
-
-
 </th>
 <th valign="top">
 
 Persona
 
-
-
 </th>
 <th valign="top">
 
 Tasks
-
-
 
 </th>
 </tr>
@@ -49,14 +43,10 @@ Tasks
 
 Step 1: Download a ZIP file with the relevant files from SAP Build Work Zone, advanced edition.
 
-
-
 </td>
 <td valign="top">
 
 SAP Build Work Zone, advanced edition administrator
-
-
 
 </td>
 <td valign="top">
@@ -79,14 +69,10 @@ SAP Build Work Zone, advanced edition administrator
 
 Step 2: Upload the ZIP file into Microsoft Teams.
 
-
-
 </td>
 <td valign="top">
 
 Microsoft Teams administrator
-
-
 
 </td>
 <td valign="top">
@@ -109,21 +95,17 @@ Microsoft Teams administrator
 
 Step 3: Access SAP Build Work Zone, advanced edition in Microsoft Teams.
 
-
-
 </td>
 <td valign="top">
 
 SAP Build Work Zone, advanced edition end user
-
-
 
 </td>
 <td valign="top">
 
 1.  Open Microsoft Teams on your system, and click *Apps*.
 
-    ![](images/Screenshot_Open_Apps_44114b4.png)
+    ![Shows the Apps screen where you can search for the SAP Build Work Zone, advanced edition app..](images/Screenshot_Open_Apps_44114b4.png)
 
 2.  Type in `SAP Build Work Zone` to search for the app.
 
@@ -158,21 +140,15 @@ To enable users to chat with their colleagues in Microsoft Teams, you first need
 
 Steps
 
-
-
 </th>
 <th valign="top">
 
 Persona
 
-
-
 </th>
 <th valign="top">
 
 Tasks
-
-
 
 </th>
 </tr>
@@ -181,14 +157,10 @@ Tasks
 
 Step 1: Enable the chat.
 
-
-
 </td>
 <td valign="top">
 
 SAP Build Work Zone, advanced edition administrator
-
-
 
 </td>
 <td valign="top">
@@ -209,14 +181,10 @@ SAP Build Work Zone, advanced edition administrator
 
 Step 2: Chat with your colleagues in Microsoft Teams.
 
-
-
 </td>
 <td valign="top">
 
 SAP Build Work Zone, advanced edition end user
-
-
 
 </td>
 <td valign="top">

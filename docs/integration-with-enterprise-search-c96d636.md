@@ -9,7 +9,7 @@ Enterprise Search provides direct search access to business data stored in SAP S
 To locate business objects using the search bar, SAP Enterprise Search must be integrated and set up in your environment. Otherwise, the search returns only the local apps that have been deployed to the subaccount. The search result list contains all the business objects and apps you're authorized to access. Search providers must be connected to Enterprise Search to make their objects available for searching.
 
 > ### Note:  
-> When using SAP Enterprise Search and SAP Gateway OData services in a co-deployed configuration, you have to change the SAP Gateway configuration according to the following SAP Note [3191725](https://launchpad.support.sap.com/#/notes/3191725). Otherwise, navigation from an enterprise search result list item to an object page, may fail.
+> When using SAP Enterprise Search and SAP Gateway OData services in a co-deployed configuration, you have to change the SAP Gateway configuration according to the following SAP Note [3191725](https://me.sap.com/notes/3191725). Otherwise, navigation from an enterprise search result list item to an object page, may fail.
 
 
 
@@ -17,7 +17,7 @@ To locate business objects using the search bar, SAP Enterprise Search must be i
 
 -   Enterprise Search is up and running.
 
-    For more information see, [Setting Up Enterprise Search](https://help.sap.com/viewer/6522d0462aeb4909a79c3462b090ec51/1709.latest/en-US/f12e6f2de1424beda6286370406e7fcc.html)
+    For more information see, [Setting Up Enterprise Search](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/90b263323d0a4976bcda415e6bd20ea4/8588b6c3499949149c08e2163e78ca9a.html)
 
 -   SAP cloud connector is connected to the subaccount in which you connect to Enterprise Search. The SAP Gateway system, which is connected to the Enterprise Search backend, is exposed through SAP cloud connector and reachable from the cloud.
 
@@ -32,7 +32,7 @@ To locate business objects using the search bar, SAP Enterprise Search must be i
 
 
 
-### S/4HANA
+### SAP S/4HANA
 
 1.  **Configure Destinations**
 
@@ -54,11 +54,11 @@ To locate business objects using the search bar, SAP Enterprise Search must be i
 
 
 
-### S/4HANA Cloud
+### SAP S/4HANA Cloud
 
 1.  **Configure Destinations**
 
-    1.  In the SAP BTP cockpit, open the *Destinations* screen. For S/4HANA Cloud there are two runtime destinations. One is used for launching apps in an iFrame via a direct URL to the host, and another one for retrieving dynamic data. Edit the runtime destination that launches the app in an iFrame.
+    1.  In the SAP BTP cockpit, open the *Destinations* screen. For SAP S/4HANA Cloud there are two runtime destinations. One is used for launching apps in an iFrame via a direct URL to the host, and another one for retrieving dynamic data. Edit the runtime destination that launches the app in an iFrame.
     2.  Add a custom property to the destination: `launchpad.esearch.provider` with value `abap_odata`.
 
 2.  **Configure Alias Mapping**

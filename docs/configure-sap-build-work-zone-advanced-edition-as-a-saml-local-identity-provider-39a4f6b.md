@@ -16,7 +16,7 @@ To configure SAP Build Work Zone, advanced edition as a SAML identity provider, 
       
     **SAML Local Identity Provider screen**
 
-    ![](images/SAML_Local_Identity_Provider_Screen_6476653.png "SAML Local Identity Provider screen")
+    ![Screen capture of the SAML Local Identity Provider screen.](images/SAML_Local_Identity_Provider_Screen_6476653.png "SAML Local Identity Provider screen")
 
     The *Issuer* field contains the URI that shows the issuer's identity, in this case, your company's SAP Build Work Zone, advanced edition instance.
 

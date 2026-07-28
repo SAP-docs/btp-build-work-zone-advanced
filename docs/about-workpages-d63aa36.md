@@ -21,10 +21,8 @@ Once you’re done designing your workpage, you can publish it for everyone in t
 
 For more information about workpages, see:
 
--   [How to Add Workpages to Your Site](how-to-add-workpages-to-your-site-c3734dd.md)
+-   [How to Create Workpages in Your Workspace](how-to-create-workpages-in-your-workspace-c3734dd.md)
 
--   [Define Workpage Settings](define-workpage-settings-9164929.md)
-
--   [How to Add Content to Workspaces](how-to-add-content-to-workspaces-19bf8aa.md)
+-   [How to Use the Workpage Editor](how-to-use-the-workpage-editor-9164929.md)
 
 

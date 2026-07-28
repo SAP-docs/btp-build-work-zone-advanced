@@ -19,7 +19,7 @@ To integrate data from a new application, or data that is not currently accessib
 
 ## Procedures for integrating new business records into SAP Build Work Zone, advanced edition
 
-![](images/SJDG-3ExtApps-01IntegrateNewBusinessRecords01_png_f1ad33b.png)
+![Diagram summarizing the procedures for integrating new business records into SAP Build Work Zone, advanced edition.](images/SJDG-3ExtApps-01IntegrateNewBusinessRecords01_png_f1ad33b.png)
 
 1.  Decide which "application type" you are going to use for your integration:
     -   **SAP BTP:** provides a cloud-based platform for your integration, and its services include the ability to add an OData API for applications that do not have one.

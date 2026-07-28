@@ -23,7 +23,7 @@ The Feed Widget Builder provides the easy creation of a highly customizable feed
 
 Fill in the widget builder form:
 
-![](images/WidgetBuilder2_db30fcd.png)
+![Screenshot of the Feed Widget Builder screen](images/WidgetBuilder2_db30fcd.png)
 
 
 <table>
@@ -32,14 +32,10 @@ Fill in the widget builder form:
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 More Info
-
-
 
 </th>
 </tr>
@@ -48,8 +44,6 @@ More Info
 
 Widget div ID
 
-
-
 </td>
 <td valign="top">
 
@@ -57,16 +51,12 @@ Enter a unique and meaningful name for the HTML div tag that will encapsulate yo
 
 This div ID is used in the widget JavaScript that you generate using this form, and it must match the div ID in the HTML page that you use to call and display this widget. The div ID must be unique within the page in which you add the widget.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Authentication Type
-
-
 
 </td>
 <td valign="top">
@@ -96,8 +86,6 @@ var w = sapjam.feedWidget.create("myDiv",{
 <td valign="top">
 
 Feed Type
-
-
 
 </td>
 <td valign="top">
@@ -129,14 +117,10 @@ Select the type of feed that you want to display.
 
 Style
 
-
-
 </td>
 <td valign="top">
 
 Select the styling that you want to apply to your widget.
-
-
 
 </td>
 </tr>
@@ -145,14 +129,10 @@ Select the styling that you want to apply to your widget.
 
 Post Mode
 
-
-
 </td>
 <td valign="top">
 
 Select the text entry box at the top of the feed in which you can post a comment.
-
-
 
 </td>
 </tr>
@@ -161,14 +141,10 @@ Select the text entry box at the top of the feed in which you can post a comment
 
 Reply Mode
 
-
-
 </td>
 <td valign="top">
 
 Select the option to reply to other peoples' comments.
-
-
 
 </td>
 </tr>
@@ -223,14 +199,10 @@ Fill in the widget builder form:
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 More Info
-
-
 
 </th>
 </tr>
@@ -239,8 +211,6 @@ More Info
 
 Widget div ID
 
-
-
 </td>
 <td valign="top">
 
@@ -248,16 +218,12 @@ Enter a unique and meaningful name for the HTML div tag that will encapsulate yo
 
 This div ID is used in the widget JavaScript that you generate using this form, and it must match the div ID in the HTML page that you use to call and display this widget. The div ID must be unique within the page in which you add the widget.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Authentication Type
-
-
 
 </td>
 <td valign="top">
@@ -288,14 +254,10 @@ var w = sapjam.feedWidget.create("myDiv",{
 
 Type
 
-
-
 </td>
 <td valign="top">
 
 Select the layout of the recommendations that you want to use.
-
-
 
 </td>
 </tr>
@@ -304,14 +266,10 @@ Select the layout of the recommendations that you want to use.
 
 \# of Recommendations
 
-
-
 </td>
 <td valign="top">
 
 Select the number of recommendations that you want to display.
-
-
 
 </td>
 </tr>
@@ -320,14 +278,10 @@ Select the number of recommendations that you want to display.
 
 Recommendation Type
 
-
-
 </td>
 <td valign="top">
 
 Select the type of recommendations you want to display: Content, People, Workspaces.
-
-
 
 </td>
 </tr>
@@ -381,14 +335,10 @@ Fill in the widget builder form:
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 More Info
-
-
 
 </th>
 </tr>
@@ -397,16 +347,12 @@ More Info
 
 Widget element ID
 
-
-
 </td>
 <td valign="top">
 
 Enter a unique and meaningful name for the HTML div tag that will encapsulate your Share widget.
 
 This div ID is used in the widget JavaScript that you generate using this form, and it must match the div ID in the HTML page that you use to call and display this widget. The div ID must be unique within the page in which you add the widget.
-
-
 
 </td>
 </tr>
@@ -415,14 +361,10 @@ This div ID is used in the widget JavaScript that you generate using this form, 
 
 Create default widget button
 
-
-
 </td>
 <td valign="top">
 
 Select this option to have a widget button included in the embedded widget. If you deselect this option, you must add the text or icon to be displayed in the div tag from which the widget is displayed.
-
-
 
 </td>
 </tr>
@@ -431,14 +373,10 @@ Select this option to have a widget button included in the embedded widget. If y
 
 Page URL
 
-
-
 </td>
 <td valign="top">
 
 Enter the URL of the external web page in which the widget it embedded. It is the initial content of this page that will be displayed in the feed.
-
-
 
 </td>
 </tr>
@@ -446,8 +384,6 @@ Enter the URL of the external web page in which the widget it embedded. It is th
 <td valign="top">
 
 Workspace ID \(Optional\)
-
-
 
 </td>
 <td valign="top">
@@ -466,14 +402,10 @@ Enter the ID for the workspace in which you want the external page to have an en
 
 Use custom branding
 
-
-
 </td>
 <td valign="top">
 
 Select this option to include your company's logo in the shared content.
-
-
 
 </td>
 </tr>

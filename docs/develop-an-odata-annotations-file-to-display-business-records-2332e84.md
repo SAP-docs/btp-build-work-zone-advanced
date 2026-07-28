@@ -149,15 +149,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <th valign="top">
 
     Element
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -165,15 +161,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **Schema**
-
-
     
     </td>
     <td valign="top">
     
     For more information, see [odata-csdl-schemas](https://oasis-tcs.github.io/odata-csdl-schemas/).
-
-
     
     </td>
     </tr>
@@ -187,22 +179,16 @@ Some examples of the significant structures of an Annotations file that are disc
     <th valign="top">
 
     Attribute
-
-
     
     </th>
     <th valign="top">
 
     Use
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -210,22 +196,16 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **Target**
-
-
     
     </td>
     <td valign="top">
     
     Mandatory
-
-
     
     </td>
     <td valign="top">
     
     A reference to an EntityType in the external solution's OData API $metadata.
-
-
     
     </td>
     </tr>
@@ -239,15 +219,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <th valign="top">
 
     Element
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -255,15 +231,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **[Annotation](develop-an-odata-annotations-file-to-display-business-records-2332e84.md#loio2332e84e2b5e4d34b0c52b22522db5b6__annotation)**
-
-
     
     </td>
     <td valign="top">
     
     Describes a section of an External Object.
-
-
     
     </td>
     </tr>
@@ -298,15 +270,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <th valign="top">
 
     Element
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -314,15 +282,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **[Annotations](develop-an-odata-annotations-file-to-display-business-records-2332e84.md#loio2332e84e2b5e4d34b0c52b22522db5b6__annotations)**
-
-
     
     </td>
     <td valign="top">
     
     Describes the data mapping for an External Object.
-
-
     
     </td>
     </tr>
@@ -336,22 +300,16 @@ Some examples of the significant structures of an Annotations file that are disc
     <th valign="top">
 
     Attribute
-
-
     
     </th>
     <th valign="top">
 
     Use
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -359,15 +317,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **[Term](develop-an-odata-annotations-file-to-display-business-records-2332e84.md#loio2332e84e2b5e4d34b0c52b22522db5b6__terms)**
-
-
     
     </td>
     <td valign="top">
     
     Mandatory
-
-
     
     </td>
     <td valign="top">
@@ -391,22 +345,16 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **Qualifier**
-
-
     
     </td>
     <td valign="top">
     
     Optional
-
-
     
     </td>
     <td valign="top">
     
     Qualifies the Term value to use a limited or alternate arrangement of that section of the External Object.
-
-
     
     </td>
     </tr>
@@ -420,15 +368,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <th valign="top">
 
     Element
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -436,15 +380,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **[Collection](develop-an-odata-annotations-file-to-display-business-records-2332e84.md#loio2332e84e2b5e4d34b0c52b22522db5b6__collection)**
-
-
     
     </td>
     <td valign="top">
     
     A container of multiple records. An *Annotation* can contain a *Record* or a *Collection* of *Record*s.
-
-
     
     </td>
     </tr>
@@ -452,15 +392,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **[Record](develop-an-odata-annotations-file-to-display-business-records-2332e84.md#loio2332e84e2b5e4d34b0c52b22522db5b6__record)**
-
-
     
     </td>
     <td valign="top">
     
     A set of related data elements described in PropertyValue elements. An *Annotation* can contain either a *Collection* or a *Record*, but not both.
-
-
     
     </td>
     </tr>
@@ -507,15 +443,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <th valign="top">
 
     Element
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -523,15 +455,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **[Annotation](develop-an-odata-annotations-file-to-display-business-records-2332e84.md#loio2332e84e2b5e4d34b0c52b22522db5b6__annotation)**
-
-
     
     </td>
     <td valign="top">
     
     Describes the data mapping of a section of an External Object.
-
-
     
     </td>
     </tr>
@@ -545,22 +473,16 @@ Some examples of the significant structures of an Annotations file that are disc
     <th valign="top">
 
     Attribute
-
-
     
     </th>
     <th valign="top">
 
     Use
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -568,8 +490,6 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top" colspan="3">
     
     None
-
-
     
     </td>
     </tr>
@@ -583,15 +503,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <th valign="top">
 
     Element
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -599,15 +515,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **[Record](develop-an-odata-annotations-file-to-display-business-records-2332e84.md#loio2332e84e2b5e4d34b0c52b22522db5b6__record)**
-
-
     
     </td>
     <td valign="top">
     
     A set of related data elements described in child PropertyValue elements.
-
-
     
     </td>
     </tr>
@@ -642,15 +554,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <th valign="top">
 
     Element
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -658,15 +566,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **[Annotation](develop-an-odata-annotations-file-to-display-business-records-2332e84.md#loio2332e84e2b5e4d34b0c52b22522db5b6__annotation)**
-
-
     
     </td>
     <td valign="top">
     
     Describes a the data mapping of a section of an External Object.
-
-
     
     </td>
     </tr>
@@ -674,15 +578,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **[Collection](develop-an-odata-annotations-file-to-display-business-records-2332e84.md#loio2332e84e2b5e4d34b0c52b22522db5b6__collection)**
-
-
     
     </td>
     <td valign="top">
     
     A container of multiple records.
-
-
     
     </td>
     </tr>
@@ -696,22 +596,16 @@ Some examples of the significant structures of an Annotations file that are disc
     <th valign="top">
 
     Attribute
-
-
     
     </th>
     <th valign="top">
 
     Use
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -719,15 +613,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **[Type](develop-an-odata-annotations-file-to-display-business-records-2332e84.md#loio2332e84e2b5e4d34b0c52b22522db5b6__types)**
-
-
     
     </td>
     <td valign="top">
     
     Optional
-
-
     
     </td>
     <td valign="top">
@@ -756,15 +646,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <th valign="top">
 
     Element
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -772,15 +658,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **[PropertyValue](develop-an-odata-annotations-file-to-display-business-records-2332e84.md#loio2332e84e2b5e4d34b0c52b22522db5b6__propertyvalue)**
-
-
     
     </td>
     <td valign="top">
     
     A Property of a Record. Each Record Type has its own set of mandatory and optional PropertyValues.
-
-
     
     </td>
     </tr>
@@ -827,15 +709,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <th valign="top">
 
     Element
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -843,15 +721,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **[Record](develop-an-odata-annotations-file-to-display-business-records-2332e84.md#loio2332e84e2b5e4d34b0c52b22522db5b6__record)**
-
-
     
     </td>
     <td valign="top">
     
     A set of related data elements described in child PropertyValue elements.
-
-
     
     </td>
     </tr>
@@ -865,22 +739,16 @@ Some examples of the significant structures of an Annotations file that are disc
     <th valign="top">
 
     Attribute
-
-
     
     </th>
     <th valign="top">
 
     Use
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -888,15 +756,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **[Property](develop-an-odata-annotations-file-to-display-business-records-2332e84.md#loio2332e84e2b5e4d34b0c52b22522db5b6__properties)**
-
-
     
     </td>
     <td valign="top">
     
     Mandatory
-
-
     
     </td>
     <td valign="top">
@@ -919,22 +783,16 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **String**
-
-
     
     </td>
     <td valign="top">
     
     Optional
-
-
     
     </td>
     <td valign="top">
     
     An alpha-numeric text string. Typically either a UI label string or the URL to a resource such as an image.
-
-
     
     </td>
     </tr>
@@ -942,22 +800,16 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **Path**
-
-
     
     </td>
     <td valign="top">
     
     Optional
-
-
     
     </td>
     <td valign="top">
     
     An alpha-numeric text string.
-
-
     
     </td>
     </tr>
@@ -965,22 +817,16 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **AnnotationPath**
-
-
     
     </td>
     <td valign="top">
     
     Optional
-
-
     
     </td>
     <td valign="top">
     
     An alpha-numeric text string.
-
-
     
     </td>
     </tr>
@@ -988,22 +834,16 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **NavigationPropertyPath**
-
-
     
     </td>
     <td valign="top">
     
     Optional
-
-
     
     </td>
     <td valign="top">
     
     An alpha-numeric text string.
-
-
     
     </td>
     </tr>
@@ -1017,15 +857,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <th valign="top">
 
     Element
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -1033,15 +869,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **[Annotation](develop-an-odata-annotations-file-to-display-business-records-2332e84.md#loio2332e84e2b5e4d34b0c52b22522db5b6__annotation)**
-
-
     
     </td>
     <td valign="top">
     
     Describes a section of an External Object.
-
-
     
     </td>
     </tr>
@@ -1049,15 +881,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **[Apply](develop-an-odata-annotations-file-to-display-business-records-2332e84.md#loio2332e84e2b5e4d34b0c52b22522db5b6__apply)**
-
-
     
     </td>
     <td valign="top">
     
     Defines an action.
-
-
     
     </td>
     </tr>
@@ -1065,15 +893,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **[Collection](develop-an-odata-annotations-file-to-display-business-records-2332e84.md#loio2332e84e2b5e4d34b0c52b22522db5b6__collection)**
-
-
     
     </td>
     <td valign="top">
     
     A container of multiple records.
-
-
     
     </td>
     </tr>
@@ -1081,15 +905,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **[Record](develop-an-odata-annotations-file-to-display-business-records-2332e84.md#loio2332e84e2b5e4d34b0c52b22522db5b6__record)**
-
-
     
     </td>
     <td valign="top">
     
     A set of related data elements described in PropertyValue elements.
-
-
     
     </td>
     </tr>
@@ -1176,15 +996,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <th valign="top">
 
     Element
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -1192,15 +1008,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **[PropertyValue](develop-an-odata-annotations-file-to-display-business-records-2332e84.md#loio2332e84e2b5e4d34b0c52b22522db5b6__propertyvalue)**
-
-
     
     </td>
     <td valign="top">
     
     A single piece of data, which typically can be either data from the source business application, or data related to the UI.
-
-
     
     </td>
     </tr>
@@ -1214,22 +1026,16 @@ Some examples of the significant structures of an Annotations file that are disc
     <th valign="top">
 
     Attribute
-
-
     
     </th>
     <th valign="top">
 
     Use
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -1237,22 +1043,16 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **Function**
-
-
     
     </td>
     <td valign="top">
     
     Mandatory
-
-
     
     </td>
     <td valign="top">
     
     Valid value is "odata.concat", which concatenates the data indicated in the child Path elements and/or text indicated in the child String elements.
-
-
     
     </td>
     </tr>
@@ -1266,15 +1066,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <th valign="top">
 
     Element
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -1282,15 +1078,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **Path**
-
-
     
     </td>
     <td valign="top">
     
     The URL for the piece of data to be used.
-
-
     
     </td>
     </tr>
@@ -1298,15 +1090,11 @@ Some examples of the significant structures of an Annotations file that are disc
     <td valign="top">
     
     **String**
-
-
     
     </td>
     <td valign="top">
     
     The alphanumeric text string that is to be concatenated with the other listed pieces of data and/or strings.
-
-
     
     </td>
     </tr>

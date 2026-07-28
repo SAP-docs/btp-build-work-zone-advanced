@@ -10,6 +10,9 @@ A dynamic user list is based on rules that consist of various profile attributes
 
 You can use dynamic user lists to create a rules-based list that updates whenever there are changes for those users who fit the selected rules. Creating a dynamic user list that includes the users of several departments, can change over time as people join and leave those departments.
 
+> ### Note:  
+> You can't create duplicate dynamic user lists that have the same conditions as existing ones.
+
 Dynamic user lists are created and managed from the *User Lists* screen that you access from the Administration Console under the *Users* menu item. From the *Dynamics User Lists* tab, you can create and manage your lists as follows:
 
 
@@ -19,14 +22,10 @@ Dynamic user lists are created and managed from the *User Lists* screen that you
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 More Information
-
-
 
 </th>
 </tr>
@@ -35,16 +34,12 @@ More Information
 
 Create, edit, or delete a user list.
 
-
-
 </td>
 <td valign="top">
 
 Use the dedicated button to create a new dynamic user list. To edit or delete an existing user list, open the dropdown options from the *Actions* column next to the user list.
 
 For more information, see the section below - **How to create and manage a dynamic user list**.
-
-
 
 </td>
 </tr>
@@ -53,14 +48,10 @@ For more information, see the section below - **How to create and manage a dynam
 
 View the usage details of a list.
 
-
-
 </td>
 <td valign="top">
 
 From the *Actions* menu, choose *View Usage*. The usage report screen opens of the selected list. If you haven't enabled content administration yet, you can enable it now on the *Content Management* screen in order to see where the user list is used.
-
-
 
 </td>
 </tr>
@@ -69,16 +60,12 @@ From the *Actions* menu, choose *View Usage*. The usage report screen opens of t
 
 Use the lists to assign or invite users to workspaces.
 
-
-
 </td>
 <td valign="top">
 
-Assign multiple users who fit specific rules to a workspace all at one time.
+Simultaneously assign multiple users who fit specific rules to a workspace.
 
 For more information, see [Assigning Required User Lists to Workspaces](assigning-required-user-lists-to-workspaces-290599f.md).
-
-
 
 </td>
 </tr>
@@ -86,8 +73,6 @@ For more information, see [Assigning Required User Lists to Workspaces](assignin
 <td valign="top">
 
 Add a user list to an administrative area.
-
-
 
 </td>
 <td valign="top">
@@ -103,8 +88,6 @@ Add a user list to an administrative area.
 
 
 Everyone in this user list is added to the selected area. Changes to a user list are automatically reflected in the area's list of users.
-
-
 
 </td>
 </tr>

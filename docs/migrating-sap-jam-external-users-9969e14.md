@@ -8,8 +8,7 @@ This topic is relevant to customers who have upgraded their existing SAP Jam env
 
 ## Prerequisites
 
-1.  Complete the external users configuration steps in this topic: [Configuring External Users](configuring-external-users-df89bb3.md).
-2.  Open a ticket on component LOD-SF-JAM-EXT, and request to enable the external user migration beta flag for SAP SuccessFactors Work Zone/SAP Build Work Zone, advanced edition environment.
+Complete the external users configuration steps in this topic: [Configuring External Users Authentication](configuring-external-users-authentication-df89bb3.md).
 
 
 

@@ -19,5 +19,5 @@ As an administrator, you can troubleshoot approuter errors encountered in the sy
 **Related Information**  
 
 
-[About the Site Manager](about-the-site-manager-3f619a1.md "The Site Manager provides tools and features to enable administrators to build and manage sites.")
+[About the Site Manager](about-the-site-manager-3f619a1.md "The Site Manager is the design-time environment for managing sites and subaccount-level settings.")
 

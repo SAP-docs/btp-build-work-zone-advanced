@@ -21,14 +21,10 @@ The compliance and profanity alerts don’t prevent users from posting inappropr
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -37,14 +33,10 @@ Description
 
 Enable compliance and profanity alerts
 
-
-
 </td>
 <td valign="top">
 
 You enable this feature on the *Feature Enablement* \> *Features* screen. Content that has been posted before enabling the alerts isn’t scanned or flagged.
-
-
 
 </td>
 </tr>
@@ -53,14 +45,10 @@ You enable this feature on the *Feature Enablement* \> *Features* screen. Conten
 
 Configure the compliance dictionaries
 
-
-
 </td>
 <td valign="top">
 
 For compliance as well as for profanity, on the *Dictionary* tab, choose *Add Term*, and enter a comma-separated list of terms.
-
-
 
 </td>
 </tr>
@@ -68,8 +56,6 @@ For compliance as well as for profanity, on the *Dictionary* tab, choose *Add Te
 <td valign="top">
 
 Respond to dictionary matches
-
-
 
 </td>
 <td valign="top">
@@ -89,8 +75,6 @@ On the *Pending Flagged Items* tab, respond to matching items as follows:
 
 The item is removed from the *Pending Flagged Items* list, but remains accessible from the *History* list.
 
-
-
 </td>
 </tr>
 <tr>
@@ -98,14 +82,10 @@ The item is removed from the *Pending Flagged Items* list, but remains accessibl
 
 Disable dictionary terms
 
-
-
 </td>
 <td valign="top">
 
 If the dictionary contains a term that you no longer want to be checked in scans, on the *Dictionary* tab, in the *Action* column, choose *Disable*.
-
-
 
 </td>
 </tr>
@@ -113,8 +93,6 @@ If the dictionary contains a term that you no longer want to be checked in scans
 <td valign="top">
 
 Set an email address to receive a copy of feed items
-
-
 
 </td>
 <td valign="top">
@@ -136,8 +114,6 @@ This option allows you to set one or more email addresses that receive a copy of
 
 Remove email addresses for receiving copies of feed items
 
-
-
 </td>
 <td valign="top">
 
@@ -150,8 +126,6 @@ You clear all email addresses as follows:
 
 You can now add new email addresses.
 
-
-
 </td>
 </tr>
 <tr>
@@ -159,14 +133,10 @@ You can now add new email addresses.
 
 Download a compliance report
 
-
-
 </td>
 <td valign="top">
 
 On the *Compliance* screen, choose *Download Compliance Report* to go to the *Reports* screen, where you can run and download compliance reports.
-
-
 
 </td>
 </tr>
@@ -175,16 +145,12 @@ On the *Compliance* screen, choose *Download Compliance Report* to go to the *Re
 
 View the compliance history
 
-
-
 </td>
 <td valign="top">
 
 Choose the *History* tab.
 
 A table shows all previously flagged items that have been responded to, and the *Action* column indicates whether they have been set as ignored or alerted.
-
-
 
 </td>
 </tr>
@@ -207,14 +173,10 @@ You enable this feature on the *Feature Enablement* \> *Features* screen.
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -223,18 +185,14 @@ Description
 
 Enable content administration
 
-
-
 </td>
 <td valign="top">
 
-By enabling content administration, you as a company or support administrator can access all workspaces in your site. You can then view, edit, and delete any workspace or content item within an administrative area or the entire company. Any items marked as inappropriate appear in the *Items Pending Review* panel.
+By enabling content administration, you as a company administrator can access all workspaces in your site. You can then view, edit, and delete any workspace or content item within an administrative area or the entire company. Any items marked as inappropriate appear in the *Items Pending Review* panel.
 
 Content administration is disabled by default.
 
 On the *Content Administration* screen, choose *Enable Content Administration*.
-
-
 
 </td>
 </tr>
@@ -242,8 +200,6 @@ On the *Content Administration* screen, choose *Enable Content Administration*.
 <td valign="top">
 
 Configure abuse reporting
-
-
 
 </td>
 <td valign="top">
@@ -257,16 +213,12 @@ Any content that is reported by your users and meets the criteria that you confi
 
 Abuse reporting is disabled by default.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Respond to reported abuse
-
-
 
 </td>
 <td valign="top">
@@ -293,8 +245,6 @@ Review the item and choose the appropriate response:
 
 Set the time after which trash cans are purged
 
-
-
 </td>
 <td valign="top">
 
@@ -305,16 +255,12 @@ In the *Purge Settings*, administrators can configure to permanently delete item
 
 A daily purge of all items that have been in your company's users' trash cans for longer than the specified number of days is performed.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Audit a user's history
-
-
 
 </td>
 <td valign="top">

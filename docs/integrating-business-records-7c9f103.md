@@ -9,6 +9,9 @@ Content from business-critical applications can be integrated into SAP Build Wor
 -   **Business Records**: Data from a variety of business applications displays when getting the data from that application's OData API, or from an intermediary platform that supplies an OData API for that application, and using an OData annotations file to specify how each type of data displays in a specified UI element.
 -   **Document Repositories**: Documents from an external document repository or library.
 
+> ### Note:  
+> The SAP Build Work Zone, advanced edition side of the integration is still supported. The Customer Experience \(e.g. Sales Cloud\) side of the integration is no longer supported.
+
 
 
 <a name="loio7c9f1030955f491484435b2933aa7316__section_rkn_zkg_4wb"/>
@@ -29,9 +32,9 @@ You can develop new or custom integrations by leveraging the OData API and OData
 
 To enable access between SAP Build Work Zone, advanced edition and these various external solutions, one or more of the following access and authorization mechanisms must be configured:
 
--   Add a Trusted Certificate Authority for external solutions if your organization requires the use of unrecognized or self-signed certificates. It allows your browser to use the HTTPS or TLS connection to access the external solution data without obstruction. For more information, see [Add a Trusted Certificate Authority](add-a-trusted-certificate-authority-0f5c6b2.md)
--   Add an OAuth Client to configure an entry point used by external solutions to request authorizations from SAP Build Work Zone, advanced edition, which is required for the external solution to initiate requests to the API. For more information, see [Add an OAuth Client](add-an-oauth-client-b3c804e.md)
--   Add a SAML Trusted IdP to set up a relationship thatSAP Build Work Zone, advanced edition trusts to make authenticated per-user requests, for example to display data from SAP Build Work Zone, advanced edition by using the API. For more information, see [SAML Trusted IDPs](saml-trusted-idps-c2f81fd.md)
+-   Add a Trusted Certificate Authority for external solutions if your organization requires the use of unrecognized or self-signed certificates. It allows your browser to use the HTTPS or TLS connection to access the external solution data without obstruction. For more information, see [Upload a Trusted Certificate Authority](upload-a-trusted-certificate-authority-0f5c6b2.md)
+-   Add an OAuth Client to configure an entry point used by external solutions to request authorizations from SAP Build Work Zone, advanced edition, which is required for the external solution to initiate requests to the API. For more information, see [OAuth Clients](oauth-clients-b3c804e.md)
+-   Add a SAML Trusted IdP to set up a relationship thatSAP Build Work Zone, advanced edition trusts to make authenticated per-user requests, for example to display data from SAP Build Work Zone, advanced edition by using the API. For more information, see [SAML Trusted IdPs](saml-trusted-idps-c2f81fd.md)
 -   Configure SAP Build Work Zone, advanced edition as a SAML Local Identity Provider. This is required for SAP Build Work Zone, advanced edition to act as the trusted SAML identity provider for external solutions seeking single sign-on \(SSO\) user identity confirmation, and to make per-user requests of external solutions APIs. For more information, see [SAML Local Identity Provider](saml-local-identity-provider-176e87b.md) 
 
 
@@ -69,5 +72,5 @@ After the required configuration is done on the external application or intermed
 
 [Integrating Microsoft Office 365 SharePoint Sites](integrating-microsoft-office-365-sharepoint-sites-cd4cefc.md "You can integrate sites from your Microsoft Office 365 SharePoint so that the users can access them in SAP Build Work Zone, advanced edition.")
 
-[Integrating Google Drive](integrating-google-drive-8288cd2.md "You can provide access to your organization's Google Drive account as a document repository.")
+[Integrating Google Drive](integrating-google-drive-8288cd2.md "You can use a Google Drive account as a document repository.")
 

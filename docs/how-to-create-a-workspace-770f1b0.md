@@ -1,7 +1,5 @@
 <!-- loio770f1b03d87d4be6974bc77df3c816a3 -->
 
-<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
-
 # How to Create a Workspace
 
 Create a workspace to share information and exchange ideas with your colleagues.
@@ -12,9 +10,10 @@ Create a workspace to share information and exchange ideas with your colleagues.
 
 ## Introduction
 
-You can create a workspace from scratch \(as explained below\) and you can also copy an existing workspace and in this way save time and effort in designing the same workpages and uploading content and folder structure to a new workspace.
+This topic takes you through the steps of how to create a new workspace using an out-of-the-box template or simply designing the workspace according your your use case.
 
-For more information about how to copy a workspace, see [How to Manage Workspaces](how-to-manage-workspaces-b861107.md).
+> ### Note:  
+> You can also copy an existing workspace and in this way save time and effort in designing the same workpages and uploading content and folder structure to a new workspace. For more information about how to copy a workspace, see [How to Optimally Set Up and Use a Workspace](how-to-optimally-set-up-and-use-a-workspace-b861107.md).
 
 
 
@@ -22,172 +21,88 @@ For more information about how to copy a workspace, see [How to Manage Workspace
 
 ## Create a workspace
 
-1.  Go to *Workspaces* in the top menu bar and choose *New Workspace*.
+1.  Go to *Workspaces* in the top menu bar and choose *New Workspace* from the dropdown list or you can click the *New Workspace* button on the right of your screen.
 
-2.  Select a predefined template from the dropdown menu, or choose *No Template*.
+    ![](images/Screenshot_Create_Workspace_4c0e09b.png)
 
-3.  Enter a unique name for your workspace and a description.
+2.  Select the type of workspace you want to create - *Public* or *Private*.
+
+    ![](images/Screenshot_-_Public_or_Private_Workspace_bf40aa8.png)
+
+    For more information about public and private workspaces, see [Types of Workspaces](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/workspaces-8ff3df94802449f3877af5c380b22c4b?state=DRAFT#types-of-workspaces).
+
+3.  Enter a unique name for your workspace and a description \(optional\).
 
     > ### Note:  
-    > If the workspace is public, the description is visible to others when they carry out a search. When the workspace is private, the description is visible to your colleagues only after they’ve been invited to the workspace or join the workspace.
+    > If the workspace is public, the description is visible to others when they search for the workspace. When the workspace is private, the description is visible to your colleagues only after they’ve been invited to the workspace or join the workspace.
 
-4.  Select the privacy level for your workspace:
+4.  Select one of SAP's out-of-the box templates - note that you can preview any template to check if it's suitable for your use case. You can also scroll down to the bottom of the template list and select *No Template*. In this case you'll design your own layout for your content.
 
-    -   *Public* - every full-access user in the company can view and join. You can find the public workspaces in your company with the search tool or by browsing on the *Workspaces* screen.
+    ![](images/Screenshot_-_Select_Template_bef37ba.png)
 
-    -   *Private* - you can only join and view if you've been invited to them. In general, private workspaces are hidden and can't be found with the search tool. If you're not invited to a private workspace, you can't see it on the *Workspaces* screen. The workspace administrators, however, can set a private workspace to *Allow others to discover this workspace*.
+5.  *Activate workspace on creation* - this is a default setting that activates the workspace \(private or public\) as soon as it's created.
 
-    -   *External* - you can work together with people from different companies who join the workspaces as external users. You can join and view external workspaces only if you've been invited to them. External workspaces are hidden and can't be found with the search tool. If you're not invited to an external workspace, you can't see it on the *Workspaces* screen.
+    -   In the case of a private workspace, even if the option to activate upon creation is enabled, the workspace won't be visible to workspace members until it's shared with them.
 
-
-5.  Click *Options* and define the following policies:
-    -   Select a *Collaboration Level*:
-
-        -   *Read-only*: Only workspace administrators can create, edit, and post items in the workspace. Other workspace members can view and download workspace content, but they can't comment, tag, post, or edit. Forums, polls, and tasks aren’t available. This level is suitable for broadcasting information.
-
-        -   *Limited*: Only workspace administrators can create and upload new content. All members can edit, post, comment, like, and view workspace content.
-
-        -   *Full*: Workspace administrators and members can create, edit, post, comment, like, tag, and view workspace content. Only the workspace administrator can customize the upload policy.
+    -   In the case of a public workspace, workspace admins can choose whether to leave the default and activate the workspace immediately upon creation and make it visible to users even before it's ready to be shared, or they can create the workspace without activation, design it, and only when the workspace is ready to be shared, they can activate it.
 
 
-    -   Select *Set Invite Policy*:
-        -   *All Members*: All members are allowed to invite new members.
+6.  Define the following settings:
+    -   *External users can access this workspace and be invited as members.*
 
-            > ### Note:  
-            > This option is available only for workspaces with the privacy level *Public*.
+        If the Company Admin has enabled this option, when creating the workspace, you can select this option. You can also select it later if you want from the workspace settings screen. If the company admin hasn't enabled this option, this setting won't be displayed here, and will be disabled in the workspace settings screen \(see screenshot below\).
 
-        -   *All Workspace Members*: All workspace members are allowed to invite new members.
-
-        -   *Only Workspace Admins*: Only the workspace administrators are allowed to invite new members.
-
-
-    -   Select the *Visibility Policy*:
+        ![](images/Screenshot_-_External_users_a862a4f.png)
 
         > ### Note:  
-        > This setting is only available for workspaces with the privacy level *Private*.
+        > If external users are allowed to access your workspace, a warning appears under the workspace name to alert members that the workspace content is visible to external users and that they should be careful about sharing sensitive information.
+        > 
+        > ![](images/Screenshot_-external_user_warning_e5ad187.png)
 
-        -   *Allow others to discover this workspace*: The workspace becomes searchable to non-members, and they can see the workspace name and description. They must submit a request to join the workspace and be accepted before they can access the workspace content. Selecting this option also automatically selects *Allow others to request to join this workspace*. You can disable either or both options as necessary.
+    -   *Allow all members to invite users*. When not selected, only workspace admins can invite users.
 
-        -   *Allow others to request to join this workspace*: Non-members can submit a request to become a member. Once accepted, they can access the workspace content.
-
-
-    -   Select *Set Upload Policy*. If you choose the *Full* collaboration level, you can restrict the upload policy as follows:
-        -   *All Members*: All users of your company can upload new content items.
-
-            > ### Note:  
-            > This option is available only for workspaces with a *Public* privacy level.
-
-        -   *All Workspace Members*: All members of your workspace can upload new content items.
-
-        -   *All Workspace Members from my company*: Only workspace members from your company can upload content items.
-
-            > ### Note:  
-            > This option is available only for workspaces with an *External* privacy level.
-
-        -   *Only Workspace Admins*: Only workspace administrators can upload new content items. All workspace members are allowed to comment or edit content.
+    -   *Allow users to join this workspace* \(for public workspaces\) or *Allow users to request to join this workspace.* \(for private workspaces\).
 
 
-    -   Select *Set Task Policy*. If you choose the *Full* collaboration level, you can restrict the task policy as follows:
-        -   *Full*: All members can edit the details of any task.
+7.  Click *Next* to open settings that you can define while creating the workspace. Note that you can define these settings at a later stage too by opening the workspace settings area.
 
-        -   *Limited*: All members can update the status of any task. Non-assignees can view, but not update, other task details.
+    For more information about the different workspace settings, see [How to Edit Workspace Settings](how-to-edit-workspace-settings-98ae51c.md).
 
-        -   *Read-only*: Assignees can update their own task status. Non-assignees can view tasks only.
+8.  Click *Finish*. Your workspace is created with a default *Overview* page that appears in the workspace navigation bar.
 
-
-    -   Set the *Content Approval*:
-
-        Under *Full* collaboration, when workspace members upload documents, photos, videos, wikis, or blogs, the workspace administrator must first review and approve this content before it’s visible in the workspace. This provides content publishing safeguards to ensure that content is appropriate for the business context within a workspace. For more information, see [Approve Content](approve-content-5d4b062.md).
-
-
-6.  To confirm your settings, choose *Done*.
-
-7.  Select or deselect the *Activate this workspace now* checkbox.
+    ![](images/Screenshot_Overview_Page_3f6cd02.png)
 
     > ### Note:  
-    > The *Activate this workspace now* checkbox allows workspace creators to override the workspace activation default. The following defaults have been designed to support standard scenarios:
-    > 
-    > -   Private workspaces: *Activated*:
-    > 
-    >     -   Workspace is automatically enabled and visible.
-    > 
-    >     -   Workspace administrators or page designers prepare layout and content, and then invite users when ready.
-    > 
-    > 
-    > -   Public workspace: *Inactive*
-    >     -   Creators of public workspaces can prepare the layout and content before users see it.
-    > 
-    >     -   Users don’t have to be members to see content in active public workspaces.
-
-8.  Click *Create*.
+    > This default *Overview* page is not created if you choose *No Template*.
 
 
 Once you’ve created a workspace, you’re the workspace administrator of the workspace and you can now add workpages and content to the workspace and invite members.
 
-For more information, see: [How to Add Content to Workspaces](how-to-add-content-to-workspaces-19bf8aa.md).
-
-> ### Note:  
-> You can also add sub-workspaces in the same way. To add a sub-workspace, you first need to add a Sub-Workspace menu item to your workspace using the :heavy_plus_sign: icon in the workspace menu:
-> 
-> ![](images/Add_menu_item_to_workpage_15544c6.png)
 
 
+<a name="loio770f1b03d87d4be6974bc77df3c816a3__section_qkl_kkb_4fc"/>
 
-<a name="loio770f1b03d87d4be6974bc77df3c816a3__section_ypj_q22_4tb"/>
+## About the Workspace Administrator
 
-## Add a cover photo in the header of your workspace
+Anyone who creates a workspace, automatically becomes the administrator of that workspace.
 
+There is also the option to assign other workspace members as administrators of a particular workspace. To do this, in the members list, select the member and from the *Actions* column, select *Make Workspace Admin*.
 
+Members of a workspace can also request admin privileges. For more information, see [How to Request Workspace Admin Privileges](how-to-request-workspace-admin-privileges-41eb425.md).
 
-1.  Hover over the header area of your workspace and click *Upload Cover Photo*.
-
-2.  Upload the image you want as your workspace cover photo.
-
-    > ### Note:  
-    > The image must be smaller than 5 MB and must be in the correct format \(JPG or PNG\).
-
-3.  Use the reposition and zoom control to arrange your image in the header area.
-
-
-If you copy this workspace, save it as a template, or export and then import it again, the cover photo that you selected and your settings are kept as is.
+External users can’t become workspace administrators.
 
 
 
-<a name="loio770f1b03d87d4be6974bc77df3c816a3__section_eny_pyp_wxb"/>
+<a name="loio770f1b03d87d4be6974bc77df3c816a3__section_c3v_zzc_52c"/>
 
-## Make a workspace your favorite
+## More Information
 
-You can add a workspace to your favorites by clicking the little star next to the workspace name.
+-   For more information about how to create workpages in your workspace, see [How to Create Workpages in Your Workspace](how-to-create-workpages-in-your-workspace-c3734dd.md).
 
-![](images/Favorite_Workspace_c33d901.png)
+-   For more information about how to add content to your workspace, see, [How to Use the Workpage Editor](how-to-use-the-workpage-editor-9164929.md).
 
+-   To see how to edit your workspace and define various settings, see [How to Edit Workspace Settings](how-to-edit-workspace-settings-98ae51c.md).
+-   To manage your workspace, see[How to Optimally Set Up and Use a Workspace](how-to-optimally-set-up-and-use-a-workspace-b861107.md) and [How to Manage Your Content in the Content List](how-to-manage-your-content-in-the-content-list-e526bec.md).
 
-
-<a name="loio770f1b03d87d4be6974bc77df3c816a3__section_ysl_1sb_5xb"/>
-
-## Create a Terms of Use
-
-When you invite members to a workspace, each member must accept the Terms of Use before they can access the workspace.
-
-**Where to create a Terms of Use**:
-
-1.  In the workspace, open the <span class="SAP-icons"></span> menu and choose *Workspace Admin Settings* \> *Edit Workspace*.
-
-2.  Open the *Setup* tab and you'll see *Terms of Use*.
-
-
-**How to create a Terms of Use**
-
-1.  Select a language.
-
-2.  Enter the translated text into the text box.
-
-3.  Set one of the languages as the default language. If there's no translation for a specific language, the user receives the terms of use in the default language that you set.
-4.  *Save* the settings.
-
-
-You can create terms of use in multiple languages by repeating the steps above for each language. In the dropdown list of languages, you'll see which languages have been translated since they’ll be marked as *Available*.
-
-> ### Note:  
-> If your workspace was created before the multi-language feature was supported, you'll get a dialog box where you need to select the language of your current terms of use. By doing this, you'll enable the multi-language feature in your workspace and you can translate it into other languages as explained above.
 

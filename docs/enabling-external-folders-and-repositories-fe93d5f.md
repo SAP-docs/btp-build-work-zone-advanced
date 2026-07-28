@@ -13,7 +13,7 @@ Documents and other content that is stored in integrated external applications, 
 
 You enable the external folders in the *Workspace Admin Settings*:
 
-1.  In the workspace, open the <span class="SAP-icons"></span> menu and choose *Workspace Admin Settings*.
+1.  In the workspace, open the <span class="SAP-icons-V5"></span> menu and choose *Workspace Admin Settings*.
 
 2.  Choose *Edit Workspace*.
 
@@ -27,5 +27,5 @@ After enabling the external folders, you can use the page designer tool to add t
 **Related Information**  
 
 
-[About Other Types of Content](about-other-types-of-content-27ed69c.md "Apart from apps, cards, and widgets, there's a lot more content that you can add to your site.")
+[About the Different Types of Content](about-the-different-types-of-content-27ed69c.md "There's a wide variety of content that you can add to the workpages of your site.")
 

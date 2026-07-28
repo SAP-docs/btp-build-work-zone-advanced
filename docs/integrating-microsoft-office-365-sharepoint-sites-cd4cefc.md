@@ -22,14 +22,10 @@ You can integrate sites from your Microsoft Office 365 SharePoint so that the us
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 More details
-
-
 
 </th>
 </tr>
@@ -38,14 +34,10 @@ More details
 
 Secret value
 
-
-
 </td>
 <td valign="top">
 
 Copy the secret value and keep it for when you configure the application in the SAP Build Work Zone, advanced edition admin console. This is the only time this information is displayed.
-
-
 
 </td>
 </tr>
@@ -54,14 +46,10 @@ Copy the secret value and keep it for when you configure the application in the 
 
 Redirect URI structure
 
-
-
 </td>
 <td valign="top">
 
 URI structure: <DWS URL\>/office365/authorized
-
-
 
 </td>
 </tr>
@@ -70,14 +58,10 @@ URI structure: <DWS URL\>/office365/authorized
 
 Redirect URI hostname pattern
 
-
-
 </td>
 <td valign="top">
 
-You can find the hostname pattern that should be used here: [Solution Architecture and Authentication Details](solution-architecture-and-authentication-details-1fd9ea4.md)
-
-
+You can find the hostname pattern that should be used here: [Solution Architecture](solution-architecture-1fd9ea4.md)
 
 </td>
 </tr>
@@ -85,8 +69,6 @@ You can find the hostname pattern that should be used here: [Solution Architectu
 <td valign="top">
 
 Required API permissions
-
-
 
 </td>
 <td valign="top">
@@ -105,14 +87,10 @@ Please use the following API permissions:
 
 User consent settings
 
-
-
 </td>
 <td valign="top">
 
-If you change the user consent settings to *Do not allow user consent*, please open a support ticket on component `LOD-SF-JAM-SWZ` for further adjustments. For more information, see [**More on API permissions and admin consent**](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#more-on-api-permissions-and-admin-consent) 
-
-
+If you change the user consent settings to *Do not allow user consent*, please open a support ticket on component `LOD-SF-SWZ-SOL` for further adjustments. For more information, see [**More on API permissions and admin consent**](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#more-on-api-permissions-and-admin-consent) 
 
 </td>
 </tr>
@@ -137,15 +115,11 @@ Create an external application entry to register your external application with 
     <th valign="top">
 
     Setting
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -153,15 +127,11 @@ Create an external application entry to register your external application with 
     <td valign="top">
     
     *Name*
-
-
     
     </td>
     <td valign="top">
     
     Enter a meaningful name, such as one that describes the external application and its dedicated use. This name appears, for example, in the navigation sidebar, so it’s important to make it something recognizable.
-
-
     
     </td>
     </tr>
@@ -169,8 +139,6 @@ Create an external application entry to register your external application with 
     <td valign="top">
     
     *Top-Level Site URL*
-
-
     
     </td>
     <td valign="top">
@@ -190,15 +158,11 @@ Create an external application entry to register your external application with 
     <td valign="top">
     
     *OAuth 2.0 Client Id*
-
-
     
     </td>
     <td valign="top">
     
-    The string from the *Client ID* field in your Microsoft Azure configuration.
-
-
+    The string from the *Client ID* field in your Microsoft Azure configuration. This is the Application \(client\) ID of the registered application and not the Secret ID for the generated Client Secret for the app.
     
     </td>
     </tr>
@@ -206,15 +170,11 @@ Create an external application entry to register your external application with 
     <td valign="top">
     
     *Secret*
-
-
     
     </td>
     <td valign="top">
     
-    The value that was displayed in the *keys* section when you saved your Microsoft Azure configuration.
-
-
+    Client Secret **value** of the client secret that was created for the application, not the Secret ID.
     
     </td>
     </tr>
@@ -222,15 +182,11 @@ Create an external application entry to register your external application with 
     <td valign="top">
     
     *Administrative Area*
-
-
     
     </td>
     <td valign="top">
     
     Select the area in which you want this document repository to be available. The default is *Company*, which makes it available to all administrative areas and workspaces.
-
-
     
     </td>
     </tr>
@@ -267,6 +223,6 @@ Add the document libraries that you want to make available to the users.
 
 ## Next steps
 
--   If your organization uses unrecognized or self-signed certificates for network access, or if you want to ensure a more secure connection to your document repository, proceed with adding a trusted certificate authority. See [Add a Trusted Certificate Authority](add-a-trusted-certificate-authority-0f5c6b2.md).
+-   If your organization uses unrecognized or self-signed certificates for network access, or if you want to ensure a more secure connection to your document repository, proceed with adding a trusted certificate authority. See [Upload a Trusted Certificate Authority](upload-a-trusted-certificate-authority-0f5c6b2.md).
 -   Browse all linked SharePoint repositories and documents within your workspace. For more information, see [**Microsoft SharePoint**](https://help.sap.com/docs/WZ/fec5ca6e3229418f84a932c745cbe985/59d116a174cf42458e1cafd75cff286b.html).
 

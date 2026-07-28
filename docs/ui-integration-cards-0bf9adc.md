@@ -2,7 +2,7 @@
 
 # UI Integration Cards
 
-SAP UI integration cards allow you to show application content from different sources side by side without the user having to switch screens. They contain a certain set of information from an app or page that's presented to users in a specific context.
+A UI integration card is a self-contained user interface element, that displays business content in a predefined structure such as a list, a table, or a chart.
 
 
 
@@ -10,20 +10,22 @@ SAP UI integration cards allow you to show application content from different so
 
 ## Introduction
 
-UI integration cards display concise pieces of information and application content in a limited-sized container that users can easily embed into their workpages.
+Both tiles and cards are visualization of apps. Apps have different visualization options such as tiles, cards or none in the case of shell plugins. Unlike tiles which are basic app launchers, cards can display business content and eliminate the need to launch the app. All cards can be consumed on mobile or desktop devices.
+
+UI integration cards display concise pieces of information and business content in a limited-sized container that users can easily embed into their workpages. Cards have role-based access so in order for users to see the cards, they need to be assigned to the required roles.
 
 > ### Note:  
-> All cards can be consumed on mobile or desktop devices.
+> Cards are uploaded in the Content Manager. Existing cards that were previously uploaded from the Administration Console will continue to work and are not affected by this change. For more information, see [Integrating Cards into a Site](integrating-cards-into-a-site-b65c218.md). Note that in the Content Manager, you'll only see the cards that are added to your subaccount while in the Administration Console screen, the uploaded cards that you see are those assigned to the site.
 
-You can use cards to group information, link to more details, present a summary, and much more. As a result, your users get all the information they need on a single screen. Cards can represent an entire app or page or only specific information from the app or page. They can also display multiple apps \(such as a link card with links to various apps\).
+You can use cards to group information, link to more details, present a summary, and much more. As a result, users get all the information they need on a single screen. Cards can represent an entire app or only specific information from the app. They can also display multiple apps \(such as a link card with links to various apps\).
 
-Each card is designed in a different style and contains various content formats depending on the card type that you choose. Examples of card types are list cards, analytical cards, table cards, object cards, just to name a few.
+Each card is designed in a different style and contains various content formats depending on the card type that the developer chose. Examples of card types are list cards, analytical cards, table cards, object cards, just to name a few.
 
 For more information about the different card types, see [Card Explorer for UI Integration Cards.](https://ui5.sap.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html) 
 
 **Some examples of how cards look at runtime:**
 
-![](images/Card_examples_667f1bc.png)
+![Examples of different UI integration cards.](images/Card_examples_667f1bc.png)
 
 
 
@@ -52,14 +54,10 @@ For more information, see:
 
 Information
 
-
-
 </th>
 <th valign="top">
 
 Link
-
-
 
 </th>
 </tr>
@@ -70,14 +68,10 @@ How to develop UI integration cards
 
 Learn how to set up a development environment and get started with developing various types of integration cards.
 
-
-
 </td>
 <td valign="top">
 
 [UI Integration Cards](https://help.sap.com/viewer/7d3b9c7211ca4d7a9630b524205ee836/Cloud/en-US/b266652943de456da4dd9382a16f5b7e.html).
-
-
 
 </td>
 </tr>
@@ -88,14 +82,10 @@ How to integrate the cards into your site.
 
 Learn how to add UI integration cards to workpages in your site.
 
-
-
 </td>
 <td valign="top">
 
 [Integrating Cards into a Site](integrating-cards-into-a-site-b65c218.md).
-
-
 
 </td>
 </tr>
@@ -106,14 +96,10 @@ How to manage UI integration cards
 
 Learn how to manage your UI integration cards and define where they can be accessed from within your site.
 
-
-
 </td>
 <td valign="top">
 
 [Managing Cards](managing-cards-afe7433.md).
-
-
 
 </td>
 </tr>

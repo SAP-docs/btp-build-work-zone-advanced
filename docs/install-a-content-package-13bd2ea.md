@@ -11,13 +11,13 @@ Once your content package is displayed on the *Content Packages* screen \(whethe
 > ### Note:  
 > If the content package contains apps that are rendered on a remote system, you need to configure a destination to the remote system in the *Destinations* screen of the SAP BTP cockpit. If a destination hasn't yet been configured, the content package will display an error message when you try to install it.
 
-1.  Click <span class="SAP-icons"></span> to install the content package.
+1.  Click <span class="SAP-icons-V5"></span> to install the content package.
 
     Once installed, the content package status changes to *Installed*.
 
-2.  To uninstall the content package, open <span class="SAP-icons"></span>and select *Uninstall*.
+2.  To uninstall the content package, open <span class="SAP-icons-V5"></span>and select *Uninstall*.
 
-3.  Once uninstalled, you can delete the content package. Click <span class="SAP-icons"></span> and select *Delete*.
+3.  Once uninstalled, you can delete the content package. Click <span class="SAP-icons-V5"></span> and select *Delete*.
 
     > ### Note:  
     > You can only delete content packages that you've uploaded yourself.

@@ -6,17 +6,19 @@ Create a content package using SAP Business Application Studio.
 
 
 
-<a name="loio9027b863c1b44c159ccb0584c0634827__prereq_asx_vwy_wkb"/>
+<a name="loio9027b863c1b44c159ccb0584c0634827__prereq_eyv_5wj_lyb"/>
 
 ## Prerequisites
 
-You’ve created a dev space with the *Development Tools for SAP Build Work Zone, Advanced Edition* extension.
+You’ve created a dev space with the **Development Tools for SAP Build Work Zone** extension.
 
 
 
 <a name="loio9027b863c1b44c159ccb0584c0634827__context_j4c_lly_ykb"/>
 
 ## Context
+
+This procedure explains how to create a basic content package. For detailed instructions for how to enhance the content package with content, see [Project Templates for Content Packages](https://github.com/SAP-samples/build-workzone-integration/tree/main/advanced/content-package-template).
 
 
 
@@ -38,15 +40,11 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     <th valign="top">
 
     Field name
-
-
     
     </th>
     <th valign="top">
 
     Value
-
-
     
     </th>
     </tr>
@@ -54,15 +52,11 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     <td valign="top">
     
     **Project Name**
-
-
     
     </td>
     <td valign="top">
     
     Enter a project name.
-
-
     
     </td>
     </tr>
@@ -70,8 +64,6 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     <td valign="top">
     
     **NameSpace**
-
-
     
     </td>
     <td valign="top">
@@ -79,8 +71,6 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     Enter a namespace. The content package ID is generated using the namespace and the project name.
 
     Content Package ID: <namespace\>.<project name\>
-
-
     
     </td>
     </tr>
@@ -88,15 +78,11 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     <td valign="top">
     
     **Title**
-
-
     
     </td>
     <td valign="top">
     
     Enter a title
-
-
     
     </td>
     </tr>
@@ -104,15 +90,11 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     <td valign="top">
     
     **Subtitle**
-
-
     
     </td>
     <td valign="top">
     
     Enter a subtitle
-
-
     
     </td>
     </tr>
@@ -120,8 +102,6 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     <td valign="top">
     
     **Include Content Samples**
-
-
     
     </td>
     <td valign="top">
@@ -129,8 +109,6 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     Choose *True* to include content samples for the project.
 
     If not, an empty project is generated, and you can add artifacts later.
-
-
     
     </td>
     </tr>
@@ -138,15 +116,15 @@ You’ve created a dev space with the *Development Tools for SAP Build Work Zone
     
 5.  Choose *Finish*.
 
-    You’ve successfully created a project that contains the required content package. The newly created content package is now available in your workspace. You can now perform the following:
+    You’ve successfully created a content package project. You can now perform the following actions:
 
-    -   Update the content package: For more information, see [Updating a Content Package](updating-a-content-package-de85e4f.md)
-    -   Delete the content package: To do so, navigate to the newly created card project. Right-click on the project and select *Delete*.
-    -   Deploy the content package: For more information, see [Deploying a Content Package](deploying-a-content-package-5556cbf.md)
+    -   Update the content package: For more information, see [Updating a Content Package](updating-a-content-package-de85e4f.md).
+    -   Delete the content package: To do so, navigate to the newly created content package project. Right-click on the project and select *Delete*.
+    -   Deploy the content package: For more information, see [Deploying a Content Package](deploying-a-content-package-5556cbf.md).
 
-    You can also execute `Content Package: Create Content Package Project` to launch a command line interface for creating content package.
+    You can also create a content package using the command line. Execute the `Content Package: Create Content Package Project` to launch a command line interface for creating a content package.
 
-    **Adding Destinations**
+6.  Add content to your content package. You can refer to the sample content package [Project Templates for Content Packages](https://github.com/SAP-samples/build-workzone-integration/tree/main/advanced/content-package-template) for detailed instructions on how to do it.
 
     If the content package contains apps that are rendered on a remote system, you need to configure a destination to the remote system in the *Destinations* screen of the cockpit.
 

@@ -33,14 +33,10 @@ Shows a row for each user with the following columns of information:
 
 Row item
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -49,14 +45,10 @@ Description
 
 **User ID** 
 
-
-
 </td>
 <td valign="top">
 
 SAP Build Work Zone, advanced edition ID
-
-
 
 </td>
 </tr>
@@ -65,14 +57,10 @@ SAP Build Work Zone, advanced edition ID
 
 **Email Address** 
 
-
-
 </td>
 <td valign="top">
 
 The user's email address
-
-
 
 </td>
 </tr>
@@ -81,14 +69,10 @@ The user's email address
 
 **First Name** 
 
-
-
 </td>
 <td valign="top">
 
 User first name
-
-
 
 </td>
 </tr>
@@ -97,14 +81,10 @@ User first name
 
 **Last Name** 
 
-
-
 </td>
 <td valign="top">
 
 User last name
-
-
 
 </td>
 </tr>
@@ -113,14 +93,10 @@ User last name
 
 **Number of Followers** 
 
-
-
 </td>
 <td valign="top">
 
 The user's number of followers
-
-
 
 </td>
 </tr>
@@ -129,14 +105,10 @@ The user's number of followers
 
 **Number of People Following** 
 
-
-
 </td>
 <td valign="top">
 
 The number of people followed by the user
-
-
 
 </td>
 </tr>
@@ -145,14 +117,10 @@ The number of people followed by the user
 
 **Number of Workspaces Following** 
 
-
-
 </td>
 <td valign="top">
 
 The number of workspaces followed by the user, as a member
-
-
 
 </td>
 </tr>
@@ -161,14 +129,10 @@ The number of workspaces followed by the user, as a member
 
 **Number of Workspaces where the user is the Admin** 
 
-
-
 </td>
 <td valign="top">
 
 The number of workspaces administered by the user
-
-
 
 </td>
 </tr>
@@ -177,14 +141,10 @@ The number of workspaces administered by the user
 
 **Number of Wiki Pages Following** 
 
-
-
 </td>
 <td valign="top">
 
 The number of wiki pages followed by the user
-
-
 
 </td>
 </tr>
@@ -193,14 +153,10 @@ The number of wiki pages followed by the user
 
 **Number of Tasks Assigned** 
 
-
-
 </td>
 <td valign="top">
 
 The number of tasks assigned to the user
-
-
 
 </td>
 </tr>
@@ -209,14 +165,10 @@ The number of tasks assigned to the user
 
 **Number of Tasks Following** 
 
-
-
 </td>
 <td valign="top">
 
 The number of tasks followed by the user
-
-
 
 </td>
 </tr>

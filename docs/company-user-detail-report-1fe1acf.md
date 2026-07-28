@@ -33,14 +33,10 @@ Shows a row for each user with the following columns of information:
 
 Row item
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -49,14 +45,10 @@ Description
 
 **User ID** 
 
-
-
 </td>
 <td valign="top">
 
 SAP Build Work Zone, advanced edition ID.
-
-
 
 </td>
 </tr>
@@ -65,14 +57,10 @@ SAP Build Work Zone, advanced edition ID.
 
 **First Name** 
 
-
-
 </td>
 <td valign="top">
 
 The user's first name.
-
-
 
 </td>
 </tr>
@@ -81,14 +69,10 @@ The user's first name.
 
 **Last Name** 
 
-
-
 </td>
 <td valign="top">
 
 The user's last name.
-
-
 
 </td>
 </tr>
@@ -97,14 +81,10 @@ The user's last name.
 
 **Title** 
 
-
-
 </td>
 <td valign="top">
 
 The user's title.
-
-
 
 </td>
 </tr>
@@ -113,14 +93,10 @@ The user's title.
 
 **Email Address** 
 
-
-
 </td>
 <td valign="top">
 
 The user's email address.
-
-
 
 </td>
 </tr>
@@ -129,14 +105,10 @@ The user's email address.
 
 **Country/Region** 
 
-
-
 </td>
 <td valign="top">
 
 The country/region of residence of the user.
-
-
 
 </td>
 </tr>
@@ -145,14 +117,10 @@ The country/region of residence of the user.
 
 **Joined?** 
 
-
-
 </td>
 <td valign="top">
 
 Whether or not the user has logged in to SAP Build Work Zone, advanced edition.
-
-
 
 </td>
 </tr>
@@ -161,14 +129,10 @@ Whether or not the user has logged in to SAP Build Work Zone, advanced edition.
 
 **First Login At** 
 
-
-
 </td>
 <td valign="top">
 
 The date and time when the user first logged in.
-
-
 
 </td>
 </tr>
@@ -177,14 +141,10 @@ The date and time when the user first logged in.
 
 **Disabled At** 
 
-
-
 </td>
 <td valign="top">
 
 If a user is disabled, the date and time when the user was disabled.
-
-
 
 </td>
 </tr>
@@ -193,14 +153,10 @@ If a user is disabled, the date and time when the user was disabled.
 
 **Last Login At** 
 
-
-
 </td>
 <td valign="top">
 
 The date and time when the user last logged in.
-
-
 
 </td>
 </tr>
@@ -209,14 +165,10 @@ The date and time when the user last logged in.
 
 **Administrator Type** 
 
-
-
 </td>
 <td valign="top">
 
 User, Support Administrator, or Company Administrator.
-
-
 
 </td>
 </tr>
@@ -224,8 +176,6 @@ User, Support Administrator, or Company Administrator.
 <td valign="top">
 
 **Status** 
-
-
 
 </td>
 <td valign="top">
@@ -246,14 +196,10 @@ The user's status \(New, Pending, Active, or Alumni\).
 
 **Invited By** 
 
-
-
 </td>
 <td valign="top">
 
 A semi-colon separated list of the users that invited this user to join SAP Build Work Zone, advanced edition.
-
-
 
 </td>
 </tr>

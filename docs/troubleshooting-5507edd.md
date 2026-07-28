@@ -1,0 +1,842 @@
+<!-- loio5507edd01a6d47eeae62993e22b17787 -->
+
+# Troubleshooting
+
+A troubleshooting guide for HTML5 application repository.
+
+
+
+<a name="loio5507edd01a6d47eeae62993e22b17787__section_v11_2sm_b3b"/>
+
+## Uploading Applications
+
+
+
+### 400: Application metadata already exists when uploading HTML5 applications
+
+
+<table>
+<tr>
+<th valign="top">
+
+Term
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Issue
+
+</td>
+<td valign="top">
+
+HTML5 Application Deployment fails with error "Application metadata for application xyz already exists."
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cause
+
+</td>
+<td valign="top">
+
+There is already an app-host service instance that contains a manifest.json with app.id = xyz in this space it is not possible to have multiple app-hosts containing the same app.id.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Solution
+
+</td>
+<td valign="top">
+
+Delete or do not deploy the old app-host instance or use another app.id in the resources folder for a new app-host.
+
+</td>
+</tr>
+</table>
+
+
+
+### 400: Uploading application content failed
+
+
+<table>
+<tr>
+<th valign="top">
+
+Term
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Issue
+
+</td>
+<td valign="top">
+
+When trying to upload content, it fails with error: "Upload failed".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cause
+
+</td>
+<td valign="top">
+
+One or more of the input validations performed by HTML5 application repository failed. The possible validation failures are:
+
+1.  Missing manifest.json file on the root level.
+
+2.  manifest.json app.id has invalid characters \(hyphens, @, %, &, etc.\).
+
+3.  manifest.json app.version is not using the following format: *xx.xx.xx*, where x must be an integer \(e.g.: -snapshot is not supported\).
+
+4.  app.id of one or more of the applications already exists in another html5-apps-repo/app-host service instance in the same space.
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Solution
+
+</td>
+<td valign="top">
+
+Check if one of the causes is your issue. For example, check the size of your html5-app-deployer resources folder, check manifest.json. If you are not sure if another service instance already uses your app.id, try making a small change to your app.id and deploy it again.
+
+</td>
+</tr>
+</table>
+
+
+
+### 403: App-host is being modified by another process
+
+
+<table>
+<tr>
+<th valign="top">
+
+Term
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Issue
+
+</td>
+<td valign="top">
+
+HTML5 application repository deployment fails with error "app-host is being modified by another process."
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cause
+
+</td>
+<td valign="top">
+
+The HTML5 application repository deployer attempts to upload content while another deployer is also uploading content using the same app-host.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Solution
+
+</td>
+<td valign="top">
+
+Try again after the first HTML5 application repository deployer has completed its upload.
+
+</td>
+</tr>
+</table>
+
+
+
+### 409: App-host deploy or redeploy remains in progress
+
+
+<table>
+<tr>
+<th valign="top">
+
+Term
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Issue
+
+</td>
+<td valign="top">
+
+HTML5 application repository deployment fails with error "Deploy in progress" or "Redeploy in progress" and response type 409 for a long time or any other issue.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cause
+
+</td>
+<td valign="top">
+
+If something happens during the upload, it might cause some inconsistencies.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Solution
+
+</td>
+<td valign="top">
+
+Delete the content of one or more multiple app-hosts, and reset the state to initial without deleting the service instances. Use the following command line in the CF CLI HTML5 application repository plug-in:
+
+```
+cf html5-delete --content <app-host-id> [...]
+```
+
+
+
+</td>
+</tr>
+</table>
+
+
+
+### Timeout while uploading content
+
+
+<table>
+<tr>
+<th valign="top">
+
+Term
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Issue
+
+</td>
+<td valign="top">
+
+When trying to upload content using the `cf push` command, it fails with error: "Failed to make TCP connection to port 8080: connection refused. Timed out after 1m0s: health check never passed."
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cause
+
+</td>
+<td valign="top">
+
+The `cf push` plugin checks if the start process is finished. If the process times out, then it tries to start it again.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Solution
+
+</td>
+<td valign="top">
+
+Set `health-check-type` to `none` in the manifest.yaml of the HTML5 Application Deployer.
+
+</td>
+</tr>
+</table>
+
+
+
+### Uploading application content failed; application size exceeds the maximum size limit of 100 MB
+
+
+<table>
+<tr>
+<th valign="top">
+
+Term
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Issue
+
+</td>
+<td valign="top">
+
+When trying to upload content, you receive the following error: "Uploading application content failed: application's size exceeds the maximum size limit of 100 MB".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cause
+
+</td>
+<td valign="top">
+
+The unzipped applications content exceeds the size limit \(deprecated\) of the app-host service instance.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Solution
+
+</td>
+<td valign="top">
+
+Deploy an application that is less than 100 MB or remove some of your applications and move them to another app-host. .
+
+</td>
+</tr>
+</table>
+
+
+
+<a name="loio5507edd01a6d47eeae62993e22b17787__section_rh5_bym_b3b"/>
+
+## Running Applications
+
+
+
+### 400: Failed to retrieve xs-app.json; invalid app-host ID
+
+
+<table>
+<tr>
+<th valign="top">
+
+Term
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Issue
+
+</td>
+<td valign="top">
+
+Serving content from the HTML5 application repository fails with error "Invalid App Host ID. Please check with business service provider if the requested App Host ID is valid".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Caution
+
+</td>
+<td valign="top">
+
+HTML5 application repository belongs to a business service and the app host ID is invalid or incompatible.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Solution
+
+</td>
+<td valign="top">
+
+Ask the business service owner to define`"public" : true` in the app manifest.json or wait until the HTML5 application repository is restarted.
+
+</td>
+</tr>
+</table>
+
+
+
+### 403: Failed to retrieve xs-app.json; unauthorized
+
+
+<table>
+<tr>
+<th valign="top">
+
+Term
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Issue
+
+</td>
+<td valign="top">
+
+Serving content from the application router fails with error "Unauthorized. Please check with the business service UI provider if the requested UI is defined as public".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cause
+
+</td>
+<td valign="top">
+
+HTML5 application repository belongs to a business service and it is not public.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Solution
+
+</td>
+<td valign="top">
+
+Ask the business service owner to define `"public": true` in the app manifest.json.
+
+</td>
+</tr>
+</table>
+
+
+
+### 404: Application does not exist
+
+
+<table>
+<tr>
+<th valign="top">
+
+Term
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Issue
+
+</td>
+<td valign="top">
+
+The HTML5 application repository fails to serve content. The application log states: "Application xyz does not exist" is printed to the console.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cause
+
+</td>
+<td valign="top">
+
+The application name provided in URL is not correct. Application names are stored in HTML5 application repository without using full stops as separators in the URL. If *manifest.json app.id* equals *country.list*, then the application name is *countrylist* and the same application name should be used in URL.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Solution
+
+</td>
+<td valign="top">
+
+Check the application name.
+
+</td>
+</tr>
+</table>
+
+
+
+### 404: Calls to service endpoints specified in an application's xs-app.json fails
+
+
+<table>
+<tr>
+<th valign="top">
+
+Term
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Issue
+
+</td>
+<td valign="top">
+
+You have defined routes in a UI app's local xs-app.json but calls do not get routed and instead return a 404 error.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cause
+
+</td>
+<td valign="top">
+
+The routes in the xs-app.json file are processed top to bottom. If a route maps the pattern, it is picked even if a route below it is a better match. The route for the HTML5 application repository typically is a "catch all" route, and if any routes are defined below it, then they are never be reached.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Solution
+
+</td>
+<td valign="top">
+
+Move the route leading to the html5-apps-repo-rt to be the last entry in the xs-app.json file.
+
+</td>
+</tr>
+</table>
+
+
+
+### 500: Failed to retrieve xs-app.json
+
+
+<table>
+<tr>
+<th valign="top">
+
+Term
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Issue
+
+</td>
+<td valign="top">
+
+Serving content fails with error "Error while retrieving xsApp configuration".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cause
+
+</td>
+<td valign="top">
+
+The HTML5 application repository is not available.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Solution
+
+</td>
+<td valign="top">
+
+Wait until HTML5 application repository is restarted.
+
+</td>
+</tr>
+</table>
+
+
+
+### 500: Failed to use dynamic destination
+
+
+<table>
+<tr>
+<th valign="top">
+
+Term
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Issue
+
+</td>
+<td valign="top">
+
+Serving content failed with an internal server error. In the application log, an error: "Destination <destinationName\> is not defined as a dynamic destination in destination service, configure additional property HTML5.DynamicDestination true" appears.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cause
+
+</td>
+<td valign="top">
+
+The destination name provided on the host or path level is not defined as a dynamic destination in destination service.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Solution
+
+</td>
+<td valign="top">
+
+In the additional properties section of the destination section of the SAP BTP cockpit, add the `HTML5.DynamicDestination` property and set the value to *true*.
+
+> ### Caution:  
+> Adding an `HTML5.DynamicDestination` property and setting it to true, enables dynamic access to the destination to any logged-in user.
+> 
+> Therefore before adding this property to the destination, make sure that the underlying API is not public and requires the correct user credentials.
+
+
+
+</td>
+</tr>
+</table>
+
+
+
+### 500: Missing xs-app.json in HTML5 application repository when reading an HTML5 application file from the application router
+
+
+<table>
+<tr>
+<th valign="top">
+
+ 
+
+</th>
+<th valign="top">
+
+ 
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Issue
+
+</td>
+<td valign="top">
+
+Serving content fails with error "Application does not have xs-app.json".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cause
+
+</td>
+<td valign="top">
+
+xs-app.json file is missing in HTML5 Application.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Solution
+
+</td>
+<td valign="top">
+
+Redeploy the HTML5 Application with xs-app.json file or ask the business service owner to add the xs-app.json.
+
+</td>
+</tr>
+</table>
+
+
+
+### Caching issue in browser
+
+
+<table>
+<tr>
+<th valign="top">
+
+Term
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Issue
+
+</td>
+<td valign="top">
+
+Your application does not work properly after logging out and when you try to log back in, for example, click anywhere on the application screen, nothing happens.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cause
+
+</td>
+<td valign="top">
+
+The main page of your application, that appears after you log in, is cached by the browser. Clicking links does not reach the backend \(application router\) and the log in process does not work.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Solution
+
+</td>
+<td valign="top">
+
+Check that the main page is not configured to be cached by the browser in your xs-app.json file. The best practice is to model the cacheControl as follows:
+
+```
+{
+  "routes": [
+    {
+      "source": "^/ui/index.html",
+      "target": "index.html",
+      "service": "html5-apps-repo-rt",
+      "authenticationType": "xsuaa"
+      "cacheControl": "no-cache, no-store, must-revalidate"
+    }
+  ]
+}
+```
+
+
+
+</td>
+</tr>
+</table>
+

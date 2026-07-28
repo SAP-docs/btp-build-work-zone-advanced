@@ -34,14 +34,10 @@ Shows a row for each user with the following columns of information:
 
 Row item
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -50,14 +46,10 @@ Description
 
 **Kudo Type** 
 
-
-
 </td>
 <td valign="top">
 
 The name of the kudo type
-
-
 
 </td>
 </tr>
@@ -66,14 +58,10 @@ The name of the kudo type
 
 **To: Email Address** 
 
-
-
 </td>
 <td valign="top">
 
 The email address of the recipient of the kudos
-
-
 
 </td>
 </tr>
@@ -82,14 +70,10 @@ The email address of the recipient of the kudos
 
 **Date Sent** 
 
-
-
 </td>
 <td valign="top">
 
 The date that the kudo was awarded
-
-
 
 </td>
 </tr>
@@ -98,14 +82,10 @@ The date that the kudo was awarded
 
 **To: First Name** 
 
-
-
 </td>
 <td valign="top">
 
 The first name of the recipient of the kudos
-
-
 
 </td>
 </tr>
@@ -114,14 +94,10 @@ The first name of the recipient of the kudos
 
 **To: Last Name** 
 
-
-
 </td>
 <td valign="top">
 
 The last name of the recipient of the kudos
-
-
 
 </td>
 </tr>
@@ -130,14 +106,10 @@ The last name of the recipient of the kudos
 
 **To: User ID** 
 
-
-
 </td>
 <td valign="top">
 
 The SAP Build Work Zone, advanced edition user ID of the recipient of the kudos
-
-
 
 </td>
 </tr>
@@ -146,14 +118,10 @@ The SAP Build Work Zone, advanced edition user ID of the recipient of the kudos
 
 **Comment** 
 
-
-
 </td>
 <td valign="top">
 
 The comment, if any, sent with the kudos
-
-
 
 </td>
 </tr>
@@ -162,14 +130,10 @@ The comment, if any, sent with the kudos
 
 **Status** 
 
-
-
 </td>
 <td valign="top">
 
 *Hidden* or *Shown* kudos
-
-
 
 </td>
 </tr>
@@ -178,14 +142,10 @@ The comment, if any, sent with the kudos
 
 **From: Email Address** 
 
-
-
 </td>
 <td valign="top">
 
 The email address of the user who awarded the kudos
-
-
 
 </td>
 </tr>
@@ -194,14 +154,10 @@ The email address of the user who awarded the kudos
 
 **From: First Name** 
 
-
-
 </td>
 <td valign="top">
 
 The first name of the user who awarded the kudos
-
-
 
 </td>
 </tr>
@@ -210,14 +166,10 @@ The first name of the user who awarded the kudos
 
 **From: Last Name** 
 
-
-
 </td>
 <td valign="top">
 
 The last name of the user who awarded the kudos
-
-
 
 </td>
 </tr>
@@ -226,14 +178,10 @@ The last name of the user who awarded the kudos
 
 **From: User ID** 
 
-
-
 </td>
 <td valign="top">
 
 The SAP Build Work Zone, advanced edition user ID of the user who awarded the kudos
-
-
 
 </td>
 </tr>

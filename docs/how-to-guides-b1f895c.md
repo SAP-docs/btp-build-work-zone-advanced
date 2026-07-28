@@ -6,5 +6,7 @@ In this section of the guide, we explain how to use and manage the various featu
 
 
 
+Here are some quick links to get started:
+
 ![](images/Image_Map_How_To_Guides_546d436.png)
 

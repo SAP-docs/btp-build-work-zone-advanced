@@ -8,7 +8,7 @@ You can bookmark feed posts or content items, such as your most frequently acces
 
 Your bookmarks are displayed under *Tools* \> *Bookmarks*.
 
-To bookmark a content item or feed post, open the content item and choose <span class="SAP-icons"></span>.
+To bookmark a content item or feed post, open the content item and choose <span class="SAP-icons-V5"></span>.
 
-To remove an item from your bookmarks, choose *Unbookmark* \(<span class="SAP-icons"></span>\).
+To remove an item from your bookmarks, choose *Unbookmark* \(<span class="SAP-icons-V5"></span>\).
 

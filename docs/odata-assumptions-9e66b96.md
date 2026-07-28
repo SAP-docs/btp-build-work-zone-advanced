@@ -258,7 +258,7 @@ An example would look something like this:
 }
 ```
 
-When viewing a workspace page with a business record, we check if any of the related items specified in the `relatedItems` in the `view_definition` were registered previously with the client integration. If found, the related objects will be added to the related list, which is viewable by selecting the <span class="SAP-icons"></span> Page navigator icon in the workspace header.
+When viewing a workspace page with a business record, we check if any of the related items specified in the `relatedItems` in the `view_definition` were registered previously with the client integration. If found, the related objects will be added to the related list, which is viewable by selecting the <span class="SAP-icons-V5"></span> Page navigator icon in the workspace header.
 
 We currently assume the following:
 

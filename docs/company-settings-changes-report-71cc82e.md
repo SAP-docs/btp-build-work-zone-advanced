@@ -36,14 +36,10 @@ Shows a row for each company configuration change that has occurred in the speci
 
 Column item
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -52,14 +48,10 @@ Description
 
 **First Name** 
 
-
-
 </td>
 <td valign="top">
 
 The first name of the user who made the configuration change.
-
-
 
 </td>
 </tr>
@@ -68,14 +60,10 @@ The first name of the user who made the configuration change.
 
 **Last Name** 
 
-
-
 </td>
 <td valign="top">
 
 The last name of the user who made the configuration change.
-
-
 
 </td>
 </tr>
@@ -84,14 +72,10 @@ The last name of the user who made the configuration change.
 
 **Email Address** 
 
-
-
 </td>
 <td valign="top">
 
 The email address of the user who made the configuration change.
-
-
 
 </td>
 </tr>
@@ -100,14 +84,10 @@ The email address of the user who made the configuration change.
 
 **User ID** 
 
-
-
 </td>
 <td valign="top">
 
 The login ID of the user who made the configuration change.
-
-
 
 </td>
 </tr>
@@ -116,14 +96,10 @@ The login ID of the user who made the configuration change.
 
 **Date** 
 
-
-
 </td>
 <td valign="top">
 
 The date and time that the configuration change was made.
-
-
 
 </td>
 </tr>
@@ -132,14 +108,10 @@ The date and time that the configuration change was made.
 
 **Setting** 
 
-
-
 </td>
 <td valign="top">
 
 \[General settings only\] The configuration setting that was changed.
-
-
 
 </td>
 </tr>
@@ -148,14 +120,10 @@ The date and time that the configuration change was made.
 
 **Original Value** 
 
-
-
 </td>
 <td valign="top">
 
 \[General settings only\] The value of the setting prior to the change.
-
-
 
 </td>
 </tr>
@@ -164,14 +132,10 @@ The date and time that the configuration change was made.
 
 **New Value** 
 
-
-
 </td>
 <td valign="top">
 
 \[General settings only\] The value of the setting after the change.
-
-
 
 </td>
 </tr>
@@ -180,14 +144,10 @@ The date and time that the configuration change was made.
 
 **Action** 
 
-
-
 </td>
 <td valign="top">
 
 \[Content Administration Usage only\] Whether the setting was enabled or disabled \(Enable or Disable\).
-
-
 
 </td>
 </tr>

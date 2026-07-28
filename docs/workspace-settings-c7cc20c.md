@@ -1,72 +1,43 @@
 <!-- loioc7cc20cafae04298bc70749c94ff0b6d -->
 
-<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
-
 # Workspace Settings
 
-Administrators of a workspace can configure a number of settings that apply to the workspace.
+Company administrators can determine a number of features that affect workspaces.
 
 
 
-Everyone who creates a workspace is automatically assigned as an administrator of that workspace. There is also the option to assign other workspace members as administrators of a particular workspace.
-
-The workspace settings that you define can determine how workspace members can engage and interact within the workspace.
-
-To access these settings, do the following:
-
-On your workspace, click <span class="SAP-icons"></span> and then click *Workspace Admin Settings*.
-
-![](images/Workspace_settings_24c60f3.png)
-
-For more information about these settings, see [Workspace Administrator Tasks](https://help.sap.com/viewer/fec5ca6e3229418f84a932c745cbe985/Cloud/en-US/b861107c58d14670a0a6971932c85ad1.html).
-
-In the *Workspace Admin Settings* dropdown list, click *Edit Workspace*. There are three tabs with settings that you can configure for the workspace:
+As a company administrator, you can enable or disable the following settings. To do this, go to the Administration Console *Feature Enablement* \> *Features*.
 
 
 <table>
 <tr>
 <th valign="top">
 
-Tab
-
-
+Setting
 
 </th>
 <th valign="top">
 
-What settings can be configured
-
-
+More information
 
 </th>
 </tr>
 <tr>
 <td valign="top">
 
-*General* 
-
-
+Enable users in the company to create workspaces
 
 </td>
 <td valign="top">
 
-Includes basic settings such as name, description, and workspace type that defines the privacy level of your workspace.
+1.  Under *User Management*, select *Enable users to create their own workspaces*.
 
+    When enabled all users can create their own workspaces.
 
+    Everyone who creates a workspace is automatically assigned as an administrator of that workspace. There is also the option to assign other workspace members as administrators of a particular workspace.
 
-</td>
-</tr>
-<tr>
-<td valign="top">
+2.  Set the default for workspace email notifications.
 
-*Setup* 
-
-
-
-</td>
-<td valign="top">
-
-Includes settings to help you set up your work zone such as terms of use, adding a company announcement, changing your workspace avatar and background image, determining your landing page, calendar view, and administrative area as well as what content is displayed in your workspace.
 
 
 
@@ -75,20 +46,71 @@ Includes settings to help you set up your work zone such as terms of use, adding
 <tr>
 <td valign="top">
 
-*Participation* 
-
-
+Set default for workspace email notifications
 
 </td>
 <td valign="top">
 
-Includes settings that determine how you can interact in a workspace. Examples are collaboration level, upload policy, content approval by selected workspace members for feed posts, forum posts, and different content types, default email notification settings, task policy, @@notify usage, and content rating.
+Choose whether the email notifications are sent immediately, daily, weekly, or not at all. Users can override this global setting in their email notification preferences.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enable company-wide content creation
+
+</td>
+<td valign="top">
+
+Enable this option for your company so that users can post and create content from their profile and throughout the site, or disable it to restrict posts and content creation to remain within workspaces only.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enable feed sharing
+
+</td>
+<td valign="top">
+
+Enable the addition of a *Share* button allowing users to share updates with a specified workspace or with the entire company.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enable external user access
+
+</td>
+<td valign="top">
+
+Determine the following features regarding external users' access to workspaces:
+
+-   Allow external users to access workspaces. When checked external users can be invited as workspace members \(public or private\), or as non-members of public workspaces. When unchecked, external users can't access any type of workspace.
+
+    If this setting is unchecked after external users were already added as members, they'll remain members, but no additional external users can be added.
+
+-   Enable Area admins to override the above settings. In this case they can create external users via a workspace invitation email or enable SAML assertion-based creation of external users.
 
 
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enable content administration for the support administrator
+
+</td>
+<td valign="top">
+
+Enable allowing support administrators to gain access to all workspaces.
 
 </td>
 </tr>
 </table>
-
-For more information about many of these settings, see [How to Create a Workspace](how-to-create-a-workspace-770f1b0.md).
 

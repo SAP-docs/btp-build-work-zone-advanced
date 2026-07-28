@@ -4,5 +4,5 @@
 
 In the *Compliance & Security* section, you configure the compliance options and security settings that specifically apply to SAP Build Work Zone, advanced edition.
 
-For more information about security in SAP Build Work Zone, advanced edition, see [Security Guide](security-guide-360e373.md).
+For more information about security in SAP Build Work Zone, advanced edition, see [Security Guide](security-guide-d7b1a89.md).
 

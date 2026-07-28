@@ -23,14 +23,10 @@ A company has subscribed to 2000 licenses of SAP Build Work Zone, advanced editi
 
 Time Period
 
-
-
 </th>
 <th valign="top">
 
 Who Logged on to SAP Build Work Zone, advanced edition?
-
-
 
 </th>
 </tr>
@@ -39,14 +35,10 @@ Who Logged on to SAP Build Work Zone, advanced edition?
 
 January 1, 2020 to December 31, 2020
 
-
-
 </td>
 <td valign="top">
 
 Employees 1 to 100
-
-
 
 </td>
 </tr>
@@ -55,14 +47,10 @@ Employees 1 to 100
 
 January 1, 2021 to March 31, 2021
 
-
-
 </td>
 <td valign="top">
 
 Employees 101-500
-
-
 
 </td>
 </tr>
@@ -71,14 +59,10 @@ Employees 101-500
 
 April 1, 2021 to June 30, 2021
 
-
-
 </td>
 <td valign="top">
 
 Employees 101-500
-
-
 
 </td>
 </tr>
@@ -87,14 +71,10 @@ Employees 101-500
 
 July 1, 2021 to September 30, 2021
 
-
-
 </td>
 <td valign="top">
 
 Employees 101-300 and 501-1000
-
-
 
 </td>
 </tr>
@@ -103,14 +83,10 @@ Employees 101-300 and 501-1000
 
 October 1, 2021 to December 31, 2021
 
-
-
 </td>
 <td valign="top">
 
 Employees 1001-2000
-
-
 
 </td>
 </tr>
@@ -133,21 +109,15 @@ Based on the values in the previous table, the following shows the counts for ac
 
 Time Frame Selection
 
-
-
 </th>
 <th valign="top">
 
 \*Active Users
 
-
-
 </th>
 <th valign="top">
 
 Unique Logins
-
-
 
 </th>
 </tr>
@@ -156,14 +126,10 @@ Unique Logins
 
 Last 4 weeks
 
-
-
 </td>
 <td valign="top">
 
 1950
-
-
 
 </td>
 <td valign="top">
@@ -182,14 +148,10 @@ Last 4 weeks
 
 Last 3 months
 
-
-
 </td>
 <td valign="top">
 
 1950
-
-
 
 </td>
 <td valign="top">
@@ -208,14 +170,10 @@ Last 3 months
 
 Last 6 months
 
-
-
 </td>
 <td valign="top">
 
 1950
-
-
 
 </td>
 <td valign="top">
@@ -234,14 +192,10 @@ Last 6 months
 
 Last 12 months
 
-
-
 </td>
 <td valign="top">
 
 1950
-
-
 
 </td>
 <td valign="top">

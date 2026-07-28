@@ -2,7 +2,7 @@
 
 # Exporting Workspaces
 
-When exporting workspaces, you will need the followingInformation about content and size restrictions related to the exported ZIP file of the workspace.
+When exporting workspaces, you will need the following information about content and size restrictions related to the exported ZIP file of the workspace.
 
 
 
@@ -17,14 +17,10 @@ When exporting workspaces, you will need the followingInformation about content 
 
 Location or feature
 
-
-
 </th>
 <th valign="top">
 
 Content type, configuration, or tab
-
-
 
 </th>
 </tr>
@@ -33,14 +29,10 @@ Content type, configuration, or tab
 
 Workspace
 
-
-
 </td>
 <td valign="top">
 
-Private, Public, External workspaces, and Subworkspaces
-
-
+Private, Public, and sub workspaces
 
 </td>
 </tr>
@@ -48,8 +40,6 @@ Private, Public, External workspaces, and Subworkspaces
 <td valign="top">
 
 Content repository
-
-
 
 </td>
 <td valign="top">
@@ -73,8 +63,6 @@ Content repository
 
 Membership
 
-
-
 </td>
 <td valign="top">
 
@@ -90,8 +78,6 @@ Membership
 
 Forums
 
-
-
 </td>
 <td valign="top">
 
@@ -106,8 +92,6 @@ Forums
 <td valign="top">
 
 Events
-
-
 
 </td>
 <td valign="top">
@@ -125,8 +109,6 @@ Events
 
 Knowledge base
 
-
-
 </td>
 <td valign="top">
 
@@ -143,8 +125,6 @@ Knowledge base
 
 Workpages
 
-
-
 </td>
 <td valign="top">
 
@@ -160,8 +140,6 @@ Workpages
 <td valign="top">
 
 Widgets
-
-
 
 </td>
 <td valign="top">

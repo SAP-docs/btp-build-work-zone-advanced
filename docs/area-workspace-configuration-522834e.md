@@ -28,7 +28,7 @@ For both levels, company and area, you can use the following components:
 
 -   Home page
 
-    This page is the landing page for each of the levels. You use the page designer to add widgets to your pages.
+    This page is the landing page for each of the levels. You use the workpage editor to add widgets to your pages.
 
     On the company level, there's also a default home page for external users that administrators can adapt.
 
@@ -54,21 +54,15 @@ Administrators perform the following tasks to set up areas and workspaces:
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Role
 
-
-
 </th>
 <th valign="top">
 
 See also
-
-
 
 </th>
 </tr>
@@ -77,21 +71,15 @@ See also
 
 Design a company home page
 
-
-
 </td>
 <td valign="top">
 
 Company administrators
 
-
-
 </td>
 <td valign="top">
 
 [Home Pages](home-pages-000e8a1.md)
-
-
 
 </td>
 </tr>
@@ -100,21 +88,15 @@ Company administrators
 
 Configure user profiles
 
-
-
 </td>
 <td valign="top">
 
 Company administrators
 
-
-
 </td>
 <td valign="top">
 
 [Profiles](profiles-5c61b54.md)
-
-
 
 </td>
 </tr>
@@ -123,21 +105,15 @@ Company administrators
 
 Create and manage administrative areas
 
-
-
 </td>
 <td valign="top">
 
 Company administrators
 
-
-
 </td>
 <td valign="top">
 
 [Administrative Areas](administrative-areas-34e3ab0.md)
-
-
 
 </td>
 </tr>
@@ -146,14 +122,10 @@ Company administrators
 
 Create and design workspace templates from the Administration Console
 
-
-
 </td>
 <td valign="top">
 
 Company administrators, support administrators, for areas: area administrators
-
-
 
 </td>
 <td valign="top">
@@ -162,8 +134,6 @@ Company administrators, support administrators, for areas: area administrators
 
 [Workspace Templates](workspace-templates-8a27022.md)
 
-
-
 </td>
 </tr>
 <tr>
@@ -171,21 +141,15 @@ Company administrators, support administrators, for areas: area administrators
 
 Optional: Create templates for blog posts, wikis, and knowledge base articles
 
-
-
 </td>
 <td valign="top">
 
 Company administrators
 
-
-
 </td>
 <td valign="top">
 
 [Content Templates](content-templates-e36ead1.md)
-
-
 
 </td>
 </tr>
@@ -194,23 +158,17 @@ Company administrators
 
 Add users and user lists in the Administration Console
 
-
-
 </td>
 <td valign="top">
 
 Company administrators, for areas: area administrators
 
-
-
 </td>
 <td valign="top">
 
-[Internal Users](internal-users-888ef2f.md)
+[Managing Internal Users](managing-internal-users-888ef2f.md)
 
 [User Lists](user-lists-8d23bc7.md)
-
-
 
 </td>
 </tr>
@@ -219,21 +177,15 @@ Company administrators, for areas: area administrators
 
 Design an area home page
 
-
-
 </td>
 <td valign="top">
 
 Area administrators
 
-
-
 </td>
 <td valign="top">
 
 [Home Pages](home-pages-000e8a1.md)
-
-
 
 </td>
 </tr>
@@ -242,14 +194,10 @@ Area administrators
 
 Allow users to create workspaces
 
-
-
 </td>
 <td valign="top">
 
 Company administrators, for areas: area administrator
-
-
 
 </td>
 <td valign="top">
@@ -260,8 +208,6 @@ On the *Features* page, the company administrator can enable or disable that all
 
 If the option that users can create workspaces is disabled, the company administrator can enable area administrators to override this setting for their area by allowing the users of their area to create workspaces.
 
-
-
 </td>
 </tr>
 <tr>
@@ -269,23 +215,15 @@ If the option that users can create workspaces is disabled, the company administ
 
 Create workspaces
 
-
-
 </td>
 <td valign="top">
 
 Users, company administrators, support administrators
 
-
-
 </td>
 <td valign="top">
 
 [Create and Design a Workspace](https://help.sap.com/viewer/fec5ca6e3229418f84a932c745cbe985/Cloud/en-US/770f1b03d87d4be6974bc77df3c816a3.html)
-
-[How to Add Content to Workspaces](how-to-add-content-to-workspaces-19bf8aa.md)
-
-
 
 </td>
 </tr>
@@ -294,25 +232,19 @@ Users, company administrators, support administrators
 
 Invite users to workspaces
 
-
-
 </td>
 <td valign="top">
 
 Workspace administrators, users \(if enabled by the workspace administrator\)
-
-
 
 </td>
 <td valign="top">
 
 [How to Invite and Manage Members](how-to-invite-and-manage-members-d9af89c.md) 
 
-
-
 </td>
 </tr>
 </table>
 
-Company administrators can delegate tasks to support administrators, area administrators, and page content administrators \(for home pages\). For more information, see [Internal Users](internal-users-888ef2f.md).
+Company administrators can delegate tasks to support administrators, area administrators, and page content administrators \(for home pages\). For more information, see [Managing Internal Users](managing-internal-users-888ef2f.md).
 

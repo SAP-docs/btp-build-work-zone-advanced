@@ -2,7 +2,7 @@
 
 # Activating SAP Companion Content
 
-SAP Companion provides on-screen help for your end users. Activating this capability enables the end user to view SAP Companion content for the Applications page and for apps.
+SAP Companion provides on-screen help for your end users. Activating this capability enables end users to view help content that is specific to the screen.
 
 
 
@@ -10,16 +10,13 @@ SAP Companion provides on-screen help for your end users. Activating this capabi
 
 ## Activating SAP Companion
 
-To enable SAP Companion on the Applications page:
+SAP Companion content is available out-of-the box for the Site Manager. In addition, you can activate SAP Companion for your runtime site.
 
-1.  In the Site Directory, open the *Site Settings* screen of the relevant site, and turn on the *SAP Companion* setting.
+To activate SAP Companion:
+
+1.  In the Site Directory, open the *Site Settings* screen of the site, and turn on the *SAP Companion* setting.
 
 2.  Specify the following parameter names and values, which are all **case sensitive**:
-
-    > ### Note:  
-    > The parameters in the following table are relevant to the Applications pageof SAP Build Work Zone, advanced edition.
-    > 
-    > If necessary, you can define other parameters, as described in the [SAP Companion Authoring Guide](https://help.sap.com/doc/eb66dd06beb64bd1b03810fef94d469d/2206/en-US/SAP_Companion_Authoring_Guide_en-US.pdf).
 
 
     <table>
@@ -27,95 +24,71 @@ To enable SAP Companion on the Applications page:
     <th valign="top">
 
     Parameter
-
-
     
     </th>
     <th valign="top">
 
     Value
-
-
     
     </th>
     </tr>
     <tr>
     <td valign="top">
     
-    product
-
-
+    `product`
     
     </td>
     <td valign="top">
     
-    LAUNCHPADS\_BTP\_CF
-
-
+    <code>CENTRAL_ENTRY_POINT_ADV</code>
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-    version
-
-
+    `version`
     
     </td>
     <td valign="top">
     
-    latest
-
-
+    `latest`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-    stateUACP
-
-
+    `stateUACP`
     
     </td>
     <td valign="top">
     
-    PRODUCTION
-
-
+    `PRODUCTION`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-    dataUrlUACP
-
-
+    `dataUrlUACP`
     
     </td>
     <td valign="top">
     
     https://help.sap.com/webassistant/
-
-
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-    resourceUrl
-
-
+    `resourceUrl`
     
     </td>
     <td valign="top">
     
     https://webassistant.enable-now.cloud.sap/web\_assistant/framework/
-
-
     
     </td>
     </tr>
@@ -126,13 +99,17 @@ To enable SAP Companion on the Applications page:
 
 
 
-As a result, when you go to the site,the SAP Companion icon is displayed in the header barof the Applications page:
+As a result, when you go to the site, the SAP Companion icon is displayed in the header bar:
 
-![The question mark icon of SAP Companion appears on the right side of the header bar.](images/Web_Assistant_icon_in_header_bar_71e6e35.png)
+![The SAP Companion icon is displayed on the right side of the header bar](images/In_app_help_icon_-_advanced_7fa8fea.png)
 
-Clicking this icon, opens a vertical panel on the right of the screen, with help content about the screen and the UI elements that it contains.
+Clicking this icon, opens a vertical panel on the right of the screen, with help content about the screen and the UI elements that it contains:
 
-For more information, see [SAP Companion User Guide](https://help.sap.com/doc/49a88466f215455eaaf966aaaa460ece/2206/en-US/SAP_Companion_User_Guide_en-US.pdf).
+![The SAP Companion panel displays the help content that is available.](images/In_app_help_topics_-_advanced_7129aa1.png)
+
+In addition, where applicable, guided tours lead you through the steps required to perform various tasks:
+
+![The SAP Companion panel displays the guided tours that are available.](images/In_app_guided_tours_-_advanced_caef568.png)
 
 
 
@@ -155,14 +132,10 @@ These properties specify the product and version of the SAP Companion content th
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Value
-
-
 
 </th>
 </tr>
@@ -170,8 +143,6 @@ Value
 <td valign="top">
 
 `launchpad.wa.productId` 
-
-
 
 </td>
 <td valign="top">
@@ -205,8 +176,6 @@ Value
 <td valign="top">
 
 `launchpad.wa.productVersion` 
-
-
 
 </td>
 <td valign="top">
@@ -247,9 +216,11 @@ As a result, when you launch an SAP S/4HANA app that has SAP Companion content, 
 
 ### HTML5 Apps and Launchpad modules deployed on your subaccount
 
-Unlike content that is provided by SAP, for apps that are developed and deployed to the subaccount, help content needs to be delivered together with the app. To create custom help content, customers need to use the SAP Enable Now Manager tool, by SAP Enable Now, which requires a license.
+Unlike content that is provided by SAP, for apps that are developed and deployed to the subaccount, for HTML5 apps and launchpad modules, the help content needs to be delivered together with the app. To create this custom help content, customers need to use the SAP Enable Now Manager tool, by SAP Enable Now, which requires a license.
 
-As part of the help content creation flow, a product name and a product version are defined, which are then used when configuring a destination. For more information, see the [SAP Companion Authoring Guide](https://help.sap.com/doc/eb66dd06beb64bd1b03810fef94d469d/2206/en-US/SAP_Companion_Authoring_Guide_en-US.pdf) 
+As part of the help content creation flow, a product name and a product version are defined, which are then used when configuring a destination.
+
+For more information, see the [SAP Companion Authoring Guide](https://help.sap.com/docs/SAP_ENABLE_NOW/40cd55b8a9274a9f9fa8e62af121ed60/7bffbb016edb1014bfc985fb448c9095.html?locale=en-US) 
 
 In the SAP BTP cockpit, in the *Destinations* screen, create a new destination.
 
@@ -260,14 +231,10 @@ In the SAP BTP cockpit, in the *Destinations* screen, create a new destination.
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Value
-
-
 
 </th>
 </tr>
@@ -276,14 +243,10 @@ Value
 
 Name
 
-
-
 </td>
 <td valign="top">
 
 Paste here the ID of the content provider \(HTML5 Apps or launchpad module provider\) as appears in the Channel Manager.
-
-
 
 </td>
 </tr>
@@ -292,14 +255,10 @@ Paste here the ID of the content provider \(HTML5 Apps or launchpad module provi
 
 URL
 
-
-
 </td>
 <td valign="top">
 
 Enter any mock URL. This value is not validated.
-
-
 
 </td>
 </tr>
@@ -308,14 +267,10 @@ Enter any mock URL. This value is not validated.
 
 \(Additional parameter\) `launchpad.wa.productId`
 
-
-
 </td>
 <td valign="top">
 
 Paste here the product name defined for the app, when creating the help content in the SAP Enable Now Manager.
-
-
 
 </td>
 </tr>
@@ -324,14 +279,10 @@ Paste here the product name defined for the app, when creating the help content 
 
 \(Additional parameter\) `launchpad.wa.productVersion`
 
-
-
 </td>
 <td valign="top">
 
 Paste here the product version defined for the app, when creating the help content in the SAP Enable Now Manager.
-
-
 
 </td>
 </tr>
@@ -339,4 +290,6 @@ Paste here the product version defined for the app, when creating the help conte
 
 > ### Note:  
 > If you encounter issues, please open a support ticket on component: KM-SEN-CMP.
+
+For more information about using SAP Companion, see [SAP Companion User Guide](https://help.sap.com/docs/SAP_ENABLE_NOW/46fcbeb139c4487ba713638cd75d1a19/6208110e6cac1014b670eace620bbd24.html?locale=en-US).
 

@@ -19,14 +19,10 @@ The settings in the top tile apply to all the tiles on the page.
 
 Setting
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -34,8 +30,6 @@ Description
 <td valign="top">
 
 *Dashboard time frame*
-
-
 
 </td>
 <td valign="top">
@@ -54,14 +48,10 @@ Choose the period from which to display the data. This setting applies to all th
 
 *Print*
 
-
-
 </td>
 <td valign="top">
 
 To print the top tile and the summary tiles, the system displays a print-friendly page.
-
-
 
 </td>
 </tr>
@@ -69,8 +59,6 @@ To print the top tile and the summary tiles, the system displays a print-friendl
 <td valign="top">
 
 *Download*
-
-
 
 </td>
 <td valign="top">
@@ -99,14 +87,10 @@ To download the following information to a spreadsheet:
 
 Tile
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -114,8 +98,6 @@ Description
 <td valign="top">
 
 *Login Activity*
-
-
 
 </td>
 <td valign="top">
@@ -140,8 +122,6 @@ Description
 
 See [Login Activity Example](login-activity-example-a3154ab.md) for a sample calculation.
 
-
-
 </td>
 </tr>
 <tr>
@@ -149,14 +129,12 @@ See [Login Activity Example](login-activity-example-a3154ab.md) for a sample cal
 
 *Workspaces*
 
-
-
 </td>
 <td valign="top">
 
 -   The total count of active workspaces in your organization's instance of SAP Build Work Zone, advanced edition in the selected time frame.
 -   The change in the total count of active workspaces from the previous period to the current period, as both actual numbers and as a percentage change.
--   The proportion of private, public, and external workspaces, with counts of each shown when you hover over a workspace type.
+-   The proportion of private and public workspaces, with counts of each shown when you hover over a workspace type.
 
 
 
@@ -167,8 +145,6 @@ See [Login Activity Example](login-activity-example-a3154ab.md) for a sample cal
 
 *Most Viewed Workspaces*
 
-
-
 </td>
 <td valign="top">
 
@@ -176,16 +152,12 @@ Shows the most visited workspaces, listed in descending order, for the selected 
 
 The name of the workspace is hyperlinked to the home page if you have access to the workspace.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 *Most Engaging Items: Home Page*
-
-
 
 </td>
 <td valign="top">
@@ -196,16 +168,12 @@ Custom home page tabs are excluded from company and area leaderboards.
 
 Items that are saved to public workspaces and displayed on the company or area home page are excluded from company and area leaderboards. Those items display on the workspace leaderboards instead.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 *Most Engaged Users: Home Page*
-
-
 
 </td>
 <td valign="top">
@@ -215,8 +183,6 @@ This tile shows the users with the most activities.
 To be an engaged user, you have to interact with content by viewing it in single item view or in a feed, liking items, posting comments, replying to comments, and uploading items.
 
 If the *Allow User Level Reporting / Dashboard* option in *Feature Enablement* \> *Features* \> *Feature Management* isn't selected, then the most engaging users leaderboard isn't shown.
-
-
 
 </td>
 </tr>
@@ -239,14 +205,10 @@ Choose the *View Details* link on a summary tile to go to its detail tile.
 
 Tile
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -255,16 +217,12 @@ Description
 
 *Login Activity*
 
-
-
 </td>
 <td valign="top">
 
 Filter by time frame.
 
 Hover over a date node to display the actual numbers for the date.
-
-
 
 </td>
 </tr>
@@ -273,16 +231,12 @@ Hover over a date node to display the actual numbers for the date.
 
 *Workspaces*
 
-
-
 </td>
 <td valign="top">
 
 Filter by time frame and workspace type.
 
 Hover over a date node to display the actual numbers for the date.
-
-
 
 </td>
 </tr>
@@ -291,16 +245,12 @@ Hover over a date node to display the actual numbers for the date.
 
 *Most Viewed Workspaces*
 
-
-
 </td>
 <td valign="top">
 
 Filter by time frame, workspace name, and workspace type.
 
 The background of the table shows a gray colored horizontal bar to highlight the comparative counts of views for the most viewed workspaces. Full width is the highest count, with subsequent counts being proportional representations of the counts for each workspace.
-
-
 
 </td>
 </tr>
@@ -309,8 +259,6 @@ The background of the table shows a gray colored horizontal bar to highlight the
 
 *Most Engaging Items: Home Page*
 
-
-
 </td>
 <td valign="top">
 
@@ -318,16 +266,12 @@ Filter by time frame, content type, and role \(administrators included or exclud
 
 The background of the table shows a gray colored horizontal bar to highlight the comparative counts of views for the most engaging items. Full width is the highest count, with subsequent counts being proportional representations of the counts for each item.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 *Most Engaged Users: Home Page*
-
-
 
 </td>
 <td valign="top">
@@ -337,8 +281,6 @@ Filter by time frame and role \(administrators included or excluded\).
 The background of the table shows a gray colored horizontal bar to highlight the comparative counts of all activities by the users. Full width is the highest count, with subsequent counts being proportional representations of the counts for the activities.
 
 The total number of activities is broken down into counts of views, likes, comments, and uploads to indicate how the users engaged with the home pages.
-
-
 
 </td>
 </tr>

@@ -17,7 +17,7 @@ Each business record type contains a set of attributes that can be displayed and
       
     **Add a business record sort order**
 
-    ![](images/SJDG-3ExtApps-11AddABusinessRecordSortOrder01_png_e262a45.png "Add a business record sort order")
+    ![Screen capture of the Manage Filters page for a specific business record.](images/SJDG-3ExtApps-11AddABusinessRecordSortOrder01_png_e262a45.png "Add a business record sort order")
 
 5.  Click *Show Fields Hint* to view the list of available fields.
 

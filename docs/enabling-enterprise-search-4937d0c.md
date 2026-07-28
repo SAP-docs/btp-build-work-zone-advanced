@@ -47,7 +47,7 @@ In SAP Build Work Zone, advanced edition, there are 2 types of search mechanisms
 
 
 > ### Note:  
-> Even if enterprise search is enabled, users can still use the site search by adding a dedicated *Search* widget to a workpage. For more information, see [How to Add Content to Workspaces](how-to-add-content-to-workspaces-19bf8aa.md).
+> Even if enterprise search is enabled, users can still use the site search by adding a dedicated *Search* widget to a workpage. For more information, see [How to Use the Workpage Editor](how-to-use-the-workpage-editor-9164929.md).
 
 For more details about how users can search in the site , see [How to Search in Your Site](how-to-search-in-your-site-a3a83b4.md).
 

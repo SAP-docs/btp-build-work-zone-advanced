@@ -27,5 +27,5 @@ When integrating SAP Build Work Zone, advanced edition with your SAP Cloud for C
 
 ### Integration Steps
 
-To integrate SAP Build Work Zone, advanced edition with SAP Cloud for Customer, on the SAP Cloud for Customer product page, see [Integrate with SAP Jam](https://help.sap.com/viewer/908c545d8c224add8d17d7bcd3047242/2002/en-US).
+To integrate SAP Build Work Zone, advanced edition with SAP Cloud for Customer, on the SAP Cloud for Customer product page, see [Integrating SAP Cloud for Customer with SAP Jam](https://help.sap.com/docs/sap-cloud-for-customer/prepackaged-integration-with-sap-build-work-zone-bb9fe191295e4c119106adefceb56a11/integrating-sap-cloud-for-customer-with-sap-build-work-zone?version=CLOUD).
 

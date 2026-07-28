@@ -10,15 +10,15 @@ Widgets are containers for a variety of content types such as video, feeds, and 
 
 ## Introduction
 
-When you add a widget to a workpage, you're adding specific content of the widget type. For example, if you select an *Image* widget type from the widget gallery, you can select any image that you've saved on your computer. You can then define the image settings such as adding a caption, changing the widget's style, as well as the layout and alignment.
+When you add a widget to a workpage, you're adding specific content of the widget type. For example, if you select an *Image* widget type from the content finder, you can select any image that you've saved on your computer or directly from the workspace content repository. You can then define the image settings such as adding a caption, changing the widget's style, as well as the layout and alignment.
 
-To add widgets to your workpages, you use a tool called the workpage editor. You can insert, remove, edit, and reposition widgets as needed. For more information, see: [How to Add Content to Workspaces](how-to-add-content-to-workspaces-19bf8aa.md).
+To add widgets to your workpages, use a tool called the workpage editor. You can insert, remove, edit, and reposition widgets as needed. For more information, see: [How to Use the Workpage Editor](how-to-use-the-workpage-editor-9164929.md).
 
 
 
 Your site contains a variety of out-of-the box widgets. Here are some examples for you to see:
 
-![](images/Widget_examples_e2dc374.png)
+![Screenshots of a few examples of widgets.](images/Widget_examples_e2dc374.png)
 
 The following table lists the available out-of-the-box widgets that you can add to your site and more information about each type:
 
@@ -29,14 +29,10 @@ The following table lists the available out-of-the-box widgets that you can add 
 
 Widget type
 
-
-
 </th>
 <th valign="top">
 
 More information
-
-
 
 </th>
 </tr>
@@ -45,16 +41,12 @@ More information
 
 Application Group
 
-
-
 </td>
 <td valign="top">
 
 Select a group of apps. You can only select apps that you have permission to access. The group of apps that you select is added to your workpage.
 
-For more information, see [Adding Apps to Your Site](adding-apps-to-your-site-cb936ef.md)
-
-
+For more information, see [Business Content](business-content-cb936ef.md)
 
 </td>
 </tr>
@@ -62,8 +54,6 @@ For more information, see [Adding Apps to Your Site](adding-apps-to-your-site-cb
 <td valign="top">
 
 Multimedia
-
-
 
 </td>
 <td valign="top">
@@ -75,6 +65,7 @@ Multimedia
 -   Choose a playlist.
 
 
+For more information, see [Multimedia Widget](multimedia-widget-27b9bd1.md).
 
 </td>
 </tr>
@@ -83,15 +74,15 @@ Multimedia
 
 Image
 
-
-
 </td>
 <td valign="top">
 
 Select an image from a local computer folder or directly from the workspace content repository.
 
 > ### Note:  
-> When you click and drag the bottom edge of an image widget to resize it, a new guideline icon appears to help you align the edge with another widget in the same row. As you drag the guideline, it will automatically snap to the bottom edge alignment matching the other widget.
+> Use the dividers between columns to align images in a row.
+> 
+> ![](images/Showing_dividers_to_align_images_4011cba.png)
 
 You also have some editing options such as adding a title, caption, link to a website, or even changing the widget style.
 
@@ -112,7 +103,7 @@ You also have some editing options such as adding a title, caption, link to a we
 > 
 >     Displays widget without card styling – no color, border, or rounded corners.
 
-
+For more information, see [Image Widget](image-widget-df9e203.md).
 
 </td>
 </tr>
@@ -120,8 +111,6 @@ You also have some editing options such as adding a title, caption, link to a we
 <td valign="top">
 
 Text
-
-
 
 </td>
 <td valign="top">
@@ -158,14 +147,10 @@ Insert and format text using a rich text editor. You can also include tables and
 
 Poll
 
-
-
 </td>
 <td valign="top">
 
 Select a poll from the content list to add to the widget.
-
-
 
 </td>
 </tr>
@@ -174,14 +159,10 @@ Select a poll from the content list to add to the widget.
 
 Search
 
-
-
 </td>
 <td valign="top">
 
 Display a search box for finding content.
-
-
 
 </td>
 </tr>
@@ -190,14 +171,10 @@ Display a search box for finding content.
 
 People
 
-
-
 </td>
 <td valign="top">
 
 Display a list or carousel of members.
-
-
 
 </td>
 </tr>
@@ -205,8 +182,6 @@ Display a list or carousel of members.
 <td valign="top">
 
 Feed
-
-
 
 </td>
 <td valign="top">
@@ -218,8 +193,6 @@ Insert an activity feed based on a selected filter.
 
 On a workpage, workspace members can participate in workspace feed activities by entering, liking, and replying to feed updates. Home pages display the company or area feed only.
 
-
-
 </td>
 </tr>
 <tr>
@@ -227,14 +200,12 @@ On a workpage, workspace members can participate in workspace feed activities by
 
 Content
 
-
-
 </td>
 <td valign="top">
 
 Show content such as documents, blog posts, videos, images, links, and much more in a list or grid view.
 
-
+For more information, see [Content Widget](content-widget-a2a6f73.md).
 
 </td>
 </tr>
@@ -243,14 +214,10 @@ Show content such as documents, blog posts, videos, images, links, and much more
 
 Workspaces
 
-
-
 </td>
 <td valign="top">
 
 Display links to workspaces and sub-workspaces that you select.
-
-
 
 </td>
 </tr>
@@ -259,14 +226,10 @@ Display links to workspaces and sub-workspaces that you select.
 
 Action
 
-
-
 </td>
 <td valign="top">
 
 Show a list of popular actions for the user to choose from.
-
-
 
 </td>
 </tr>
@@ -275,14 +238,10 @@ Show a list of popular actions for the user to choose from.
 
 External Content
 
-
-
 </td>
 <td valign="top">
 
 Show content form external applications from an external folder.
-
-
 
 </td>
 </tr>
@@ -291,14 +250,10 @@ Show content form external applications from an external folder.
 
 Slideshow
 
-
-
 </td>
 <td valign="top">
 
 Select a PDF file or a presentation to display as a slideshow.
-
-
 
 </td>
 </tr>
@@ -307,14 +262,12 @@ Select a PDF file or a presentation to display as a slideshow.
 
 Forum
 
-
-
 </td>
 <td valign="top">
 
 Show questions, ideas, and discussions.
 
-
+For more information, see [Forum Widget](forum-widget-617530d.md).
 
 </td>
 </tr>
@@ -323,14 +276,10 @@ Show questions, ideas, and discussions.
 
 Tool Content
 
-
-
 </td>
 <td valign="top">
 
 Show the pro/con comparison table, agenda, or extensions \(for example, Google Maps\).
-
-
 
 </td>
 </tr>
@@ -339,14 +288,10 @@ Show the pro/con comparison table, agenda, or extensions \(for example, Google M
 
 Notification
 
-
-
 </td>
 <td valign="top">
 
 Show a summary of all notifications.
-
-
 
 </td>
 </tr>
@@ -355,14 +300,10 @@ Show a summary of all notifications.
 
 Recommendation
 
-
-
 </td>
 <td valign="top">
 
 Show a list of recommended content, people, and workspaces.
-
-
 
 </td>
 </tr>
@@ -371,14 +312,10 @@ Show a list of recommended content, people, and workspaces.
 
 Recent Items
 
-
-
 </td>
 <td valign="top">
 
 Show a list of recently viewed content and workspaces.
-
-
 
 </td>
 </tr>
@@ -387,14 +324,10 @@ Show a list of recently viewed content and workspaces.
 
 Name
 
-
-
 </td>
 <td valign="top">
 
 Display the avatar and name of the logged-in user.
-
-
 
 </td>
 </tr>
@@ -403,14 +336,10 @@ Display the avatar and name of the logged-in user.
 
 Tag Cloud
 
-
-
 </td>
 <td valign="top">
 
 Show the most popular hashtags in a tag cloud.
-
-
 
 </td>
 </tr>
@@ -419,14 +348,10 @@ Show the most popular hashtags in a tag cloud.
 
 Business Record
 
-
-
 </td>
 <td valign="top">
 
 Show details for a specific business record such as Service Requests, Corporate Accounts Opportunities, and more.
-
-
 
 </td>
 </tr>
@@ -435,14 +360,12 @@ Show details for a specific business record such as Service Requests, Corporate 
 
 Event
 
-
-
 </td>
 <td valign="top">
 
 Show an upcoming or recent event.
 
-
+For more information, see [Event Widget](event-widget-6d0cdcd.md).
 
 </td>
 </tr>
@@ -451,14 +374,12 @@ Show an upcoming or recent event.
 
 Rotating Banner
 
-
-
 </td>
 <td valign="top">
 
 Display a carousel with up to 10 slides of headlines or news. You can link the slide to a URL or to existing content in the content repository of your workspace.
 
-
+For more information, see [Rotating Banner Widget](rotating-banner-widget-c2e89b7.md).
 
 </td>
 </tr>
@@ -467,47 +388,17 @@ Display a carousel with up to 10 slides of headlines or news. You can link the s
 
 Knowledge Base
 
-
-
 </td>
 <td valign="top">
 
 Show featured, last updated, most viewed, or most liked articles.
 
-
+For more information, see [Knowledge Base Widget](knowledge-base-widget-08ab831.md).
 
 </td>
 </tr>
 </table>
 
-
-
-<a name="loio5a73a41dcfd04a5bb11ba3d3b42b8d64__section_zjy_tgl_crb"/>
-
-## Tips for adding image widgets
-
-When using an image widget, keep the following recommended width sizes in mind for an up to 4-column span to ensure highest viewing quality:
-
--   image spanning width of one column: 288 pixels
-
--   image spanning width of two columns: 585 pixels
-
--   image spanning width of three columns: 883 pixels
-
--   image spanning width of four columns: 1180 pixels
-
-For an up to 6-column span, when using an image widget, consider the following for highest viewing quality:
-
--   image spanning width of one column: 188 pixels
-
--   image spanning width of two columns: 386 pixels
-
--   image spanning width of three columns: 585 pixels
-
--   image spanning width of four columns: 783 pixels
-
--   image spanning width of five columns: 981 pixels
-
--   image spanning width of six columns: 1180 pixels
-
+> ### Note:  
+> If you have access to a private folder, you can select content from these folders for the following widgets: Content, Image, Slideshow, Multimedia, and Rotating Banner.
 

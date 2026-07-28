@@ -59,14 +59,10 @@ This table explains the settings and their values.
 
 Setting
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -75,16 +71,12 @@ Description
 
 *Widget div ID*
 
-
-
 </td>
 <td valign="top">
 
 Unique ID for the HTML div element that contains the widget
 
 The div ID is used in the widget JavaScript that you generate using the form, and it must match the div ID in the HTML page that you use as the container for the widget. Accept the default ID of *myDiv* unless there are other divs in the same page with the same ID, as the div ID must be unique within the page in which you add the widget.
-
-
 
 </td>
 </tr>
@@ -93,14 +85,12 @@ The div ID is used in the widget JavaScript that you generate using the form, an
 
 *Authentication type*
 
-
-
 </td>
 <td valign="top">
 
 The options are:
 
--   *Single-use Token*: uses a single-use token provided by the SAP Build Work Zone, advanced edition API. **\[Recommended\]** 
+-   *Single-use Token*: uses a single-use token provided by the SAP Build Work Zone, advanced edition API.
 
     For more information about single-use tokens, see the [SAP Build Work Zone OData API Documentation](https://jam2.sapjam.com/work_zone/ODataDocs/ui).
 
@@ -119,12 +109,6 @@ The options are:
     });
     ```
 
-    > ### Note:  
-    > The other authentication types aren't recommended for use in production.
-
--   *Login from your Identity Provider*: uses an existing session, or it presents your identity provider's sign-on page and then redirects to the requested feed widget after the user signs in. **\[Not recommended: included for legacy support\]**
--   *Login from your Identity Provider in pop-up*: uses an existing session, or it presents your identity provider's sign-on page in a new page or tab. Upon successful sign-on, the new page closes, and the original requesting page redirects to the requested feed widget. **\[Not recommended: included for legacy support\]**
--   *Pre-existing**session*: uses an existing session, or it displays an error message if one isn't found. **\[Not recommended: included for legacy support\]**
 
 
 
@@ -134,8 +118,6 @@ The options are:
 <td valign="top">
 
 *Feed type*
-
-
 
 </td>
 <td valign="top">
@@ -180,14 +162,10 @@ The options are:
 
 *Style*
 
-
-
 </td>
 <td valign="top">
 
 Select the styling that you want to apply to the widget.
-
-
 
 </td>
 </tr>
@@ -196,14 +174,10 @@ Select the styling that you want to apply to the widget.
 
 *Show Profile Images in Feed*
 
-
-
 </td>
 <td valign="top">
 
 Shows thumbnails of the creators of each post in the feed.
-
-
 
 </td>
 </tr>
@@ -212,14 +186,10 @@ Shows thumbnails of the creators of each post in the feed.
 
 *Show User Profile Image*
 
-
-
 </td>
 <td valign="top">
 
 Shows a thumbnail of the requesting user at that top of the feed.
-
-
 
 </td>
 </tr>
@@ -228,14 +198,10 @@ Shows a thumbnail of the requesting user at that top of the feed.
 
 *Live Feed Updates*
 
-
-
 </td>
 <td valign="top">
 
 Sets whether updates are automatic or by notification message.
-
-
 
 </td>
 </tr>
@@ -244,14 +210,10 @@ Sets whether updates are automatic or by notification message.
 
 *Mobile Mode*
 
-
-
 </td>
 <td valign="top">
 
 Presents only mobile-capable features in the feed.
-
-
 
 </td>
 </tr>
@@ -260,14 +222,10 @@ Presents only mobile-capable features in the feed.
 
 *Filter by the Following Hashtags*
 
-
-
 </td>
 <td valign="top">
 
 Allows you to filter the feed based on the hashtags that you enter.
-
-
 
 </td>
 </tr>
@@ -275,8 +233,6 @@ Allows you to filter the feed based on the hashtags that you enter.
 <td valign="top">
 
 *Post Mode*
-
-
 
 </td>
 <td valign="top">
@@ -296,8 +252,6 @@ The post mode refers to the text entry box at the top of the feed in which you c
 
 *Reply Mode*
 
-
-
 </td>
 <td valign="top">
 
@@ -316,14 +270,10 @@ The reply mode refers to the options to reply to other peoples' comments. The op
 
 *Hide Like Links*
 
-
-
 </td>
 <td valign="top">
 
 Shows or hides users' likes as a post in the feed as replies.
-
-
 
 </td>
 </tr>
@@ -332,14 +282,10 @@ Shows or hides users' likes as a post in the feed as replies.
 
 *Hide Bookmark Links*
 
-
-
 </td>
 <td valign="top">
 
 Shows or hides users' bookmarks in the feed as replies.
-
-
 
 </td>
 </tr>
@@ -348,14 +294,10 @@ Shows or hides users' bookmarks in the feed as replies.
 
 *Limit feed items to a maximum of*
 
-
-
 </td>
 <td valign="top">
 
 Allows you to set the maximum number of feed items.
-
-
 
 </td>
 </tr>
@@ -376,14 +318,10 @@ This table explains the settings and their values.
 
 Setting
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -394,14 +332,10 @@ Description
 
 *Authentication Type* 
 
-
-
 </td>
 <td valign="top">
 
 See the description in the *Feed Widget Builder* section.
-
-
 
 </td>
 </tr>
@@ -410,14 +344,10 @@ See the description in the *Feed Widget Builder* section.
 
 *Type*
 
-
-
 </td>
 <td valign="top">
 
 Select the layout of the recommendations that you want to use.
-
-
 
 </td>
 </tr>
@@ -426,14 +356,10 @@ Select the layout of the recommendations that you want to use.
 
 *\# of Recommendations*
 
-
-
 </td>
 <td valign="top">
 
 Select the number of recommendations that you want to display.
-
-
 
 </td>
 </tr>
@@ -442,14 +368,10 @@ Select the number of recommendations that you want to display.
 
 *Recommendation Type*
 
-
-
 </td>
 <td valign="top">
 
 Select the type of recommendations that you want to display, such as content, people, or workspaces.
-
-
 
 </td>
 </tr>
@@ -470,14 +392,10 @@ This table explains the settings and their values.
 
 Setting
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -486,14 +404,10 @@ Description
 
 *Widget element ID* 
 
-
-
 </td>
 <td valign="top">
 
 The ID of the HTML DOM element that opens the widget.
-
-
 
 </td>
 </tr>
@@ -501,8 +415,6 @@ The ID of the HTML DOM element that opens the widget.
 <td valign="top">
 
 *Create default widget button*
-
-
 
 </td>
 <td valign="top">
@@ -521,14 +433,10 @@ Select the field to have a widget button included in the embedded widget.
 
 *Page URL*
 
-
-
 </td>
 <td valign="top">
 
 Enter the URL of the external web page in which the widget is embedded. The initial content of this page is displayed in the feed.
-
-
 
 </td>
 </tr>
@@ -536,8 +444,6 @@ Enter the URL of the external web page in which the widget is embedded. The init
 <td valign="top">
 
 *Workspace ID \(optional\)*
-
-
 
 </td>
 <td valign="top">
@@ -558,16 +464,17 @@ You can get this ID from the last segment of the workspace URL. For example, in 
 
 *Use custom branding*
 
-
-
 </td>
 <td valign="top">
 
 To include your company logo in the shared content. The logo is configured under *Theming & Branding* \> *Local Theme Designer*.
 
-
-
 </td>
 </tr>
 </table>
+
+**Related Information**  
+
+
+[HTML div-Embedded Widgets](html-div-embedded-widgets-d6526cf.md "You can embed the following widgets into HTML pages of a third-party application.")
 

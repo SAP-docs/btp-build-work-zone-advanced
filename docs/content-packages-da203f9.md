@@ -24,17 +24,40 @@ There are two types of content packages available:
 
         These include:
 
-        -   *Employee Onboarding* 
+        -   Agent Connection Suite
 
-            For more information, see [Configuring Onboarding Guided Experience](https://help.sap.com/docs/SAP_SUCCESSFACTORS_WORK_ZONE/04877e17a5da4908a6fea94949e160b5/bfad5dec28a54dd9a37804d5508916a0.html?q=employee%20onboarding)
+            For more information, see [SAP SuccessFactors Agent Connection](https://help.sap.com/docs/SAP_Agent_Connection?locale=en-US).
 
-        -   *HR Content from SAP SucessFactors*
+        -   SAP SuccessFactors guided experience packages
 
-            To learn more about this content package, see [Working with the HR Content](https://help.sap.com/docs/SAP_SUCCESSFACTORS_WORK_ZONE/04877e17a5da4908a6fea94949e160b5/9bc38d423d3740548a8093b71adbb8ad.html)
+            -   Return to Workplace
 
-        -   *Insights: Change Management*
+            -   Reward and Recognition
 
-            This content package is integrated with SAP Enterprise Product Development \(SAP EPD\), as part of the Insights capability. To enable the connection between SAP Enterprise Product Development and SAP Build Work Zone, advanced edition, see [Configuring Connectivity for Insights](https://help.sap.com/docs/PLM_EPD/1bfdb8b2f0264b66a818a2a889ee8c31/78f00a19c1cc413c91116d546bd3896a.html).
+            -   Employee Onboarding
+
+
+            For more information, see [Working with the HR Content](https://help.sap.com/docs/SAP_SUCCESSFACTORS_WORK_ZONE/04877e17a5da4908a6fea94949e160b5/9bc38d423d3740548a8093b71adbb8ad.html).
+
+        -   Product Lifecycle Management content
+
+            -   Insights: Change Management
+
+            -   Insights: Collaboration
+
+            -   Insights: Define Products
+
+
+            For more information, see [User Guide for Insights](https://help.sap.com/docs/PLM_EPD/b183c303b8fc4254a08e565cdee4e163/b62eb5abd9a845b193366658543ee039.html).
+
+        -   HR Cards
+
+            -   HR Cards and Templates
+
+            -   HR Cars from Home Page
+
+
+            For more information, see [Working with the HR Content](https://help.sap.com/docs/SAP_SUCCESSFACTORS_WORK_ZONE/04877e17a5da4908a6fea94949e160b5/9bc38d423d3740548a8093b71adbb8ad.html).
 
 
 

@@ -6,12 +6,17 @@ A step by step guide for setting up SAP Build Work Zone, advanced edition.
 
 
 
-This onboarding guide describes the simplest approach for user authentication and provisioning, using SAP Cloud Identity Services - Identity Authentication as the user management system, and SAP Cloud Identity Services - Identity Provisioning as the user provisioning system. However, there are other approaches that can be used, depending on your environment setup.
+> ### Note:  
+> In China region, SAP Build Work Zone, advanced edition, which is based on the subscription commercial model, isn’t supported. You can only onboard to SAP SuccessFactors Work Zone.
 
-For more information about different configuration options, see [User Authentication, Provisioning and Authorization](user-authentication-provisioning-and-authorization-f04c185.md)
+The SAP Build Work Zone, advanced edition onboarding guide describes the simplest approach for user authentication and provisioning, using SAP Cloud Identity Services - Identity Authentication as the primary IdP and SAP Cloud Identity Services - Identity Provisioning for user provisioning. However, you can adjust the process to meet the requirements of your own environment.
+
+For example, instead of using Identity Authentication as the primary IdP, you can use an SAP or 3rd-party IdP as a source system for user data, and use Identity Authentication as a proxy between the source and SAP Build Work Zone, advanced edition. Another example is that in the onboarding guide you are instructed to use SuccessFactors as a source system in Identity Provisioning when onboarding to SAP SuccessFactors Work Zone, however, there is no real restriction here. You can choose any source system from the supported list in Identity Provisioning.
+
+For more information about different configuration options, see [User Authentication and Authorization](user-authentication-and-authorization-f04c185.md).
 
 > ### Note:  
-> For information about onboarding to SAP SuccessFactors Work Zone see, [Onboarding to SAP SuccessFactors Work Zone](onboarding-to-sap-successfactors-work-zone-edc62f9.md)
+> You can’t subscribe to SAP Build Work Zone, advanced edition if you’re already subscribed to SAP SuccessFactors Work Zone on a given subaccount.
 
 
 
@@ -19,7 +24,7 @@ For more information about different configuration options, see [User Authentica
 
 ## About the Onboarding Process
 
-SAP Build Work Zone, advanced edition is an SAP Business Technology Platform service that comprises several components. The onboarding process is required to integrate these components into a comprehensive, working digital solution.
+Unlike many other services in SAP Business Technology Platform, it is not enough to subscribe to SAP Build Work Zone, advanced edition and configure roles in order to access the service. The onboarding process is more complex because of the integration with the different components that comprise it, such as Identity Authentication and Identity Provisioning, the fact that the DWS component runs in an iframe inside the SAP Build Work Zone, advanced edition application, and more.
 
 The onboarding process consists of the following steps:
 
@@ -30,30 +35,22 @@ The onboarding process consists of the following steps:
 
 Step
 
-
-
 </th>
 <th valign="top">
 
 Detailed Instructions
-
-
 
 </th>
 </tr>
 <tr>
 <td valign="top">
 
-Complete prerequiste configuration related to user management and authentication.
-
-
+Complete the prerequisite configurations such as setting up an account, establishing trust, and more.
 
 </td>
 <td valign="top">
 
 [Prerequisites](prerequisites-9e78b62.md)
-
-
 
 </td>
 </tr>
@@ -62,50 +59,40 @@ Complete prerequiste configuration related to user management and authentication
 
 Run the SAP Build Work Zone, advanced edition booster for automatic setup steps on your subaccount.
 
-
-
 </td>
 <td valign="top">
 
 [Run the Booster](run-the-booster-4679f1c.md)
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-Connect your subaccount to the Identity Provisioning service and assign optional roles for theme editing.
-
-
+Complete the post-booster steps of connecting directly to Identity Authentication and creating a tenant with the relevant connectors in Identity Provisioning.
 
 </td>
 <td valign="top">
 
 [Post Booster Configuration](post-booster-configuration-e567b51.md)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-Complete the steps of the SAP Build Work Zone, advanced edition configurator wizard.
-
-
+Complete the final steps using the configurator wizard.
 
 </td>
 <td valign="top">
 
 [Run the Configurator](run-the-configurator-7202ced.md)
 
-
-
 </td>
 </tr>
 </table>
+
+A Learning Journey is available for you in *SAP Learning* where you can find explanations about basic architecture concepts and different aspects of the onboarding process. For more information, see [Implementing and Administering SAP Build Work Zone](https://learning.sap.com/learning-journeys/implement-and-administer-sap-build-work-zone).
 
 
 

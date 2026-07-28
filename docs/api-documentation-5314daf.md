@@ -2,13 +2,11 @@
 
 # API Documentation
 
-Developers can access the SAP API Hub to find API guidelines..
+Developers can access the SAP Business Accelerator Hub to find API documentation.
 
 
 
-In the *SAP Cloud Portal Service* package in the API Hub, you can find information about APIs available for use in SAP Cloud Portal service, SAP Build Work Zone, standard edition, SAP Build Work Zone, advanced edition, and SAP SuccessFactors Work Zone.
-
-For more information, see [API Hub](https://api.sap.com/package/SAPCLOUDPLATFORMPORTAL/overview)
+For more information, see [SAP Build Work Zone APIs](https://api.sap.com/package/SAPBuildWorkZone/odata)
 
 
 

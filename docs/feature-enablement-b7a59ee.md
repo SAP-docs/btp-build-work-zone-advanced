@@ -19,14 +19,10 @@ As a company administrator, you can globally configure whether users can grant k
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -35,14 +31,10 @@ Description
 
 Enable kudos globally
 
-
-
 </td>
 <td valign="top">
 
 Choose *Show or hide kudos and the ability to send them* to allow users to use kudos.
-
-
 
 </td>
 </tr>
@@ -50,8 +42,6 @@ Choose *Show or hide kudos and the ability to send them* to allow users to use k
 <td valign="top">
 
 Create custom kudos
-
-
 
 </td>
 <td valign="top">
@@ -64,8 +54,6 @@ The icons that you upload for each customs kudos are cropped to 48 x 48 pixels.
 
 You can also edit and delete custom kudos.
 
-
-
 </td>
 </tr>
 <tr>
@@ -73,16 +61,12 @@ You can also edit and delete custom kudos.
 
 Disable a single kudo
 
-
-
 </td>
 <td valign="top">
 
 In a row, choose *Disable*.
 
 When you disable kudos, any feed item activity for kudos that were previously awarded to a user or sent by a user remain in the feed.
-
-
 
 </td>
 </tr>
@@ -120,14 +104,10 @@ You enable this feature on the *Feature Enablement* \> *Features* screen.
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -136,14 +116,10 @@ Description
 
 Create a category
 
-
-
 </td>
 <td valign="top">
 
 In the *Categories* tab, choose *Add*. Enter a list of categories, with each category separated by a comma.
-
-
 
 </td>
 </tr>
@@ -152,16 +128,12 @@ In the *Categories* tab, choose *Add*. Enter a list of categories, with each cat
 
 Rename a category
 
-
-
 </td>
 <td valign="top">
 
 Choose *Rename*.
 
 The category name is automatically updated for all published articles. When creating a new article, the renamed category is shown as a category option.
-
-
 
 </td>
 </tr>
@@ -170,16 +142,12 @@ The category name is automatically updated for all published articles. When crea
 
 Delete a category
 
-
-
 </td>
 <td valign="top">
 
 Choose *Delete*.
 
 Deleted categories no longer display for existing articles that used the category, and aren’t displayed as an option for new articles.
-
-
 
 </td>
 </tr>
@@ -188,14 +156,10 @@ Deleted categories no longer display for existing articles that used the categor
 
 Create a Knowledge Base template
 
-
-
 </td>
 <td valign="top">
 
 On the *Templates* tab, choose *\+ Template*, design the template, and publish it.
-
-
 
 </td>
 </tr>
@@ -204,16 +168,12 @@ On the *Templates* tab, choose *\+ Template*, design the template, and publish i
 
 Edit a Knowledge Base template
 
-
-
 </td>
 <td valign="top">
 
 Choose *Edit*. You can edit a knowledge base template's fields and options.
 
 Changes to the template are applied to existing articles only when the article is edited and saved. When a user edits an article that is based on a template that has been revised, a message displaying at the top of the article says so. When you edit a template that has at least one article created from it, a message displays that says that any changes to the template are applied to published articles once they’re edited.
-
-
 
 </td>
 </tr>
@@ -222,16 +182,12 @@ Changes to the template are applied to existing articles only when the article i
 
 Delete a Knowledge Base template
 
-
-
 </td>
 <td valign="top">
 
 Choose *Delete*.
 
 You can only delete the template if there aren’t any published articles based on the template.
-
-
 
 </td>
 </tr>

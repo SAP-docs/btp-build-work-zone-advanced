@@ -32,14 +32,10 @@ Shows a row for each workspace in your site with the following columns of inform
 
 Row item
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -48,14 +44,10 @@ Description
 
 **Workspace ID** 
 
-
-
 </td>
 <td valign="top">
 
 The numeric ID for the workspace
-
-
 
 </td>
 </tr>
@@ -63,8 +55,6 @@ The numeric ID for the workspace
 <td valign="top">
 
 **Workspace Name** 
-
-
 
 </td>
 <td valign="top">
@@ -83,14 +73,10 @@ The name of the workspace
 
 **Workspace Type** 
 
-
-
 </td>
 <td valign="top">
 
 The workspace can be *Private* or *Public* 
-
-
 
 </td>
 </tr>
@@ -99,14 +85,10 @@ The workspace can be *Private* or *Public*
 
 **Status** 
 
-
-
 </td>
 <td valign="top">
 
 The workspace status can be *Active*, *Inactive*, or *Deleted* 
-
-
 
 </td>
 </tr>
@@ -115,14 +97,10 @@ The workspace status can be *Active*, *Inactive*, or *Deleted*
 
 **Workspace Creator email address** 
 
-
-
 </td>
 <td valign="top">
 
 The email address for the user who created the workspace
-
-
 
 </td>
 </tr>
@@ -131,14 +109,10 @@ The email address for the user who created the workspace
 
 **Number of Members** 
 
-
-
 </td>
 <td valign="top">
 
 The current number of users who are members of the workspace
-
-
 
 </td>
 </tr>
@@ -147,14 +121,10 @@ The current number of users who are members of the workspace
 
 **Created Date** 
 
-
-
 </td>
 <td valign="top">
 
 The date and time that the workspace was created
-
-
 
 </td>
 </tr>
@@ -163,14 +133,10 @@ The date and time that the workspace was created
 
 **Number of Activities in the last 30 days** 
 
-
-
 </td>
 <td valign="top">
 
 A count of activity events in the workspace in the last 30 days
-
-
 
 </td>
 </tr>
@@ -179,14 +145,10 @@ A count of activity events in the workspace in the last 30 days
 
 **Date of Last post** 
 
-
-
 </td>
 <td valign="top">
 
 The date and time of the last posted event in the workspace
-
-
 
 </td>
 </tr>
@@ -195,14 +157,10 @@ The date and time of the last posted event in the workspace
 
 **Cross Company Domains** 
 
-
-
 </td>
 <td valign="top">
 
 A comma-separated list of the company domains in which the workspace is visible
-
-
 
 </td>
 </tr>
@@ -211,14 +169,10 @@ A comma-separated list of the company domains in which the workspace is visible
 
 **Membership** 
 
-
-
 </td>
 <td valign="top">
 
 The membership type for the workspace
-
-
 
 </td>
 </tr>
@@ -227,14 +181,10 @@ The membership type for the workspace
 
 **Participation Setting** 
 
-
-
 </td>
 <td valign="top">
 
 The participation setting for this workspace, which can be "Expert", "Full", "Info", or "Participation Setting"
-
-
 
 </td>
 </tr>
@@ -243,14 +193,10 @@ The participation setting for this workspace, which can be "Expert", "Full", "In
 
 **\# Page Views in the last 30 days** 
 
-
-
 </td>
 <td valign="top">
 
 A count of the number of views of pages in this workspace in the last 30 days.
-
-
 
 </td>
 </tr>
@@ -259,14 +205,10 @@ A count of the number of views of pages in this workspace in the last 30 days.
 
 **\# Downloads in the last 30 days** 
 
-
-
 </td>
 <td valign="top">
 
 A count of the number of content downloads in this workspace in the last 30 days
-
-
 
 </td>
 </tr>
@@ -275,14 +217,10 @@ A count of the number of content downloads in this workspace in the last 30 days
 
 **\# Unique Members Visited in the last 30 days** 
 
-
-
 </td>
 <td valign="top">
 
 A count of the number of unique members who visited the workspace in the last 30 days
-
-
 
 </td>
 </tr>

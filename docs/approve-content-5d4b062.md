@@ -10,13 +10,13 @@ If your workspace administrator has configured a content approval workflow, cont
 
 ## Configuring the Content Approval Policy
 
-As a workspace administrator, you configure the approval policy in the *Workspace Admin Settings*.
+As a workspace administrator, you can configure the approval policy in the *Workspace Admin Settings*.
 
-1.  Open the <span class="SAP-icons"></span> menu and choose *Workspace Admin Settings*.
+1.  Open the <span class="SAP-icons-V5"></span> menu and choose *Workspace Admin Settings*.
 
 2.  Choose *Edit Workspace*.
 
-3.  On the *PARTICIPATION* tab page, under *Content Approval*, you choose who has to approve the content items.
+3.  From the *Participation* tab, under *Content Approval*, choose who has to approve the content items.
 
     You can apply the same approval policy to all content types or select a specific approval policy for specific content types.
 
@@ -25,7 +25,7 @@ As a workspace administrator, you configure the approval policy in the *Workspac
 
 ## Approving Content Items
 
-To find the content items that you have to check and approve, in the workspace, open the <span class="SAP-icons"></span> menu and choose *Pending Approval*.
+To find the content items that you have to check and approve, in the workspace, open the <span class="SAP-icons-V5"></span> menu and choose *Pending Approval*.
 
-Open a content item to review it and then approve or reject it. If you are rejecting an item, you can enter a reason for the rejection.
+Open a content item to review it and then approve or reject it. If you're rejecting an item, you can enter a reason for the rejection.
 

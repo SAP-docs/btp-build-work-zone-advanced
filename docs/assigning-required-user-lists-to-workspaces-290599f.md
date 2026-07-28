@@ -40,7 +40,7 @@ For more information, see:
 
 If you don't want notifications sent to each user on a specific user list that you've assigned to a workspace, you can enable silent assignments in the workspace settings:
 
-1.  In the workspace, open the <span class="SAP-icons"></span> menu and choose *Workspace Admin Settings* \> *Edit Workspace*.
+1.  In the workspace, open the <span class="SAP-icons-V5"></span> menu and choose *Workspace Admin Settings* \> *Edit Workspace*.
 
 2.  On the *GENERAL* tab page, select the option *Enable Silent Assignments*.
 

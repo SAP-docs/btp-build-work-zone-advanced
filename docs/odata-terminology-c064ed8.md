@@ -13,28 +13,20 @@ To illustrate these issues, the common OData terms, as well as some approximate 
 
 OData \(with definition\)
 
-
-
 </th>
 <th valign="top">
 
 Atom \(XML\)
-
-
 
 </th>
 <th valign="top">
 
 JSON
 
-
-
 </th>
 <th valign="top">
 
 HTTP
-
-
 
 </th>
 </tr>
@@ -43,28 +35,20 @@ HTTP
 
 **property**: an attribute-value pair that describes a single quality of a resource
 
-
-
 </td>
 <td valign="top">
 
 property
 
-
-
 </td>
 <td valign="top">
 
 property
-
-
 
 </td>
 <td valign="top">
 
 \(no equivalent\)
-
-
 
 </td>
 </tr>
@@ -73,28 +57,20 @@ property
 
 **entity, resource, or object**: a network-accessible data object or service that can be identified by a URI; typically a resource is described by a predefined set of properties \(from HTTP\)
 
-
-
 </td>
 <td valign="top">
 
 entry \(also used in OData\)
-
-
 
 </td>
 <td valign="top">
 
 object
 
-
-
 </td>
 <td valign="top">
 
 resource \(entity differs\)
-
-
 
 </td>
 </tr>
@@ -103,28 +79,20 @@ resource \(entity differs\)
 
 **EntityType**: the abstract data model of a type of resource
 
+</td>
+<td valign="top">
 
+\(no equivalent\)
 
 </td>
 <td valign="top">
 
 \(no equivalent\)
 
-
-
 </td>
 <td valign="top">
 
 \(no equivalent\)
-
-
-
-</td>
-<td valign="top">
-
-\(no equivalent\)
-
-
 
 </td>
 </tr>
@@ -133,28 +101,20 @@ resource \(entity differs\)
 
 **collection**: a set of resources, often returned to a GET request for a certain type of resource
 
-
-
 </td>
 <td valign="top">
 
 feed
-
-
 
 </td>
 <td valign="top">
 
 array of objects
 
-
-
 </td>
 <td valign="top">
 
 \(no equivalent\)
-
-
 
 </td>
 </tr>

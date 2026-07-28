@@ -30,14 +30,10 @@ To the left of your calendar, the following sections are available:
 
 Section
 
-
-
 </th>
 <th valign="top">
 
 What you can do
-
-
 
 </th>
 </tr>
@@ -46,8 +42,6 @@ What you can do
 
 *All Events and Away Alerts for Me*
 
-
-
 </td>
 <td valign="top">
 
@@ -55,9 +49,7 @@ Default calendar view.
 
 You can filter the calendar view by category \(color coded\), priority \(all, high, normal, or low\), or tag \(\#\).
 
-To expand the filter menu, choose <span class="SAP-icons"></span>.
-
-
+To expand the filter menu, choose <span class="SAP-icons-V5"></span>.
 
 </td>
 </tr>
@@ -66,14 +58,10 @@ To expand the filter menu, choose <span class="SAP-icons"></span>.
 
 *Event Invitations*
 
-
-
 </td>
 <td valign="top">
 
 Displays events that you created or events to which you are invited.
-
-
 
 </td>
 </tr>
@@ -82,16 +70,12 @@ Displays events that you created or events to which you are invited.
 
 *Away Alerts*
 
-
-
 </td>
 <td valign="top">
 
 Displays your away alerts.
 
-You can create a new away alert by choosing *\+ Away Alert* or delete an existing away alert by selecting <span class="SAP-icons"></span>. For more information, see [How to Set Up Your User Profile](how-to-set-up-your-user-profile-a80f406.md).
-
-
+You can create a new away alert by choosing *\+ Away Alert* or delete an existing away alert by selecting <span class="SAP-icons-V5"></span>. For more information, see [How to Set Up Your User Profile](how-to-set-up-your-user-profile-a80f406.md).
 
 </td>
 </tr>
@@ -111,7 +95,9 @@ For more informaton, see [Tasks](tasks-8b083e5.md).
 
 Events are used to schedule activities, invite other workspace members to activities, and manage attendance.
 
-For more information, see [Events](events-68ff1db.md).
+For more information, see [About Events](about-events-68ff1db.md).
+
+For more information about how to create an event, see [How to Create and Manage Events](how-to-create-and-manage-events-c966cf4.md).
 
 
 
@@ -144,15 +130,11 @@ You can change your time settings in your calendar:
     <th valign="top">
 
     Settings
-
-
     
     </th>
     <th valign="top">
 
     What you can do
-
-
     
     </th>
     </tr>
@@ -160,8 +142,6 @@ You can change your time settings in your calendar:
     <td valign="top">
     
     *Time Settings*
-
-
     
     </td>
     <td valign="top">
@@ -169,8 +149,6 @@ You can change your time settings in your calendar:
     Choose the preferred *Time zone* and *Time format* for your calendar.
 
     Time settings are applied to events, calendars, feeds, away alerts, tasks, dashboards, and OpenSocial gadgets.
-
-
     
     </td>
     </tr>
@@ -178,15 +156,11 @@ You can change your time settings in your calendar:
     <td valign="top">
     
     *Calendar Settings*
-
-
     
     </td>
     <td valign="top">
     
     Choose your preferred first day of the week.
-
-
     
     </td>
     </tr>

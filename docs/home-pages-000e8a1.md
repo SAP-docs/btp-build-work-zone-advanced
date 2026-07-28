@@ -21,21 +21,15 @@ In SAP Build Work Zone, advanced edition , there are different types of home pag
 
 Home Page Type
 
-
-
 </th>
 <th valign="top">
 
 Persona
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -44,14 +38,10 @@ Description
 
 Company home page
 
-
-
 </td>
 <td valign="top">
 
 Only company administrators
-
-
 
 </td>
 <td valign="top">
@@ -62,8 +52,6 @@ It displays information that is relevant to the company and also includes the co
 
 For more information about how to design a custom home page, see [Adding Content to Workpages.](https://help.sap.com/viewer/fec5ca6e3229418f84a932c745cbe985/Cloud/en-US/19bf8aa8e8aa4c3b9c5f0104b1bdc518.html)
 
-
-
 </td>
 </tr>
 <tr>
@@ -71,23 +59,17 @@ For more information about how to design a custom home page, see [Adding Content
 
 Area home pages
 
-
-
 </td>
 <td valign="top">
 
 Only administrators that are assigned to an area or department within the company.
 
-
-
 </td>
 <td valign="top">
 
-This home page is designed for a specific area.
+A home page that is designed for a specific area.
 
 It displays information that is relevant to a specific area or department in the company and it also includes the feed for the specific area. Content is shared by everyone in the specific area or department.
-
-
 
 </td>
 </tr>
@@ -95,8 +77,6 @@ It displays information that is relevant to a specific area or department in the
 <td valign="top">
 
 Workpage that is specific for a workspace
-
-
 
 </td>
 <td valign="top">
@@ -111,13 +91,11 @@ Designed by the person who created the workspace - known as the workspace admini
 </td>
 <td valign="top">
 
-To design a home page for a specific workspace, you can use the page builder and add widgets, cards, and other content that tells users what the workspace is all about.
+To design a home page for a specific workspace, you can use the workpage editor and add widgets, cards, and other content to it.
 
-Content is only shared by the members of the workspace.
+Content is only shared by members of the workspace.
 
 For more information about how to design a workpage, see [Adding Content to Workpages.](https://help.sap.com/viewer/fec5ca6e3229418f84a932c745cbe985/Cloud/en-US/19bf8aa8e8aa4c3b9c5f0104b1bdc518.html)
-
-
 
 </td>
 </tr>
@@ -128,14 +106,10 @@ My Workspace
 
 workpage
 
-
-
 </td>
 <td valign="top">
 
 All users can design a workpage as their own workspace.
-
-
 
 </td>
 <td valign="top">
@@ -144,9 +118,7 @@ All users can design a workpage as their own workspace.
 
 Users generally design their personal workpage to include the apps and tools that they need on a daily basis. Content created in the *My Workspace* workpage can't be shared with or seen by any other users.
 
-For more information, see [My Workspace.](https://help.sap.com/viewer/fec5ca6e3229418f84a932c745cbe985/Cloud/en-US/fb1cc48359e94c3b8ccc2888b52db6a3.html)
-
-
+For more information, see [About My Workspace](about-my-workspace-8918e00.md).
 
 </td>
 </tr>
@@ -154,7 +126,7 @@ For more information, see [My Workspace.](https://help.sap.com/viewer/fec5ca6e32
 
 You can create home pages for full access users \(all users in your company\) and also for external users \(if external users have been configured for your site\).
 
-For more information, see [User Privileges](user-privileges-b60b0fe.md)
+For more information, see [About External Users](about-external-users-4378212.md).
 
 
 
@@ -182,14 +154,10 @@ From the *Home Page Management* screen, there are many different features that y
 
 Feature
 
-
-
 </th>
 <th valign="top">
 
 More Information
-
-
 
 </th>
 </tr>
@@ -197,8 +165,6 @@ More Information
 <td valign="top">
 
 Design the home page
-
-
 
 </td>
 <td valign="top">
@@ -225,14 +191,7 @@ Access the home page directly and design your company and area home pages.
 
 
 
-For more information about how to design a home page, see:
-
--   [How to Add Content to Workspaces](how-to-add-content-to-workspaces-19bf8aa.md) 
-
--   [Define Page Settings.](https://help.sap.com/viewer/fec5ca6e3229418f84a932c745cbe985/Cloud/en-US/9164929567b64932814d7f899a955e19.html)
-
-
-
+For more information about how to design a home page, see [Define Page Settings.](https://help.sap.com/viewer/fec5ca6e3229418f84a932c745cbe985/Cloud/en-US/9164929567b64932814d7f899a955e19.html).
 
 </td>
 </tr>
@@ -241,16 +200,12 @@ For more information about how to design a home page, see:
 
 Import and export home pages \(company level\)
 
-
-
 </td>
 <td valign="top">
 
 Export and import your home pages.
 
-For more information and to find out which content items can be transported, see [Transporting Home Pages and Workspaces](transporting-home-pages-and-workspaces-0a5c641.md).
-
-
+For more information and to find out which content items can be transported, see [Transporting Workspace Content Items](transporting-workspace-content-items-0a5c641.md).
 
 </td>
 </tr>
@@ -258,8 +213,6 @@ For more information and to find out which content items can be transported, see
 <td valign="top">
 
 Create an announcement on the home page \(on company level\)
-
-
 
 </td>
 <td valign="top">
@@ -282,16 +235,12 @@ Add an announcement to the top of the home page in its own section to communicat
 
 Allow users to post public comments about company content \(company level\)
 
-
-
 </td>
 <td valign="top">
 
 Depending on your company policy, choose whether users can comment on company content.
 
 Under *Content*, enable *Allow users to post publicly visible comments on the company content*.
-
-
 
 </td>
 </tr>
@@ -300,14 +249,12 @@ Under *Content*, enable *Allow users to post publicly visible comments on the co
 
 Manage content
 
-
-
 </td>
 <td valign="top">
 
 Under the *Manage Content* tab, next to each content item there's a checkbox. You can select specific content and manage it as follows:
 
--   Click <span class="SAP-icons"></span> to open a list of actions that you can do. For example:
+-   Click <span class="SAP-icons-V5"></span> to open a list of actions that you can do. For example:
 
     -   Copy or move content between company and area home pages.
 
@@ -329,8 +276,6 @@ Under the *Manage Content* tab, next to each content item there's a checkbox. Yo
 <td valign="top">
 
 Add new content items
-
-
 
 </td>
 <td valign="top">

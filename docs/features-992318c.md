@@ -2,11 +2,9 @@
 
 # Features
 
-On the *Feature Enablement* \> *Features* screen, you can enable or disable many features and options centrally.
+On the *Feature Enablement* \> *Features* screen, you can enable or disable many features and options centrally, for the entire company.
 
-While you enable the features centrally on this screen, you configure many of them on other screens in the *Administration Console*.
-
-For information about using these features, see the [User Guide](user-guide-a356523.md).
+The following settings apply to the entire company. They can be referred to as "global settings". Some settings, for example certain workspace settings, can be disabled locally by a workspace administrator, even through the setting is enabled in the company level.
 
 
 
@@ -21,14 +19,10 @@ For information about using these features, see the [User Guide](user-guide-a356
 
 Option
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -37,16 +31,12 @@ Description
 
 *Enable Compliance Monitor* 
 
-
-
 </td>
 <td valign="top">
 
 Monitors the content posted in your site and flags items that contain terms that are listed in the compliance dictionary. This monitor scans the content only starting from the date on which it was enabled. It doesn’t scan documents that were uploaded earlier. If you disable this monitor, the documents that the users upload aren’t scanned for violations of the compliance dictionary. If content has already been scanned before disabling, flagged items remain listed in the *Compliance & Security* \> *Compliance* \> *Pending Flagged Items* table.
 
 For more information, see [Compliance and Content Administration](compliance-and-content-administration-9174e97.md).
-
-
 
 </td>
 </tr>
@@ -55,16 +45,12 @@ For more information, see [Compliance and Content Administration](compliance-and
 
 *Enable Profanity Monitor* 
 
-
-
 </td>
 <td valign="top">
 
 Monitors the content posted in your site and marks items that contain terms that are listed in the profanity dictionary. Enabling the alert doesn’t scan content retroactively, only from the date the alert is enabled. Disabling the alert permits users to post profanities in the site without recording profanity dictionary violations. If content has already been scanned before disabling, flagged items remain listed in the *Compliance & Security* \> *Compliance* \> *Pending Flagged Items* table.
 
 For more information, see [Compliance and Content Administration](compliance-and-content-administration-9174e97.md).
-
-
 
 </td>
 </tr>
@@ -73,14 +59,10 @@ For more information, see [Compliance and Content Administration](compliance-and
 
 *Enable Unscannable Filter* 
 
-
-
 </td>
 <td valign="top">
 
 Flags all items where content can’t be scanned \(for example: images, videos, ZIP files\). The attributes of these files such as file name, title, and description are scanned by compliance and profanity filters. This filter doesn’t scan content retroactively; it scans from the date that this filter is enabled.
-
-
 
 </td>
 </tr>
@@ -97,14 +79,10 @@ Flags all items where content can’t be scanned \(for example: images, videos, 
 
 Option
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -113,8 +91,6 @@ Description
 
 *Show Profile Images* 
 
-
-
 </td>
 <td valign="top">
 
@@ -122,16 +98,12 @@ User profile images appear beside users' posts in forums and feeds, as well as s
 
 For more information, see [Profiles](profiles-5c61b54.md).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 *Allow Users to Upload a Custom Profile Image* 
-
-
 
 </td>
 <td valign="top">
@@ -143,16 +115,12 @@ Disable this option to prevent users from uploading their own user profile image
 
 For more information, see [Profiles](profiles-5c61b54.md).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 *Show Profile Job Titles* 
-
-
 
 </td>
 <td valign="top">
@@ -161,34 +129,12 @@ Job titles display in users' profiles for users who have a job title.
 
 For more information, see [Profiles](profiles-5c61b54.md).
 
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Use profile locations from third party identity provider* 
-
-
-
-</td>
-<td valign="top">
-
-If enabled, user profiles show location information from third-party identity provider data instead of user-supplied addresses.
-
-For more information, see [Profiles](profiles-5c61b54.md).
-
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 *Enable users to create their own workspaces* 
-
-
 
 </td>
 <td valign="top">
@@ -197,8 +143,6 @@ If disabled, only administrators can create workspaces.
 
 For more information, see [Workspaces](workspaces-b5d14d2.md), and in the User Guide, see [Create a Workspace](https://help.sap.com/viewer/fec5ca6e3229418f84a932c745cbe985/Cloud/en-US/770f1b03d87d4be6974bc77df3c816a3.html).
 
-
-
 </td>
 </tr>
 <tr>
@@ -206,12 +150,10 @@ For more information, see [Workspaces](workspaces-b5d14d2.md), and in the User G
 
 *Enable Delegated Admins control to override the company setting* 
 
-
-
 </td>
 <td valign="top">
 
-If enabled, area administrators can allow useres of their area to create workspaces even if the preceding option \(*Enable users to create their own workspaces*\) is disabled.
+If enabled, area administrators can allow users of their area to create workspaces even if the preceding option \(*Enable users to create their own workspaces*\) is disabled.
 
 To enable users of an area to create workspaces, area administrators proceed as follows:
 
@@ -222,16 +164,12 @@ To enable users of an area to create workspaces, area administrators proceed as 
 
 For more information, see [Workspaces](workspaces-b5d14d2.md), and in the User Guide, see [How to Create a Workspace](how-to-create-a-workspace-770f1b0.md).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 *Set default for workspace email notifications* 
-
-
 
 </td>
 <td valign="top">
@@ -240,16 +178,12 @@ You can choose whether the email notifications are sent immediately, daily, week
 
 For more information, see, [About Notifications](about-notifications-fc1ef68.md).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 *Enable company-wide content creation* 
-
-
 
 </td>
 <td valign="top">
@@ -268,8 +202,6 @@ Enable this option for your company so that users can post and create content fr
 
 *Show profile pages for alumni* 
 
-
-
 </td>
 <td valign="top">
 
@@ -277,9 +209,7 @@ Alumni users are users who have left your organization.
 
 Select this option to make alumni users' profile pages and their content available, searchable, and visible after users have left the company.
 
-For more information, see [Internal Users](internal-users-888ef2f.md).
-
-
+For more information, see [Managing Internal Users](managing-internal-users-888ef2f.md).
 
 </td>
 </tr>
@@ -288,16 +218,169 @@ For more information, see [Internal Users](internal-users-888ef2f.md).
 
 *Clear profile info for alumni* 
 
-
-
 </td>
 <td valign="top">
 
 Select this option to remove the personal information and image of alumni users from the site. Their office location information is removed, but their manager and job title information is retained.
 
-For more information, see [Internal Users](internal-users-888ef2f.md).
+For more information, see [Managing Internal Users](managing-internal-users-888ef2f.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*External Users*
+
+</td>
+<td valign="top">
+
+-   *Allow external users to access workspaces*: when enabled, external users can be invited as members to public or private workspaces, and can access as non-members public workspaces.
+-   *Allow workspace admins to set the access policy to All external users or All users*: when enabled, workspace admins \(and not only company admins\) can provide non-members access to ‘All external users’ and ‘All user'.
+-   *Enable automatic creation of external users through workspace invitation email*: when enabled, any external user \(who exists in the IdP\), is automatically created and provisioned to SAP Build Work Zone, advanced edition upon accepting a workspace invitation, and performing a self-registration. For more information, see [About External Users](about-external-users-4378212.md).
+-   *Client ID and Secret*: To allow SAP Build Work Zone, advanced edition trigger API calls towards Identity Authentication and perform external user authentication, enter the Client ID and secret generated for SAP Build Work Zone, advanced edition in the Identity Authentication admin environment. For more information, see [Configuring External Users Authentication](configuring-external-users-authentication-df89bb3.md).
 
 
+
+</td>
+</tr>
+</table>
+
+
+
+### Integration Features
+
+
+<table>
+<tr>
+<th valign="top">
+
+Option
+
+</th>
+<th valign="top">
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+*Enable SCIM API support* 
+
+</td>
+<td valign="top">
+
+The SCIM API is based on the System for Cross-domain Identity Management \(SCIM\), which is an open standard for automating the exchange of user data between different user identity domains.
+
+The SCIM API support feature must always be enabled and it allows the provisioning of users and user lists to SAP Build Work Zone, advanced edition.
+
+As an admin, you can assign an OAuth client from the list of available clients, and this OAuth client can only be assigned to one integration feature, therefore it will be used only for the SCIM API. Once selected, that OAuth client can't be deleted in the *External Integrations* \> *OAuth Clients* screen.
+
+> ### Note:  
+> After switching the SCIM API OAuth client, the *Trigger Setup* step must be re-run to update the displayed credentials in the onboarding configurator.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Use profile information from the SCIM API* 
+
+</td>
+<td valign="top">
+
+If enabled, the user profile shows information taken from the SCIM API instead of user-supplied, for the following fields: location, nickname, and display name. When taken from the SCIM API, these values appear in the profile as read-only.
+
+For more information, see [Profiles](profiles-5c61b54.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Enable search appliance integration* 
+
+</td>
+<td valign="top">
+
+Enables integration with your company's search appliance to make content searchable in a single unified interface.
+
+As an admin, you can assign an OAuth client from the list of available clients, and this OAuth client can only be assigned to one integration feature, therefore it will be used only for the search appliance. Once selected, that OAuth client can't be deleted in the *External Integrations* \> *OAuth Clients* screen.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Enable document grounding integration* 
+
+</td>
+<td valign="top">
+
+Enable the integration with document grounding to make content from workspaces that are marked as AI sources available to AI queries.
+
+As an admin, you can assign an OAuth client from the list of available clients, and this OAuth client can only be assigned to one integration feature, therefore it will be used only for document grounding. Once selected, that OAuth client can't be deleted in the *External Integrations* \> *OAuth Clients* screen.
+
+For more information, see [Integration With Document Grounding](integration-with-document-grounding-5ff7714.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Allow renaming of the external document integration name* 
+
+</td>
+<td valign="top">
+
+Allows workspace administrators to change the default name of any of their workspace's external document integrations. If you don’t enable this option, the default name remains consistent throughout the application and can’t be changed by workspace administrators. When added or updated, the documentation integration names are also reflected in the workspace navigation and content navigation breadcrumb links.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Enable repository configuration at the workspace level for Microsoft Office 365* 
+
+</td>
+<td valign="top">
+
+Allows workspace administrators to create custom labels for document integration used by their workspaces.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Show business records feeds in member profile* 
+
+</td>
+<td valign="top">
+
+Display business record feed about user actions, such as comments, on the profile pages of the users. The business record feed on a user's profile pages displays only the actions that this user has made for business records that she or he follows.
+
+To prevent that business record feed is displayed on the users' profile pages, clear this check box.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Enable integrations* 
+
+</td>
+<td valign="top">
+
+Users can synchronize news feeds from other services.
+
+> ### Note:  
+> In order to set up integrations, users need to have an account with each external service.
+
+For more information about how to access this feature, go to *Settings* \> *Advanced Settings* \> *Integrations*.
 
 </td>
 </tr>
@@ -314,8 +397,6 @@ For more information, see [Internal Users](internal-users-888ef2f.md).
 
 Option
 
-
-
 </th>
 <th valign="top">
 
@@ -326,32 +407,12 @@ Option
 <tr>
 <td valign="top">
 
-*Enable API*
-
-
-
-</td>
-<td valign="top">
-
-Enables use of the SAP Build Work Zone, advanced edition API for reading and writing content, for example, the SAP Build Work Zone mobile app.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 *Enable File Sharing* 
-
-
 
 </td>
 <td valign="top">
 
 Allows users to upload files to the site.
-
-
 
 </td>
 </tr>
@@ -360,14 +421,10 @@ Allows users to upload files to the site.
 
 *Enable Feed Share* 
 
-
-
 </td>
 <td valign="top">
 
 Adds a *Share* button to feed entries, allowing users to share updates with a specified workspace or with the entire company.
-
-
 
 </td>
 </tr>
@@ -376,81 +433,10 @@ Adds a *Share* button to feed entries, allowing users to share updates with a sp
 
 *Enable Content Rating* 
 
-
-
 </td>
 <td valign="top">
 
 Allows users to rate content that has been uploaded to the site.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*External Workspace Creation* 
-
-
-
-</td>
-<td valign="top">
-
-Allows the creation of private workspaces that are intended for, and accessible to, users who aren’t located within your organization's network. You can also delegate this decision to an area administrator.
-
-For more information, see [Workspaces](workspaces-b5d14d2.md), and in the User Guide, see [How to Create a Workspace](how-to-create-a-workspace-770f1b0.md).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Allow external users to be created through workspace invitation email*
-
-
-
-</td>
-<td valign="top">
-
-Available if *External Workspace Creation* is enabled \(*Yes* or *Delegate to Area Admin*\).
-
-Allows external users to be created when accepting an invitation email.
-
-For more information, see [Internal Users](internal-users-888ef2f.md).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Technical User details for SAP Cloud Identity invitations*
-
-
-
-</td>
-<td valign="top">
-
-Available if *External Workspace Creation* is enabled \(*Yes* or *Delegate to Area Admin*\).
-
-Used for authentication to the Identity Authentication service tenant by means of Basic Authentication.
-
-Provide the Identity Authentication service client ID as the user name and the Identity Authentication service client secret as the password of the technical user.
-
-1.  Open your Identity Authentication admin environment: for example, https://dwp.accounts400.ondemand.com/admin/.
-2.  Go to *Applications & Resources* \> *Applications*.
-3.  Open the SAP Build Work Zone, advanced edition application.
-4.  Go to *API Authentication* \> *Client ID and Secrets*, and copy the client ID and secret.
-
-External users that are invited to a workspace are created as users in the Identity Authentication tenant, and as external users of the site.
-
-Clearing the user name resets the user name and password.
-
-
 
 </td>
 </tr>
@@ -459,16 +445,12 @@ Clearing the user name resets the user name and password.
 
 *Wikis* 
 
-
-
 </td>
 <td valign="top">
 
 Allows users to create wiki pages in the site.
 
-For more information, in the user guide, see [Wiki Pages](wiki-pages-3161f35.md).
-
-
+For more information, in the user guide, see [About Wiki Pages](about-wiki-pages-3161f35.md).
 
 </td>
 </tr>
@@ -477,16 +459,12 @@ For more information, in the user guide, see [Wiki Pages](wiki-pages-3161f35.md)
 
 *Persistent Navigation Bar* 
 
-
-
 </td>
 <td valign="top">
 
-Create a custom site navigation bar with links to workspaces, workspace content, and external workpages without writing any code in the custom header. These tabs appear on all workpages throughout the site, below the top menu bar.
+Create a custom site navigation bar with links to workspaces and workspace content without writing any code in the custom header. These tabs appear on all workpages throughout the site, below the top menu bar.
 
 For more information, see [Home Pages](home-pages-000e8a1.md).
-
-
 
 </td>
 </tr>
@@ -495,16 +473,12 @@ For more information, see [Home Pages](home-pages-000e8a1.md).
 
 *Designate Blog Post Author* 
 
-
-
 </td>
 <td valign="top">
 
 Allow a user to designate another user to create blog posts on their behalf. Although the other person can edit and publish the blog post, the name of the user who designated the other author is shown as the content creator.
 
-For more information, in the User Guide, see [Blog Posts](blog-posts-099621a.md).
-
-
+For more information, in the User Guide, see [About Blog Posts](about-blog-posts-099621a.md).
 
 </td>
 </tr>
@@ -512,8 +486,6 @@ For more information, in the User Guide, see [Blog Posts](blog-posts-099621a.md)
 <td valign="top">
 
 *Knowledge Base* 
-
-
 
 </td>
 <td valign="top">
@@ -526,16 +498,12 @@ This feature is enabled by default at the company and workspace level.
 
 For more information, see [Feature Enablement](feature-enablement-b7a59ee.md), and in the User Guide, see [Knowledge Base](knowledge-base-9937d69.md).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 *Company-wide knowledge base* 
-
-
 
 </td>
 <td valign="top">
@@ -546,16 +514,12 @@ By default, the knowledge base feature is enabled for a workspace when the compa
 
 For more information, see [Feature Enablement](feature-enablement-b7a59ee.md), and in the User Guide, see [Knowledge Base](knowledge-base-9937d69.md).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 *Recommendation Tiles* 
-
-
 
 </td>
 <td valign="top">
@@ -564,16 +528,12 @@ Display recommendation tiles in workspaces.
 
 For more information, in the User Guide, see [Recommendations](recommendations-0a35d00.md).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 *Videos/Audios* 
-
-
 
 </td>
 <td valign="top">
@@ -595,8 +555,6 @@ Allows users to upload or create videos using screen captures or their webcam. V
 
 *Preview PDF documents using PDF viewer* 
 
-
-
 </td>
 <td valign="top">
 
@@ -614,53 +572,12 @@ Allow inline viewing of PDFs in a browser. If features \(such as print\) aren’
 
 *Include Private Workspace Details* 
 
-
-
 </td>
 <td valign="top">
 
 Administrators can view private workspace names in reporting and compliance features and run reports on a specific private workspace.
 
 For more information, see [Reports](reports-9fd82e0.md).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Allow renaming of the external document integration name* 
-
-
-
-</td>
-<td valign="top">
-
-Allows workspace administrators to change the default name of any of their workspace's external document integrations. If you don’t enable this option, the default name remains consistent throughout the application and can’t be changed by workspace administrators. When added or updated, the documentation integration names are also reflected in the workspace navigation and content navigation breadcrumb links.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Enable integrations* 
-
-
-
-</td>
-<td valign="top">
-
-Users can synchronize news feeds from other services.
-
-> ### Note:  
-> In order to set up integrations, users need to have an account with each external service.
-
-For more information, see [External Integrations](external-integrations-969acf7.md).
-
-
 
 </td>
 </tr>
@@ -669,34 +586,12 @@ For more information, see [External Integrations](external-integrations-969acf7.
 
 *Show Hire Date in member profile* 
 
-
-
 </td>
 <td valign="top">
 
 Display hire date information in profile pages.
 
 For more information, see [Profiles](profiles-5c61b54.md).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Show business records feeds in member profile* 
-
-
-
-</td>
-<td valign="top">
-
-Display business record feed about user actions, such as comments, on the profile pages of the users.The business record feed on a user's profile pages displays only the actions that this user has made for business records that she or he follows.
-
-To prevent that business record feed is displayed on the users' profile pages, clear this check box.
-
-
 
 </td>
 </tr>
@@ -705,16 +600,12 @@ To prevent that business record feed is displayed on the users' profile pages, c
 
 *Send daily alert emails to all members* 
 
-
-
 </td>
 <td valign="top">
 
 Allows sending of content and updates via email.
 
 For more information, see [Configuring Notification Emails](configuring-notification-emails-6076729.md).
-
-
 
 </td>
 </tr>
@@ -723,8 +614,6 @@ For more information, see [Configuring Notification Emails](configuring-notifica
 
 *Send active task reminder to all members* 
 
-
-
 </td>
 <td valign="top">
 
@@ -732,16 +621,12 @@ Allows sending of reminders to users who are assigned to an active task.
 
 For more information, see [Configuring Notification Emails](configuring-notification-emails-6076729.md).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 *Allow User Level Reporting / Dashboard* 
-
-
 
 </td>
 <td valign="top">
@@ -753,8 +638,6 @@ When this option is enabled, content item owners can view a list of unique viewe
 
 For more information, see [Reports](reports-9fd82e0.md).
 
-
-
 </td>
 </tr>
 <tr>
@@ -762,14 +645,10 @@ For more information, see [Reports](reports-9fd82e0.md).
 
 *Restrict access to Company Admins only* 
 
-
-
 </td>
 <td valign="top">
 
 This option depends on the *Allow User Level Reporting* option being selected. If you select this option, only company administrators can run and view workspace reports, and view a list of unique viewers for all workspace content items.
-
-
 
 </td>
 </tr>
@@ -778,50 +657,10 @@ This option depends on the *Allow User Level Reporting* option being selected. I
 
 *Hide contact information for external users* 
 
-
-
 </td>
 <td valign="top">
 
 Hide information about other external users when a user is logged in as an external user.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Enable search appliance integration* 
-
-
-
-</td>
-<td valign="top">
-
-Allows integration with your company's search appliance. Select the search appliance authorization mechanism from the *OAuth client for search appliance integration* menu. The menu is populated from the *External Integrations* \> *OAuth Clients* screen.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Enable SCIM api support* 
-
-
-
-</td>
-<td valign="top">
-
-The SCIM API is based on the System for Cross-domain Identity Management \(SCIM\), which is an open standard for automating the exchange of user data between different user identity domains.
-
-Enabling this option means that we can use the SCIM API to provision users in SWZ.
-
-The SCIM API Client Name: SCIM API Client
-
-
 
 </td>
 </tr>
@@ -830,14 +669,10 @@ The SCIM API Client Name: SCIM API Client
 
 Hide the *Change Password* link
 
-
-
 </td>
 <td valign="top">
 
 Hide the *Change Password* link for users provisioned via the SCIM API.
-
-
 
 </td>
 </tr>
@@ -846,14 +681,26 @@ Hide the *Change Password* link for users provisioned via the SCIM API.
 
 *Enable document download via CDN* 
 
+</td>
+<td valign="top">
 
+When enabled, the Content Delivery Network outside the SAP data center caches documents to boost download speed. Globally distributed customers with offices located far away from their SAP Build Work Zone, advanced edition tenant data center host experiences significant performance improvements.
+
+Tencent CDN is available on all data centers except for the EU Access regions \(EU11 and CH20\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Enable document download via CDN* 
 
 </td>
 <td valign="top">
 
-When enabled, the Content Delivery Network outside the SAP data center caches documents to boost download speeds and video streaming performance. Globally distributed customers with offices located far away from their SAP Build Work Zone, advanced edition tenant data center host experiences significant performance improvements.
+When enabled, the Content Delivery Network outside the SAP data center caches documents to boost download speed. Globally distributed customers with offices located far away from their SAP SAP Build Work Zone, advanced edition tenant data center host experiences significant performance improvements.
 
-
+Tencent CDN is available on all China region data centers - cn20-int1, cn40-int1, cn20-1, cn40-1.
 
 </td>
 </tr>
@@ -862,14 +709,10 @@ When enabled, the Content Delivery Network outside the SAP data center caches do
 
 *Enable Webcam/Screen Recorder using WebRTC technology \(Google Chrome and Mozilla Firefox only\)* 
 
-
-
 </td>
 <td valign="top">
 
 When selected, when sharing a video via a feed update, users can choose an information icon that displays whether the compatibility checklists have been met for recording a screen capture or webcam recording. Webcam recording is supported only on Google Chrome and Mozilla Firefox browsers. Screen recording is supported only on Google Chrome \(without audio\) and Mozilla Firefox browsers.
-
-
 
 </td>
 </tr>
@@ -878,58 +721,38 @@ When selected, when sharing a video via a feed update, users can choose an infor
 
 *Enhanced widget styling and page layout*
 
-
-
 </td>
 <td valign="top">
 
 Displays widgets to optimize the available screen space, improved rotating banner and gallery layouts, a bolder and larger font size, and the removal of some users' profile images.
 
-For more information, in the User Guide, see [How to Add Content to Workspaces](how-to-add-content-to-workspaces-19bf8aa.md).
-
-
+For more information, in the User Guide, see [How to Use the Workpage Editor](how-to-use-the-workpage-editor-9164929.md).
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-*Enable repository configuration at the workspace level for Microsoft Office 365* 
-
-
+*My Workspace*
 
 </td>
 <td valign="top">
 
-Allows workspace administrators to create custom labels for document integration used by their workspaces.
-
-
+If enabled, internal users can create their own My Workspace.
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-*Personal Workplace*
-
-
+*Enable caching of user permissions in site and workspace menus*
 
 </td>
 <td valign="top">
 
-If enabled, users have a *My Workspace*.
-
-
+If enabled, user permissions in site and workspace menus are cached to improve performance. Note that any permission changes will be reflected only after logging out and logging back in.
 
 </td>
 </tr>
 </table>
-
-
-
-## Features That Users Configure Themselves
-
-There are many settings that users can configure in their account.
-
-For more information, see the SAP Build Work Zone, advanced edition User Guide at [User Settings](user-settings-2b739ae.md).
 

@@ -39,14 +39,10 @@ Shows a row for the following item:
 
 Row item
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -55,14 +51,10 @@ Description
 
 **Search term** 
 
-
-
 </td>
 <td valign="top">
 
 The term entered as search criteria
-
-
 
 </td>
 </tr>

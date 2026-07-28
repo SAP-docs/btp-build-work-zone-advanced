@@ -19,21 +19,15 @@ A Terms of Service agreement is defined by the company administrator in the Admi
 
 Step
 
-
-
 </th>
 <th valign="top">
 
 Persona
 
-
-
 </th>
 <th valign="top">
 
 More information
-
-
 
 </th>
 </tr>
@@ -42,14 +36,10 @@ More information
 
 1. Open the terms of service management screens.
 
-
-
 </td>
 <td valign="top">
 
 Administrators
-
-
 
 </td>
 <td valign="top">
@@ -70,14 +60,10 @@ From the Administration Console, expand the *Compliance & Security* section and 
 
 2. Define the terms of service.
 
-
-
 </td>
 <td valign="top">
 
 Administrators
-
-
 
 </td>
 <td valign="top">
@@ -98,14 +84,10 @@ Administrators
 
 3. \[Optional\] Translate your terms of service.
 
-
-
 </td>
 <td valign="top">
 
 Administrators
-
-
 
 </td>
 <td valign="top">
@@ -128,14 +110,10 @@ Administrators
 
 4. Review the terms of service.
 
-
-
 </td>
 <td valign="top">
 
 Users
-
-
 
 </td>
 <td valign="top">
@@ -159,21 +137,15 @@ Users
 
 5. Accept the terms of service.
 
-
-
 </td>
 <td valign="top">
 
 Users
 
-
-
 </td>
 <td valign="top">
 
 The next time you log in, you'll be prompted to accept the agreement before you can continue working in the site.
-
-
 
 </td>
 </tr>

@@ -21,7 +21,7 @@ Once a user is assigned to a user alias account, they are able to access their a
 > ### Note:  
 > Alias users are SAP Build Work Zone, advanced edition local / technical users . They don't have corresponding accounts in other integrated products. For example, they don't have an account in SAP SuccessFactors and they can't view SAP Successfactors Learning content.
 
-For more information, see [Switching Between User Alias Accounts](switching-between-user-alias-accounts-3f23100.md).
+For more information, see [About Switching Between User Alias Accounts](about-switching-between-user-alias-accounts-3f23100.md).
 
 
 
@@ -61,7 +61,7 @@ Once you've created the alias account, you can add users to it.
 
 ## How to authenticate users of an alias account
 
-Alias accounts can also be used as a system user \(for example, for a chatbot\) to work with other applications using APIs.
+Alias accounts can also be used as a system user to work with other applications using APIs.
 
 You can enable users that have alias accounts to use SAP Build Work Zone, advanced edition APIs, but first you need to create an OAuth client for them as follows:
 
@@ -74,7 +74,7 @@ You can enable users that have alias accounts to use SAP Build Work Zone, advanc
 
 The token information updates and displays in this section, along with the OAuth client name.
 
-For more information, see [Add an OAuth Client](add-an-oauth-client-b3c804e.md).
+For more information, see [OAuth Clients](oauth-clients-b3c804e.md).
 
 
 
@@ -89,14 +89,10 @@ For more information, see [Add an OAuth Client](add-an-oauth-client-b3c804e.md).
 
 Setting
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -105,14 +101,10 @@ Description
 
 *Email Settings*
 
-
-
 </td>
 <td valign="top">
 
 Enable sending emails to an alias account \(or you can stop them\).
-
-
 
 </td>
 </tr>
@@ -121,14 +113,10 @@ Enable sending emails to an alias account \(or you can stop them\).
 
 *Contact Information*
 
-
-
 </td>
 <td valign="top">
 
 Add the contact information of an alias user so that they can receive notifications.
-
-
 
 </td>
 </tr>

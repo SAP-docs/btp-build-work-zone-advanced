@@ -19,14 +19,10 @@ As a company administrator, you can find the following information on the compan
 
 Item
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -35,14 +31,10 @@ Description
 
 Host
 
-
-
 </td>
 <td valign="top">
 
 The domain where your site is running.
-
-
 
 </td>
 </tr>
@@ -51,14 +43,10 @@ The domain where your site is running.
 
 Revision
 
-
-
 </td>
 <td valign="top">
 
 The current revision of SAP Build Work Zone, advanced edition that is running.
-
-
 
 </td>
 </tr>
@@ -67,14 +55,10 @@ The current revision of SAP Build Work Zone, advanced edition that is running.
 
 Product Version
 
-
-
 </td>
 <td valign="top">
 
 Determines which features and capabilities are available in the SAP Build Work Zone, advanced edition instance that you are running.
-
-
 
 </td>
 </tr>
@@ -82,8 +66,6 @@ Determines which features and capabilities are available in the SAP Build Work Z
 <td valign="top">
 
 Product Instance name
-
-
 
 </td>
 <td valign="top">
@@ -94,8 +76,6 @@ From the Administration Console, choose *Theming & Branding* \> *Local Theme Des
 
 ![](images/Product_Instance_name_003e027.png)
 
-
-
 </td>
 </tr>
 <tr>
@@ -103,14 +83,10 @@ From the Administration Console, choose *Theming & Branding* \> *Local Theme Des
 
 Custom Domain
 
-
-
 </td>
 <td valign="top">
 
 The unique domain name defined for accessing this instance of SAP Build Work Zone, advanced edition.
-
-
 
 </td>
 </tr>
@@ -118,8 +94,6 @@ The unique domain name defined for accessing this instance of SAP Build Work Zon
 <td valign="top">
 
 Storage Usage
-
-
 
 </td>
 <td valign="top">
@@ -145,16 +119,12 @@ The horizontal bar indicator shows the percentage of the purchased storage space
 
 Subscribe company admins to receive product news and updates
 
-
-
 </td>
 <td valign="top">
 
 As a company administrator, you can enable the toggle switch to receive product news and updates.
 
 If there's more than one company administrator for your organization, they'll also be subscribed or unsubscribed based on your selection.
-
-
 
 </td>
 </tr>
@@ -163,18 +133,35 @@ If there's more than one company administrator for your organization, they'll al
 
 Enable Preview Release
 
+</td>
+<td valign="top">
 
+Any new feature that's flagged as preview, can be viewed on a preview system one release before it reaches production.
+
+-   When the *Enable Preview Release* setting is enabled, the system is updated with the new features according to the [What's New on Preview Systems](what-s-new-on-preview-systems-10a3b67.md).
+-   When the *Enable Preview Release* setting is disabled, the system is updated with the new features in the following release, according to the information on the What's New Viewer.
+
+> ### Note:  
+> Once enabled, you can't disable this setting on a given system.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Letterboxing Width
 
 </td>
 <td valign="top">
 
-Any new feature that's flagged as preview, can be viewed and will be available in a productive system in the next release.
+The letterboxing setting affects the width of the content area in a page. **Large**: increases the width of the content area, **Medium**: reduces the width of the content area.
 
--   When this setting is enabled, the system is updated with the new features according to the *Valid as Of*date that appears in the What's New Viewer.
--   When this setting is disabled, the system is updated with the new features in the following monthly release.
+When switching from medium to large letterboxing width, administrators can preview the site before they confirm their choice.
 
 > ### Note:  
-> Once enabled, you can't disable this setting on a given system.
+> Subscriptions created after 17th April 2025 don't have to manually switch to wide letterboxing, and don't see this setting on the UI. For them, the letterboxing width is set to 'large'.
 
 
 

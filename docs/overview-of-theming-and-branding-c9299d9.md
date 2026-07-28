@@ -2,7 +2,7 @@
 
 # Overview of Theming and Branding
 
-You can create your own themes and apply your corporate branding to your sites.
+Customize the visual appearance of your site to reflect your corporate identity. This process is referred to as theming and branding.
 
 
 
@@ -16,11 +16,19 @@ This topic gives a high-level overview of theming and branding options that are 
 
 Themes are created in a browser-based tool called the UI theme designer. It has a WYSIWYG designer to make it easy to create and maintain custom themes. By simply changing theme parameter values, images, and other resources, you can create your own themes with your corporate brand, corporate colors, and company logo.
 
+The UI theme designer is equipped with a WYSIWYG \(What You See Is What You Get\) designer, enabling users to create and maintain custom themes. With this tool, you can simply change theme parameter values, images, and other resources, to create your own themes with your corporate brand, corporate colors, and company logo.
+
+In SAP Build Work Zone, advanced edition, you can also create local themes for your site. In this case, we recommend that you use the Theme Manager to manage your themes as local themes only partially affect the user interface. You can also brand your emails and change the style of your email notifications by using different templates.
+
+For more information, see [About Local and Global Themes](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/about-local-and-global-themes) and also [Email Templates](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/email-templates).
 
 
-<a name="loioc9299d9f4c544f90b75f216b9cb5c2d5__section_kpj_bht_h5b"/>
 
-## How to access the UI theme designer
+## Themes
+
+
+
+### How to access the UI theme designer
 
 1.  Under your avatar, in the User Actions menu, select the *Theme Manager*.
 
@@ -36,9 +44,7 @@ Themes are created in a browser-based tool called the UI theme designer. It has 
 
 
 
-<a name="loioc9299d9f4c544f90b75f216b9cb5c2d5__section_jfb_3lt_h5b"/>
-
-## How to apply the themes to your site
+### How to apply the themes to your site
 
 A default standard theme provided by SAP is assigned to your site.
 
@@ -58,9 +64,7 @@ This is a very high-level explanation of how you assign themes to your site.
 
 
 
-<a name="loioc9299d9f4c544f90b75f216b9cb5c2d5__section_yk4_ytt_h5b"/>
-
-## Themes provided by SAP
+### Themes provided by SAP
 
 SAP offers several different standard themes; each display the screens with a different look and feel. Remember that you can only create a custom theme from an existing standard theme. To create a new theme, you need to select one of the following standard themes and base your new custom theme on the one you've selected.
 
@@ -69,112 +73,115 @@ SAP offers several different standard themes; each display the screens with a di
 <tr>
 <th valign="top">
 
+Category
+
+</th>
+<th valign="top">
+
 Theme Name
-
-
 
 </th>
 <th valign="top">
 
 More Details
 
-
-
 </th>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" rowspan="4">
 
-Quartz \(default theme\)
-
-
+SAP Quartz Set
 
 </td>
 <td valign="top">
 
-A standard theme used for SAPUI5 applications. It supports themes in dark and light settings.
-
-
+SAP Quartz Light
 
 </td>
-</tr>
-<tr>
-<td valign="top">
+<td valign="top" rowspan="4">
 
-Belize
-
-
-
-</td>
-<td valign="top">
-
-Supports dark and light settings.
-
-
+A standard theme set used for SAPUI5 applications.
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-High Contrast Black
-
-
-
-</td>
-<td valign="top">
-
-Accessibility theme that supports people with visual impairments especially those with light sensitivity.
-
-
+SAP Quartz Dark
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-High Contrast White
-
-
-
-</td>
-<td valign="top">
-
-Accessibility theme used by those who are working with mobile devices in bright environments or when there's a glare. The high contrast screen helps people to see more details.
-
-
+SAP High Contrast Black \(Quartz\)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-Horizon
+SAP High Contrast White \(Quartz\)
 
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="4">
 
+SAP Horizon Set
 
 </td>
 <td valign="top">
 
-This is the default theme.
+SAP Morning Horizon
 
-It's a visual theme with a vibrant color palette.
+</td>
+<td valign="top" rowspan="4">
 
-Supports dark and light settings in combination with high contrast.
+SAP Morning Horizon is the **default** theme.
 
-SAP Horizon provides two options:
+</td>
+</tr>
+<tr>
+<td valign="top">
 
--   Morning Horizon
+SAP Evening Horizon
 
--   Evening Horizon as an optional dark theme
+</td>
+</tr>
+<tr>
+<td valign="top">
 
+SAP High Contrast Black \(Horizon\)
 
-> ### Note:  
-> This theme doesn't require enabling in the Theme Manager - it's already available for end users to select. For sites created before the Horizon theme was introduced, you'll need to enable this theme.
+</td>
+</tr>
+<tr>
+<td valign="top">
 
+SAP High Contrast White \(Horizon\)
 
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Individual Themes
+
+</td>
+<td valign="top">
+
+Additional themes that are not part of a set.
+
+</td>
+<td valign="top">
+
+SAP Belize themes have been deprecated.
 
 </td>
 </tr>
 </table>
+
+> ### Note:  
+> For more information about the Automatic \(based on your operating system settings\) option, see [User Settings](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/user-settings).
 

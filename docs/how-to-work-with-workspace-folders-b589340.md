@@ -44,7 +44,7 @@ Your workspace may have a large volume of documents or content required for arch
 
 If you’re a workspace administrator, you can upload a zipped file containing content items into your workspace's content folder.
 
-1.  Open your workspace and click <span class="SAP-icons"></span> and choose *Workspace Admin Settings*.
+1.  Open your workspace and click <span class="SAP-icons-V5"></span> and choose *Workspace Admin Settings*.
 
 2.  Click *Extract Zip to Content*.
 

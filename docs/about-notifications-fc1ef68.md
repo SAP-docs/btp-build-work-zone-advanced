@@ -2,7 +2,27 @@
 
 # About Notifications
 
-You can get notifications about content updates using bell notifications and email digests.
+Learn how to setup and recieve your notifications from both the default SAP Build Work Zone, advanced edition notifications mechanism and from the central SAP BTP notification mechanism.
+
+
+
+<a name="loiofc1ef68f111e49b48fdb23fbd9ee5010__section_qlm_hb1_f1c"/>
+
+## How to work with notifications
+
+-   Filter your notifictions according to date, type, or priority.
+
+-   Process or take action on a notification by clicking the relevant action button. Once the action is successful, the notification is removed from the window.
+
+-   Close a notification - closing a notification that is expecting an action from you, will dismiss the notification without taking any form of action.
+
+-   For the central SAP BTP notification mechanism only: Click a notification to open the business object that is configured for the notification.
+
+    > ### Note:  
+    > When using the central notification mechanism, the default notifications retention period is 30 days.
+    > 
+    > The total number of notifications in the system is limited to 100,000 notifications for all users. Once this limit is reached, new notifications will overwrite the oldest ones.
+
 
 
 
@@ -19,21 +39,15 @@ The following types of notifications are available:
 
 Type of notification
 
-
-
 </th>
 <th valign="top">
 
 Purpose
 
-
-
 </th>
 <th valign="top">
 
 Setup steps
-
-
 
 </th>
 </tr>
@@ -42,21 +56,15 @@ Setup steps
 
 Bell
 
-
-
 </td>
 <td valign="top">
 
 To notify you of important updates, invitations, and approval requests.
 
-
-
 </td>
 <td valign="top">
 
 No setup steps required.
-
-
 
 </td>
 </tr>
@@ -65,21 +73,15 @@ No setup steps required.
 
 Email
 
-
-
 </td>
 <td valign="top">
 
 To notify you by email of important and periodic updates.
 
-
-
 </td>
 <td valign="top">
 
 Go to the User Actions menu and choose *Settings* \> *Advanced Settings* \> *Email* to select which notifications you want to receive, and select the frequency of email notifications for each workspace you belong to.
-
-
 
 </td>
 </tr>
@@ -91,6 +93,8 @@ Go to the User Actions menu and choose *Settings* \> *Advanced Settings* \> *Ema
 
 ## Notification Features
 
+These features are available in the default SAP Build Work Zone, advanced edition notifications mechanism:
+
 
 <table>
 <tr>
@@ -98,14 +102,10 @@ Go to the User Actions menu and choose *Settings* \> *Advanced Settings* \> *Ema
 
 Feature
 
-
-
 </th>
 <th valign="top">
 
 What it does
-
-
 
 </th>
 </tr>
@@ -113,8 +113,6 @@ What it does
 <td valign="top">
 
 @mention
-
-
 
 </td>
 <td valign="top">
@@ -137,8 +135,6 @@ Depending on the context in which you use the @mention feature, the list of user
 <td valign="top">
 
 @@notify
-
-
 
 </td>
 <td valign="top">
@@ -164,15 +160,11 @@ Depending on the context in which you use the @@notify feature, the list of user
 
 <a name="loiofc1ef68f111e49b48fdb23fbd9ee5010__section_bh4_wmp_5xb"/>
 
-## Email Notifications
+## Email Notification Settings
 
-Email notifications inform you of important and regular updates.
-
-**Settings**
+These settings are available in the default SAP Build Work Zone, advanced edition notifications mechanism:
 
 To access your email notification settings, go to the User Actions menu that opens when you select your avatar at the right side of the header bar. Choose *Settings* \> *Advanced Settings* \> *Email*.
-
-****
 
 
 <table>
@@ -181,14 +173,10 @@ To access your email notification settings, go to the User Actions menu that ope
 
 Tab
 
-
-
 </th>
 <th valign="top">
 
 What you can do
-
-
 
 </th>
 </tr>
@@ -196,8 +184,6 @@ What you can do
 <td valign="top">
 
 *Notifications* 
-
-
 
 </td>
 <td valign="top">
@@ -218,32 +204,12 @@ Select events for which you want to receive email notifications from the followi
 
 *Workspace Notifications* 
 
-
-
 </td>
 <td valign="top">
 
 Choose when and how often you want to receive email notifications from workspaces of which you're a member.
 
 You can select the email frequency for all workspaces or just for one specific workspace from the dropdown list.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Collaboration* 
-
-
-
-</td>
-<td valign="top">
-
-Update your home feed by email. You can choose if you want to send updates from the default email address or provide another email address.
-
-
 
 </td>
 </tr>
@@ -259,7 +225,7 @@ The *Notifications Summary* tile is only visible on the Home Page if the company
 
 The summary displays the number of unread notifications by category and will look like this:
 
-![](images/Notification_Summary_4f4c15b.png)
+![Screenshot showing notification examples.](images/Notification_Summary_4f4c15b.png)
 
 
 <table>
@@ -268,14 +234,10 @@ The summary displays the number of unread notifications by category and will loo
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Examples
-
-
 
 </th>
 </tr>
@@ -284,14 +246,10 @@ Examples
 
 *Social update* 
 
-
-
 </td>
 <td valign="top">
 
 Mentions, replies, and likes
-
-
 
 </td>
 </tr>
@@ -300,14 +258,10 @@ Mentions, replies, and likes
 
 *Invitations* 
 
-
-
 </td>
 <td valign="top">
 
 Workspace and event invitations
-
-
 
 </td>
 </tr>
@@ -316,14 +270,10 @@ Workspace and event invitations
 
 *Requests* 
 
-
-
 </td>
 <td valign="top">
 
 Requests to join a workspace, requests to approve content
-
-
 
 </td>
 </tr>
@@ -332,14 +282,10 @@ Requests to join a workspace, requests to approve content
 
 *Tasks* 
 
-
-
 </td>
 <td valign="top">
 
 Tasks assigned, task reminders
-
-
 
 </td>
 </tr>
@@ -348,14 +294,10 @@ Tasks assigned, task reminders
 
 *Informational updates* 
 
-
-
 </td>
 <td valign="top">
 
 Featured in a workspace, workspace access granted
-
-
 
 </td>
 </tr>

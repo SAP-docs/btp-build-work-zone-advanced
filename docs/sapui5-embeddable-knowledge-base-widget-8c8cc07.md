@@ -35,28 +35,20 @@ Use the instructions in the following tables to configure your knowledge base wi
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Default Value
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -65,21 +57,15 @@ Description
 
 DWSInstance
 
-
-
 </td>
 <td valign="top">
 
 object
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
@@ -131,21 +117,15 @@ DWSInstance: {
 
 contentTypes
 
-
-
 </td>
 <td valign="top">
 
 string
 
-
-
 </td>
 <td valign="top">
 
 \[kb, blog, wiki, document\]
-
-
 
 </td>
 <td valign="top">
@@ -166,21 +146,15 @@ Specify types of content in SAP Build Work Zone, advanced edition which can be s
 
 defaultColumns
 
-
-
 </td>
 <td valign="top">
 
 string
 
-
-
 </td>
 <td valign="top">
 
 \[title, group, author, updatedAt\]
-
-
 
 </td>
 <td valign="top">
@@ -209,28 +183,20 @@ Specify what columns of SAP Build Work Zone, advanced edition content to be disp
 
 jamGroups
 
-
-
 </td>
 <td valign="top">
 
 string
-
-
 
 </td>
 <td valign="top">
 
 empty string
 
-
-
 </td>
 <td valign="top">
 
 If provided, search will be limited to these workspaces only. Default is empty so that the widget will search all available content in SAP Build Work Zone, advanced edition for the user.
-
-
 
 </td>
 </tr>
@@ -239,21 +205,15 @@ If provided, search will be limited to these workspaces only. Default is empty s
 
 defaultSearchMode
 
-
-
 </td>
 <td valign="top">
 
 string
 
-
-
 </td>
 <td valign="top">
 
 none
-
-
 
 </td>
 <td valign="top">
@@ -272,28 +232,20 @@ supported values:
 
 widgetTitle
 
-
-
 </td>
 <td valign="top">
 
 string
-
-
 
 </td>
 <td valign="top">
 
 Suggestions from SAP Build Work Zone, advanced edition
 
-
-
 </td>
 <td valign="top">
 
 Title of the widget.
-
-
 
 </td>
 </tr>
@@ -302,28 +254,20 @@ Title of the widget.
 
 widgetWidth
 
-
-
 </td>
 <td valign="top">
 
 sap.ui.core.CSSSize
-
-
 
 </td>
 <td valign="top">
 
 100%
 
-
-
 </td>
 <td valign="top">
 
 Width of the widget.
-
-
 
 </td>
 </tr>
@@ -332,28 +276,20 @@ Width of the widget.
 
 widgetHeight
 
-
-
 </td>
 <td valign="top">
 
 sap.ui.core.CSSSize
-
-
 
 </td>
 <td valign="top">
 
 100%
 
-
-
 </td>
 <td valign="top">
 
 Height of the widget.
-
-
 
 </td>
 </tr>
@@ -362,28 +298,20 @@ Height of the widget.
 
 previewWidth
 
-
-
 </td>
 <td valign="top">
 
 sap.ui.core.CSSSize
-
-
 
 </td>
 <td valign="top">
 
 1000px
 
-
-
 </td>
 <td valign="top">
 
 Width of content preview panel.
-
-
 
 </td>
 </tr>
@@ -392,28 +320,20 @@ Width of content preview panel.
 
 previewHeight
 
-
-
 </td>
 <td valign="top">
 
 sap.ui.core.CSSSize
-
-
 
 </td>
 <td valign="top">
 
 700px
 
-
-
 </td>
 <td valign="top">
 
 Height of content preview panel.
-
-
 
 </td>
 </tr>
@@ -422,28 +342,20 @@ Height of content preview panel.
 
 showAdvancedSearch
 
-
-
 </td>
 <td valign="top">
 
 boolean
-
-
 
 </td>
 <td valign="top">
 
 false
 
-
-
 </td>
 <td valign="top">
 
 Set or get the visibility state of the Advanced Search section which contains custom keyword search and filters.
-
-
 
 </td>
 </tr>
@@ -452,28 +364,20 @@ Set or get the visibility state of the Advanced Search section which contains cu
 
 advancedSearchTitle
 
-
-
 </td>
 <td valign="top">
 
 string
-
-
 
 </td>
 <td valign="top">
 
 Advanced Search
 
-
-
 </td>
 <td valign="top">
 
 Text of the Advanced Search section.
-
-
 
 </td>
 </tr>
@@ -482,28 +386,20 @@ Text of the Advanced Search section.
 
 searchFieldPlaceholder
 
-
-
 </td>
 <td valign="top">
 
 string
-
-
 
 </td>
 <td valign="top">
 
 Search
 
-
-
 </td>
 <td valign="top">
 
 Text inside custom keyword search box.
-
-
 
 </td>
 </tr>
@@ -512,21 +408,15 @@ Text inside custom keyword search box.
 
 filterFields
 
-
-
 </td>
 <td valign="top">
 
 string
 
-
-
 </td>
 <td valign="top">
 
 \[types, groups, authors, categories\]
-
-
 
 </td>
 <td valign="top">
@@ -548,21 +438,15 @@ Specify the filters in Advanced Search section. Available filter fields:
 
 sortFields
 
-
-
 </td>
 <td valign="top">
 
 string
 
-
-
 </td>
 <td valign="top">
 
 \[relevance, date\]
-
-
 
 </td>
 <td valign="top">
@@ -582,28 +466,20 @@ Specify sorting field and method. Available sort fields:
 
 actionColumnTitle
 
-
-
 </td>
 <td valign="top">
 
 string
-
-
 
 </td>
 <td valign="top">
 
 Action
 
-
-
 </td>
 <td valign="top">
 
 Specify the title of column which display action buttons.
-
-
 
 </td>
 </tr>
@@ -612,28 +488,20 @@ Specify the title of column which display action buttons.
 
 pageSize
 
-
-
 </td>
 <td valign="top">
 
 int
-
-
 
 </td>
 <td valign="top">
 
 20
 
-
-
 </td>
 <td valign="top">
 
 Specify the title of column which display action buttons.
-
-
 
 </td>
 </tr>
@@ -642,28 +510,20 @@ Specify the title of column which display action buttons.
 
 searchFieldValue
 
-
-
 </td>
 <td valign="top">
 
 string
-
-
 
 </td>
 <td valign="top">
 
 empty string
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -680,28 +540,20 @@ empty string
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Cardinality
-
-
 
 </th>
 <th valign="top">
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -710,21 +562,15 @@ Description
 
 buttons
 
-
-
 </td>
 <td valign="top">
 
 0..n
 
-
-
 </td>
 <td valign="top">
 
 sap.m.Button
-
-
 
 </td>
 <td valign="top">
@@ -732,8 +578,6 @@ sap.m.Button
 The buttons in the action column.
 
 If this aggregation is not set, the action column will be hidden. When you press the button, the, "selectedItem" parameter will be sent back to the event. "selectedItem" will contain the info for content.
-
-
 
 </td>
 </tr>

@@ -33,14 +33,10 @@ Shows a row for each violation of the profanity and compliance dictionaries:
 
 Column item
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -49,14 +45,10 @@ Description
 
 **Flag** 
 
-
-
 </td>
 <td valign="top">
 
 The dictionary type in which the match occurred \(compliance or profanity\).
-
-
 
 </td>
 </tr>
@@ -65,14 +57,10 @@ The dictionary type in which the match occurred \(compliance or profanity\).
 
 **Term** 
 
-
-
 </td>
 <td valign="top">
 
 The full text of the dictionary entry that was matched.
-
-
 
 </td>
 </tr>
@@ -81,14 +69,10 @@ The full text of the dictionary entry that was matched.
 
 **Type** 
 
-
-
 </td>
 <td valign="top">
 
 The content type in which the violation occurred.
-
-
 
 </td>
 </tr>
@@ -97,14 +81,10 @@ The content type in which the violation occurred.
 
 **Date** 
 
-
-
 </td>
 <td valign="top">
 
 The date and time that the violation occurred.
-
-
 
 </td>
 </tr>
@@ -113,14 +93,10 @@ The date and time that the violation occurred.
 
 **Email Address** 
 
-
-
 </td>
 <td valign="top">
 
 The email address of the user who committed the violation.
-
-
 
 </td>
 </tr>
@@ -129,14 +105,10 @@ The email address of the user who committed the violation.
 
 **Name** 
 
-
-
 </td>
 <td valign="top">
 
 The full name \(first and last\) of the user who committed the violation.
-
-
 
 </td>
 </tr>
@@ -145,14 +117,10 @@ The full name \(first and last\) of the user who committed the violation.
 
 **Action** 
 
-
-
 </td>
 <td valign="top">
 
 The action taken in response to the flag: "Ignored", "Alerted", or null.
-
-
 
 </td>
 </tr>

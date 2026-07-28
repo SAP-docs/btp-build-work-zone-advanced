@@ -37,14 +37,10 @@ Shows a row for each user or workspace \(depending on the report requested\) wit
 
 Row item
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -53,14 +49,10 @@ Description
 
 **User ID \(User report only\)** 
 
-
-
 </td>
 <td valign="top">
 
 The SAP Build Work Zone, advanced edition user ID of the user that is being reported on
-
-
 
 </td>
 </tr>
@@ -69,14 +61,10 @@ The SAP Build Work Zone, advanced edition user ID of the user that is being repo
 
 **First Name \(User report only\)** 
 
-
-
 </td>
 <td valign="top">
 
 The first name of the reported user
-
-
 
 </td>
 </tr>
@@ -85,14 +73,10 @@ The first name of the reported user
 
 **Last Name \(User report only\)** 
 
-
-
 </td>
 <td valign="top">
 
 The last name of the reported use
-
-
 
 </td>
 </tr>
@@ -101,14 +85,10 @@ The last name of the reported use
 
 **Email \(User report only\)** 
 
-
-
 </td>
 <td valign="top">
 
 The email address of the reported use
-
-
 
 </td>
 </tr>
@@ -117,14 +97,10 @@ The email address of the reported use
 
 **\(Workspace\) Name \(Workpace report only\)** 
 
-
-
 </td>
 <td valign="top">
 
 The name of the reported workspace
-
-
 
 </td>
 </tr>
@@ -133,14 +109,10 @@ The name of the reported workspace
 
 **Last Updated \(Workspace report only\)** 
 
-
-
 </td>
 <td valign="top">
 
 The date and time that the workspace's content was last updated
-
-
 
 </td>
 </tr>
@@ -149,14 +121,10 @@ The date and time that the workspace's content was last updated
 
 **Storage Usage \(MB\)** 
 
-
-
 </td>
 <td valign="top">
 
 The amount of stored data in megabytes. For the *Top Disk Usage Per User* report, this value accounts for all images posted to private and workspace messages on a per user basis.
-
-
 
 </td>
 </tr>
@@ -165,14 +133,10 @@ The amount of stored data in megabytes. For the *Top Disk Usage Per User* report
 
 **Storage Usage in Trash \(MB\)** 
 
-
-
 </td>
 <td valign="top">
 
 The amount of data stored in the trash bin of the user or workspace
-
-
 
 </td>
 </tr>

@@ -76,5 +76,5 @@ Business records that are featured in a workspace are displayed in the *Business
 
 ## External User Access
 
-External users can view, comment on, feature, @mention, and access links to business records from within an external workspace.
+External users can view, comment on, feature, @mention, and access links to business records from within a workspace as long as they have a full collaboration level defined for them.
 

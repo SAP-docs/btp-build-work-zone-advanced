@@ -2,9 +2,9 @@
 
 # Workspace Templates
 
-Workspaces are separate sections of SAP Build Work Zone, advanced edition with dedicated pages and feeds. Workspaces allow you to communicate and collaborate with a specific group of users.
+Workspace templates enable users to create workspace content quickly and consistently.
 
-With workspace templates, you don't need to create workspaces from scratch. When you create workspaces, you can use workspace templates for convenience and consistency. You can reuse these templates to create workspaces for various business scenarios with minimum modification.
+With workspace templates, users don't need to create workspaces from scratch. They can use predefined templates that match various business scenarios. As a developer, you can create additional templates and deploy them to the subaccount.
 
 You can perform the following actions on workspace templates using SAP Business Application Studio:
 

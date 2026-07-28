@@ -34,14 +34,10 @@ Shows a column for each week or month in the selected time frame, with rows of v
 
 Row item
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -50,14 +46,10 @@ Description
 
 **Blogs** 
 
-
-
 </td>
 <td valign="top">
 
 The views of blogs in the indicated week/month, plus the total views for the entire period.
-
-
 
 </td>
 </tr>
@@ -66,14 +58,10 @@ The views of blogs in the indicated week/month, plus the total views for the ent
 
 **Discussions** 
 
-
-
 </td>
 <td valign="top">
 
 The views of discussions in the indicated week/month, plus the total views for the entire period.
-
-
 
 </td>
 </tr>
@@ -82,14 +70,10 @@ The views of discussions in the indicated week/month, plus the total views for t
 
 **Documents** 
 
-
-
 </td>
 <td valign="top">
 
 The views of documents in the indicated week/month, plus the total views for the entire period.
-
-
 
 </td>
 </tr>
@@ -98,14 +82,10 @@ The views of documents in the indicated week/month, plus the total views for the
 
 **Ideas**
 
-
-
 </td>
 <td valign="top">
 
 The views of ideas in the indicated week/month, plus the total views for the entire period.
-
-
 
 </td>
 </tr>
@@ -114,14 +94,10 @@ The views of ideas in the indicated week/month, plus the total views for the ent
 
 **Knowledge Base Articles** 
 
-
-
 </td>
 <td valign="top">
 
 The views of knowledge base articles in the indicated week/month, plus the total views for the entire period.
-
-
 
 </td>
 </tr>
@@ -130,14 +106,10 @@ The views of knowledge base articles in the indicated week/month, plus the total
 
 **Links**
 
-
-
 </td>
 <td valign="top">
 
 The views of links in the indicated week/month, plus the total views for the entire period.
-
-
 
 </td>
 </tr>
@@ -146,14 +118,10 @@ The views of links in the indicated week/month, plus the total views for the ent
 
 **Images** 
 
-
-
 </td>
 <td valign="top">
 
 The views of images in the indicated week/month, plus the total views for the entire period.
-
-
 
 </td>
 </tr>
@@ -162,14 +130,10 @@ The views of images in the indicated week/month, plus the total views for the en
 
 **Questions** 
 
-
-
 </td>
 <td valign="top">
 
 The views of questions in the indicated week/month, plus the total views for the entire period.
-
-
 
 </td>
 </tr>
@@ -178,14 +142,10 @@ The views of questions in the indicated week/month, plus the total views for the
 
 **Videos** 
 
-
-
 </td>
 <td valign="top">
 
 The views of videos in the indicated week/month, plus the total views for the entire period.
-
-
 
 </td>
 </tr>
@@ -194,14 +154,10 @@ The views of videos in the indicated week/month, plus the total views for the en
 
 **Wiki Pages** 
 
-
-
 </td>
 <td valign="top">
 
 The views of wiki pages in the indicated week/month, plus the total views for the entire period.
-
-
 
 </td>
 </tr>
@@ -210,14 +166,10 @@ The views of wiki pages in the indicated week/month, plus the total views for th
 
 **Workpages** 
 
-
-
 </td>
 <td valign="top">
 
 The views of workpages in the indicated week/month, plus the total views for the entire period.
-
-
 
 </td>
 </tr>

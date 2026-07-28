@@ -25,29 +25,21 @@ When you need to pass confidential information to a backend, and it can't be pas
     <th valign="top">
 
     Field Name
-
-
     
     </th>
     <th valign="top">
 
     Value
-
-
     
     </th>
     <th valign="top">
 
     Comments
-
-
     
     </th>
     <th valign="top">
 
     Example
-
-
     
     </th>
     </tr>
@@ -55,27 +47,26 @@ When you need to pass confidential information to a backend, and it can't be pas
     <td valign="top">
     
     HTML5.DynamicDestination
-
-
     
     </td>
     <td valign="top">
     
     true
-
-
     
     </td>
     <td valign="top">
     
     **Mandatory**
-
-
     
     </td>
     <td valign="top">
     
     `HTML5.DynamicDestination:true`
+
+    > ### Note:  
+    > By default, a destination doesn't allow dynamic access. However adding an `HTML5.DynamicDestination` property and setting it to true, enables dynamic access to the destination to any logged-in user.
+    > 
+    > Therefore before adding this property to the destination, make sure that the underlying API is not public and requires the correct user credentials.
 
 
     
@@ -85,15 +76,11 @@ When you need to pass confidential information to a backend, and it can't be pas
     <td valign="top">
     
     sap.header.<Header-Name\>
-
-
     
     </td>
     <td valign="top">
     
     <Header-Value\>
-
-
     
     </td>
     <td valign="top">
@@ -101,8 +88,6 @@ When you need to pass confidential information to a backend, and it can't be pas
     Optional \(zero or more\)
 
     <Header-Name\> is the header name that will be replaced.
-
-
     
     </td>
     <td valign="top">
@@ -110,8 +95,6 @@ When you need to pass confidential information to a backend, and it can't be pas
     `sap.header.CustomHeader:CustomValue`
 
     `sap.header.AnotherCustomHeader:AnotherCustomValue`
-
-
     
     </td>
     </tr>
@@ -119,15 +102,11 @@ When you need to pass confidential information to a backend, and it can't be pas
     <td valign="top">
     
     sap.query
-
-
     
     </td>
     <td valign="top">
     
     <Query-Value\>
-
-
     
     </td>
     <td valign="top">
@@ -135,15 +114,11 @@ When you need to pass confidential information to a backend, and it can't be pas
     Optional \(zero or one\)
 
     URL must not be encoded.
-
-
     
     </td>
     <td valign="top">
     
     If you want to add the URL query parameter `s=5&api-key=111-222-333`, you need to enter `sap.query:s=5&api-key=111-222-333`
-
-
     
     </td>
     </tr>

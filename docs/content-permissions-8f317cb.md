@@ -4,7 +4,7 @@
 
 # Content Permissions
 
-As a content owner who has uploaded a document or image, you can set permissions for what can be done with the document. You can also set permissions when you create a wiki or knowledge base article, right before you publish or save it.
+As a content owner who has uploaded a document or image, you can set permissions for what can be done with the content. You can also set permissions when you create a wiki or knowledge base article, right before you publish or save it.
 
 
 
@@ -16,30 +16,38 @@ To set permissions when you upload a document or image, in the *Upload Files* di
 
 You can choose one of the following permission levels for documents:
 
+****
+
 
 <table>
 <tr>
 <th valign="top">
 
-Permission
-
-
+ 
 
 </th>
 <th valign="top">
 
-Action
-
-
+ 
 
 </th>
 </tr>
 <tr>
 <td valign="top">
 
+**Permission** 
+
+</td>
+<td valign="top">
+
+**Action** 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 *Full* 
-
-
 
 </td>
 <td valign="top">
@@ -72,30 +80,22 @@ Other users can do the following:
 
 *Limited* 
 
-
-
 </td>
 <td valign="top">
 
 Other users can only view, download, and copy the document or image.
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-*Read-Only* 
-
-
+*Read-Only*
 
 </td>
 <td valign="top">
 
 Other users can view only.
-
-
 
 </td>
 </tr>
@@ -121,14 +121,10 @@ You can choose one of the following permissions for wikis and knowledge base art
 
 Permission
 
-
-
 </th>
 <th valign="top">
 
 Action
-
-
 
 </th>
 </tr>
@@ -136,8 +132,6 @@ Action
 <td valign="top">
 
 *Full* 
-
-
 
 </td>
 <td valign="top">
@@ -166,14 +160,10 @@ Other users can do the following:
 
 *Limited* 
 
-
-
 </td>
 <td valign="top">
 
 Other users can only view and copy the wiki page or knowledge base article.
-
-
 
 </td>
 </tr>
@@ -182,8 +172,6 @@ Other users can only view and copy the wiki page or knowledge base article.
 
 *Hidden* 
 
-
-
 </td>
 <td valign="top">
 
@@ -191,14 +179,12 @@ Only the creator and the workspace administrator can view and change the wiki pa
 
 The wiki page or knowledge base article is invisible to other users.
 
-
-
 </td>
 </tr>
 </table>
 
 > ### Note:  
-> Which actions can be performed depends also on the collaboration level that has been set for the workspace. For more information about collaboration levels, see [How to Create a Workspace](how-to-create-a-workspace-770f1b0.md).
+> Which actions can be performed depends also on the collaboration level that has been set for the workspace. For more information about collaboration levels, see [How to Edit Workspace Settings](how-to-edit-workspace-settings-98ae51c.md) and open up the *Participation* settings.
 
 
 
@@ -206,9 +192,9 @@ The wiki page or knowledge base article is invisible to other users.
 
 ## Editing Permissions
 
-Content owners and workspace administrators can change the permissions settings for published documents or wiki pages on the *Content* page.
+Content owners and workspace administrators can change the permissions settings for published documents or wiki pages in the *Content* list.
 
-1.  On the *Content* page, select the content whose permissions you want to edit.
-2.  In the <span class="SAP-icons"></span> menu in the top-right corner, choose *Edit permissions*.
+1.  In the *Content* list, select the content for which you want to edit the permissions.
+2.  In the <span class="SAP-icons-V5"></span> menu in the top-right corner, choose *Edit permissions*.
 3.  Move the indicator to the desired permission setting and click *Save*.
 

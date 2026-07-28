@@ -33,14 +33,10 @@ You can do the following on the *Email Templates* screen:
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -48,8 +44,6 @@ Description
 <td valign="top">
 
 Set up email templates
-
-
 
 </td>
 <td valign="top">
@@ -77,8 +71,6 @@ Set up email templates
 
 Preview and test email templates
 
-
-
 </td>
 <td valign="top">
 
@@ -103,14 +95,10 @@ After you've updated the templates, you preview and test changes to the email te
 
 Publish email template changes
 
-
-
 </td>
 <td valign="top">
 
 When you've previewed the template changes, and want to set them to use, choose *Publish*.
-
-
 
 </td>
 </tr>
@@ -119,14 +107,10 @@ When you've previewed the template changes, and want to set them to use, choose 
 
 Revert the email template changes
 
-
-
 </td>
 <td valign="top">
 
 After updating an email template, you can choose *Revert to Published Version* to roll back your saved changes. The changes are reverted, and the published email template settings are restored.
-
-
 
 </td>
 </tr>
@@ -134,8 +118,6 @@ After updating an email template, you can choose *Revert to Published Version* t
 <td valign="top">
 
 Configure an email template for external users
-
-
 
 </td>
 <td valign="top">
@@ -146,16 +128,12 @@ Configure an email template for external users
 
 You can always revert to a single email template. See the next task.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Revert to a single email template for both internal and external users
-
-
 
 </td>
 <td valign="top">
@@ -173,8 +151,6 @@ Revert to a single email template for both internal and external users
 <td valign="top">
 
 Disable the use of email templates
-
-
 
 </td>
 <td valign="top">

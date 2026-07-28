@@ -34,14 +34,10 @@ Shows a row for each workspace member with the following columns of information:
 
 Row item
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -50,14 +46,10 @@ Description
 
 **Workspace ID** 
 
-
-
 </td>
 <td valign="top">
 
 The numeric ID of the workspace
-
-
 
 </td>
 </tr>
@@ -65,8 +57,6 @@ The numeric ID of the workspace
 <td valign="top">
 
 **Workspace Name** 
-
-
 
 </td>
 <td valign="top">
@@ -85,14 +75,10 @@ The name of the workspace.
 
 **Workspace Type** 
 
-
-
 </td>
 <td valign="top">
 
 The workspace visibility can be *Private* or *Public*.
-
-
 
 </td>
 </tr>
@@ -101,14 +87,10 @@ The workspace visibility can be *Private* or *Public*.
 
 **Status** 
 
-
-
 </td>
 <td valign="top">
 
 The workspace status can be *Active*, *Inactive*, or *Deleted* 
-
-
 
 </td>
 </tr>
@@ -117,14 +99,10 @@ The workspace status can be *Active*, *Inactive*, or *Deleted*
 
 **User ID** 
 
-
-
 </td>
 <td valign="top">
 
 The user's username
-
-
 
 </td>
 </tr>
@@ -133,14 +111,10 @@ The user's username
 
 **Email Address** 
 
-
-
 </td>
 <td valign="top">
 
 The user's email address
-
-
 
 </td>
 </tr>
@@ -149,14 +123,10 @@ The user's email address
 
 **First Name** 
 
-
-
 </td>
 <td valign="top">
 
 The user's first name
-
-
 
 </td>
 </tr>
@@ -165,14 +135,10 @@ The user's first name
 
 **Last Name** 
 
-
-
 </td>
 <td valign="top">
 
 The user's last name
-
-
 
 </td>
 </tr>
@@ -181,14 +147,10 @@ The user's last name
 
 **User Status** 
 
-
-
 </td>
 <td valign="top">
 
 *Active* or *Alumni* 
-
-
 
 </td>
 </tr>
@@ -197,14 +159,10 @@ The user's last name
 
 **Number of Activities in the last 30 days** 
 
-
-
 </td>
 <td valign="top">
 
 A count of the user's activities in the last 30 days in a specific workspace
-
-
 
 </td>
 </tr>
@@ -213,14 +171,10 @@ A count of the user's activities in the last 30 days in a specific workspace
 
 **Date of Last post** 
 
-
-
 </td>
 <td valign="top">
 
 The date and time of the user's last activity
-
-
 
 </td>
 </tr>
@@ -229,14 +183,10 @@ The date and time of the user's last activity
 
 **Total number of Activities** 
 
-
-
 </td>
 <td valign="top">
 
 A count of the user's activities in a specific workspace since it's creation
-
-
 
 </td>
 </tr>
@@ -245,14 +195,10 @@ A count of the user's activities in a specific workspace since it's creation
 
 **Workspace Admin** 
 
-
-
 </td>
 <td valign="top">
 
 Whether the user is the workspace's administrator, Yes or No
-
-
 
 </td>
 </tr>

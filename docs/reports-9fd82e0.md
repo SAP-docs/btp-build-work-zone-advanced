@@ -32,15 +32,11 @@ SAP Build Work Zone, advanced edition reports can be downloaded as CSV or XLSX f
     <th valign="top">
 
     Option
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -48,15 +44,11 @@ SAP Build Work Zone, advanced edition reports can be downloaded as CSV or XLSX f
     <td valign="top">
     
     *Select Report*
-
-
     
     </td>
     <td valign="top">
     
     Select the type of report that you want to run from the dropdown menu.
-
-
     
     </td>
     </tr>
@@ -64,8 +56,6 @@ SAP Build Work Zone, advanced edition reports can be downloaded as CSV or XLSX f
     <td valign="top">
     
     *Specify Date Range*
-
-
     
     </td>
     <td valign="top">
@@ -73,8 +63,6 @@ SAP Build Work Zone, advanced edition reports can be downloaded as CSV or XLSX f
     From the calendar, choose the start date and the end date for the period to be covered by your report.
 
     The maximum date range spans no more than 3 months .
-
-
     
     </td>
     </tr>
@@ -82,15 +70,11 @@ SAP Build Work Zone, advanced edition reports can be downloaded as CSV or XLSX f
     <td valign="top">
     
     *Show Report Header*
-
-
     
     </td>
     <td valign="top">
     
     Select this option to include report headings indicating the report name and the settings used for the report \(such as the time frame and the workspaces covered\).
-
-
     
     </td>
     </tr>
@@ -98,15 +82,11 @@ SAP Build Work Zone, advanced edition reports can be downloaded as CSV or XLSX f
     <td valign="top">
     
     *Type*
-
-
     
     </td>
     <td valign="top">
     
     Select the output format of the report.
-
-
     
     </td>
     </tr>
@@ -114,15 +94,11 @@ SAP Build Work Zone, advanced edition reports can be downloaded as CSV or XLSX f
     <td valign="top">
     
     *Select Workspace*
-
-
     
     </td>
     <td valign="top">
     
-    Select either *All* or any of the specific workspaces created in your company.
-
-
+    Select either *All* or any of the specific workspaces \(with external or internal users\) created in your company.
     
     </td>
     </tr>
@@ -160,14 +136,10 @@ The availability of reports is shown in the following table:
 
 Report
 
-
-
 </th>
 <th valign="top">
 
 Link to more information
-
-
 
 </th>
 <th valign="top">
@@ -176,16 +148,12 @@ Area Administrators
 
 \(for their area only\)
 
-
-
 </th>
 <th valign="top">
 
 Company Administrators
 
 \(for the entire company\)
-
-
 
 </th>
 </tr>
@@ -194,28 +162,20 @@ Company Administrators
 
 Activity Summary by Month
 
-
-
 </td>
 <td valign="top">
 
 [Activity Summary by Week or Month Report](activity-summary-by-week-or-month-report-dfa4abc.md)
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -224,28 +184,20 @@ Yes
 
 Activity Summary by Week
 
-
-
 </td>
 <td valign="top">
 
 [Activity Summary by Week or Month Report](activity-summary-by-week-or-month-report-dfa4abc.md)
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -254,28 +206,20 @@ Yes
 
 Company Settings Changes
 
-
-
 </td>
 <td valign="top">
 
 [Company Settings Changes Report](company-settings-changes-report-71cc82e.md)
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -284,28 +228,20 @@ Yes
 
 Company User Detail Report
 
-
-
 </td>
 <td valign="top">
 
 [Company Settings Changes Report](company-settings-changes-report-71cc82e.md)
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -314,28 +250,20 @@ Yes
 
 Compliance Report
 
-
-
 </td>
 <td valign="top">
 
 [Compliance Report](compliance-report-d0a7599.md)
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -344,28 +272,20 @@ Yes
 
 Content Views by Month
 
-
-
 </td>
 <td valign="top">
 
 [Content Views by Week or Month Report](content-views-by-week-or-month-report-749c4f8.md)
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -374,28 +294,20 @@ Yes
 
 Content Views by Week
 
-
-
 </td>
 <td valign="top">
 
 [Content Views by Week or Month Report](content-views-by-week-or-month-report-749c4f8.md)
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -404,28 +316,20 @@ Yes
 
 Contribution Report by Object by Month
 
-
-
 </td>
 <td valign="top">
 
 [Contribution by Object by Month or Week Report](contribution-by-object-by-month-or-week-report-97dce9e.md)
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -434,28 +338,20 @@ Yes
 
 Contribution Report by Object by Week
 
-
-
 </td>
 <td valign="top">
 
 [Contribution by Object by Month or Week Report](contribution-by-object-by-month-or-week-report-97dce9e.md)
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -464,28 +360,20 @@ Yes
 
 Engagement Report
 
-
-
 </td>
 <td valign="top">
 
 [Engagement Report](engagement-report-e79f175.md)
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -494,28 +382,20 @@ Yes
 
 Expertise Report
 
-
-
 </td>
 <td valign="top">
 
 [Expertise Report](expertise-report-37923b5.md)
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -524,28 +404,20 @@ Yes
 
 Kudo Detail
 
-
-
 </td>
 <td valign="top">
 
 [Kudo Detail Report](kudo-detail-report-7a08a3c.md)
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -554,28 +426,20 @@ Yes
 
 Search Summary by Month
 
-
-
 </td>
 <td valign="top">
 
 [Search Summary by Week or Month Report](search-summary-by-week-or-month-report-6e43aa5.md)
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -584,28 +448,20 @@ Yes
 
 Search Summary by Week
 
-
-
 </td>
 <td valign="top">
 
 [Search Summary by Week or Month Report](search-summary-by-week-or-month-report-6e43aa5.md)
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -614,28 +470,20 @@ Yes
 
 Terms of Service Compliance Report
 
-
-
 </td>
 <td valign="top">
 
 [Terms of Service Compliance Report](terms-of-service-compliance-report-2b9d4de.md)
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -644,28 +492,20 @@ Yes
 
 Top Disk Usage per User
 
-
-
 </td>
 <td valign="top">
 
 [Top Disk Usage per Workspace or User Report](top-disk-usage-per-workspace-or-user-report-6398baf.md)
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -674,28 +514,20 @@ Yes
 
 Top Disk Usage per Workspace
 
-
-
 </td>
 <td valign="top">
 
 [Top Disk Usage per Workspace or User Report](top-disk-usage-per-workspace-or-user-report-6398baf.md)
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -704,28 +536,20 @@ Yes
 
 User Contribution Activity Report
 
-
-
 </td>
 <td valign="top">
 
 [User Contribution Activity Report](user-contribution-activity-report-cf9bf88.md)
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -734,28 +558,20 @@ Yes
 
 User Contribution Report by Month
 
-
-
 </td>
 <td valign="top">
 
 [User Contribution by Week or Month Report](user-contribution-by-week-or-month-report-c4ec364.md)
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -764,28 +580,20 @@ Yes
 
 User Contribution Report by Week
 
-
-
 </td>
 <td valign="top">
 
 [User Contribution by Week or Month Report](user-contribution-by-week-or-month-report-c4ec364.md)
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -794,28 +602,20 @@ Yes
 
 User Page Views by Month
 
-
-
 </td>
 <td valign="top">
 
 [User Page Views by Week or Month Report](user-page-views-by-week-or-month-report-a10a4f3.md)
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -824,28 +624,20 @@ Yes
 
 User Page Views by Week
 
-
-
 </td>
 <td valign="top">
 
 [User Page Views by Week or Month Report](user-page-views-by-week-or-month-report-a10a4f3.md)
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -854,28 +646,20 @@ Yes
 
 Workspace Activity Report
 
-
-
 </td>
 <td valign="top">
 
 [Workspace Activity Report](workspace-activity-report-c44d406.md)
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -884,28 +668,20 @@ Yes
 
 Workspace Administrators Report
 
-
-
 </td>
 <td valign="top">
 
 [Workspace Administrators Report](workspace-administrators-report-67cfc9c.md)
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -914,28 +690,20 @@ Yes
 
 Workspace Member Activity Report
 
-
-
 </td>
 <td valign="top">
 
 [Workspace Member Activity Report](workspace-member-activity-report-b07d17d.md)
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -944,28 +712,20 @@ Yes
 
 Workspace Template Activity Report
 
-
-
 </td>
 <td valign="top">
 
 [Workspace Template Activity Report](workspace-template-activity-report-8e2117c.md)
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>

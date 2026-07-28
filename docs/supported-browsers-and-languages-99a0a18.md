@@ -23,14 +23,10 @@
 
 Supported Browsers
 
-
-
 </th>
 <th valign="top">
 
 Version
-
-
 
 </th>
 </tr>
@@ -39,14 +35,10 @@ Version
 
 Google Chrome
 
-
-
 </td>
 <td valign="top">
 
 latest
-
-
 
 </td>
 </tr>
@@ -55,14 +47,10 @@ latest
 
 Microsoft Edge
 
-
-
 </td>
 <td valign="top">
 
 latest
-
-
 
 </td>
 </tr>
@@ -71,14 +59,10 @@ latest
 
 Apple Safari
 
-
-
 </td>
 <td valign="top">
 
 latest
-
-
 
 </td>
 </tr>
@@ -87,14 +71,10 @@ latest
 
 Mozilla Firefox
 
-
-
 </td>
 <td valign="top">
 
 latest
-
-
 
 </td>
 </tr>
@@ -112,14 +92,10 @@ The following web browser settings are required:
 
 Browser Configuration and other Prerequisites
 
-
-
 </th>
 <th valign="top">
 
 Notes
-
-
 
 </th>
 </tr>
@@ -128,14 +104,10 @@ Notes
 
 Java Runtime Environment \(JRE\), latest version
 
-
-
 </td>
 <td valign="top">
 
 Required for recording audio and video.
-
-
 
 </td>
 </tr>
@@ -144,14 +116,10 @@ Required for recording audio and video.
 
 Network bandwidth
 
-
-
 </td>
 <td valign="top">
 
 Recommended connection speed is 300-400Kbit/s.
-
-
 
 </td>
 </tr>
@@ -160,16 +128,12 @@ Recommended connection speed is 300-400Kbit/s.
 
 Cache size
 
-
-
 </td>
 <td valign="top">
 
 The minimum recommended cache size is 250 MB.
 
 SAP Build Work Zone, advanced edition is a Web 2.0 application and uses caching heavily for static content. Do not clear the cache as this significantly impacts the performance.
-
-
 
 </td>
 </tr>
@@ -178,14 +142,10 @@ SAP Build Work Zone, advanced edition is a Web 2.0 application and uses caching 
 
 HTTP 1.1
 
-
-
 </td>
 <td valign="top">
 
 Enable
-
-
 
 </td>
 </tr>
@@ -194,14 +154,10 @@ Enable
 
 JavaScript
 
-
-
 </td>
 <td valign="top">
 
 Enable
-
-
 
 </td>
 </tr>
@@ -209,8 +165,6 @@ Enable
 <td valign="top">
 
 Cookies
-
-
 
 </td>
 <td valign="top">
@@ -231,14 +185,10 @@ For all browsers allow third-party cookies.
 
 Pop-up windows
 
-
-
 </td>
 <td valign="top">
 
 Allow pop-up windows with `[*.]ondemand.com` domains. The browser must allow pop-up windows from SAP Build Work Zone, advanced edition domains because they are used to display some types of content.
-
-
 
 </td>
 </tr>
@@ -250,8 +200,7 @@ Allow pop-up windows with `[*.]ondemand.com` domains. The browser must allow pop
 
 ## Supported Languages
 
-> ### Note:  
-> In the *Site Settings* screen, administrators can select up to 10 languages from the list of all supported languages to make them available for user selection.
+In the *Site Settings* screen, you can enable any of the following supported languages and make them available to users. For more information, see [Site Settings](site-settings-ca74965.md).
 
 
 <table>
@@ -260,14 +209,10 @@ Allow pop-up windows with `[*.]ondemand.com` domains. The browser must allow pop
 
 Languages
 
-
-
 </th>
 <th valign="top">
 
 Code
-
-
 
 </th>
 </tr>
@@ -276,14 +221,10 @@ Code
 
 Arabic
 
-
-
 </td>
 <td valign="top">
 
 ar-SA
-
-
 
 </td>
 </tr>
@@ -292,14 +233,10 @@ ar-SA
 
 Bulgarian
 
-
-
 </td>
 <td valign="top">
 
 bg-BG
-
-
 
 </td>
 </tr>
@@ -308,14 +245,10 @@ bg-BG
 
 Catalan
 
-
-
 </td>
 <td valign="top">
 
 ca-ES
-
-
 
 </td>
 </tr>
@@ -324,14 +257,10 @@ ca-ES
 
 Chinese \(China - simplified\)
 
-
-
 </td>
 <td valign="top">
 
 zh-CN
-
-
 
 </td>
 </tr>
@@ -340,14 +269,10 @@ zh-CN
 
 Chinese \(Taiwan\)
 
-
-
 </td>
 <td valign="top">
 
 zh-TW
-
-
 
 </td>
 </tr>
@@ -356,14 +281,10 @@ zh-TW
 
 Croatian
 
-
-
 </td>
 <td valign="top">
 
 hr-HR
-
-
 
 </td>
 </tr>
@@ -372,14 +293,10 @@ hr-HR
 
 Czech
 
-
-
 </td>
 <td valign="top">
 
 cs-CZ
-
-
 
 </td>
 </tr>
@@ -388,14 +305,10 @@ cs-CZ
 
 Danish
 
-
-
 </td>
 <td valign="top">
 
 da-DK
-
-
 
 </td>
 </tr>
@@ -404,14 +317,10 @@ da-DK
 
 Dutch
 
-
-
 </td>
 <td valign="top">
 
 nl-NL
-
-
 
 </td>
 </tr>
@@ -420,30 +329,22 @@ nl-NL
 
 English \(Great Britain\)
 
-
-
 </td>
 <td valign="top">
 
 en-GB
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-English \(United States of America\)
-
-
+English
 
 </td>
 <td valign="top">
 
-en-US
-
-
+en
 
 </td>
 </tr>
@@ -452,14 +353,10 @@ en-US
 
 Estonian
 
-
-
 </td>
 <td valign="top">
 
 et-EE
-
-
 
 </td>
 </tr>
@@ -468,14 +365,10 @@ et-EE
 
 Finnish
 
-
-
 </td>
 <td valign="top">
 
 fi-FI
-
-
 
 </td>
 </tr>
@@ -484,14 +377,10 @@ fi-FI
 
 French \(France\)
 
-
-
 </td>
 <td valign="top">
 
 fr-FR
-
-
 
 </td>
 </tr>
@@ -500,14 +389,10 @@ fr-FR
 
 French \(Canada\)
 
-
-
 </td>
 <td valign="top">
 
 fr-CA
-
-
 
 </td>
 </tr>
@@ -516,14 +401,10 @@ fr-CA
 
 German \(Germany\)
 
-
-
 </td>
 <td valign="top">
 
 de-DE
-
-
 
 </td>
 </tr>
@@ -532,14 +413,10 @@ de-DE
 
 German \(Switzerland\)
 
-
-
 </td>
 <td valign="top">
 
 de-CH
-
-
 
 </td>
 </tr>
@@ -548,14 +425,10 @@ de-CH
 
 Greek
 
-
-
 </td>
 <td valign="top">
 
 el-GR
-
-
 
 </td>
 </tr>
@@ -564,14 +437,10 @@ el-GR
 
 Hebrew
 
-
-
 </td>
 <td valign="top">
 
 he-IL
-
-
 
 </td>
 </tr>
@@ -580,14 +449,10 @@ he-IL
 
 Hindi
 
-
-
 </td>
 <td valign="top">
 
 hi-IN
-
-
 
 </td>
 </tr>
@@ -596,14 +461,10 @@ hi-IN
 
 Hungarian
 
-
-
 </td>
 <td valign="top">
 
 hu-HU
-
-
 
 </td>
 </tr>
@@ -612,14 +473,10 @@ hu-HU
 
 Indonesian
 
-
-
 </td>
 <td valign="top">
 
 id-ID
-
-
 
 </td>
 </tr>
@@ -628,14 +485,10 @@ id-ID
 
 Italian
 
-
-
 </td>
 <td valign="top">
 
 it-IT
-
-
 
 </td>
 </tr>
@@ -644,14 +497,10 @@ it-IT
 
 Italian \(Switzerland\)
 
-
-
 </td>
 <td valign="top">
 
 it-CH
-
-
 
 </td>
 </tr>
@@ -660,14 +509,10 @@ it-CH
 
 Japanese
 
-
-
 </td>
 <td valign="top">
 
 ja-JP
-
-
 
 </td>
 </tr>
@@ -676,14 +521,10 @@ ja-JP
 
 Korean
 
-
-
 </td>
 <td valign="top">
 
 ko-KR
-
-
 
 </td>
 </tr>
@@ -692,14 +533,10 @@ ko-KR
 
 Latvian
 
-
-
 </td>
 <td valign="top">
 
 lv-LV
-
-
 
 </td>
 </tr>
@@ -708,14 +545,10 @@ lv-LV
 
 Lithuanian
 
-
-
 </td>
 <td valign="top">
 
 It-LT
-
-
 
 </td>
 </tr>
@@ -724,14 +557,10 @@ It-LT
 
 Malay
 
-
-
 </td>
 <td valign="top">
 
 ms-MY
-
-
 
 </td>
 </tr>
@@ -740,14 +569,10 @@ ms-MY
 
 Norwegian
 
-
-
 </td>
 <td valign="top">
 
 no-NO
-
-
 
 </td>
 </tr>
@@ -756,14 +581,10 @@ no-NO
 
 Polish
 
-
-
 </td>
 <td valign="top">
 
 pl-PL
-
-
 
 </td>
 </tr>
@@ -772,14 +593,10 @@ pl-PL
 
 Portuguese \(Brazil\)
 
-
-
 </td>
 <td valign="top">
 
 pt-BR
-
-
 
 </td>
 </tr>
@@ -788,14 +605,10 @@ pt-BR
 
 Portuguese \(Portugal\)
 
-
-
 </td>
 <td valign="top">
 
 pt-PT
-
-
 
 </td>
 </tr>
@@ -804,14 +617,10 @@ pt-PT
 
 Romanian
 
-
-
 </td>
 <td valign="top">
 
 ro-RO
-
-
 
 </td>
 </tr>
@@ -820,14 +629,10 @@ ro-RO
 
 Russian
 
-
-
 </td>
 <td valign="top">
 
 ru-RU
-
-
 
 </td>
 </tr>
@@ -836,14 +641,10 @@ ru-RU
 
 Serbian \(Latin\)
 
-
-
 </td>
 <td valign="top">
 
 sr-Latn
-
-
 
 </td>
 </tr>
@@ -852,14 +653,10 @@ sr-Latn
 
 Slovak
 
-
-
 </td>
 <td valign="top">
 
 sk-SK
-
-
 
 </td>
 </tr>
@@ -868,14 +665,10 @@ sk-SK
 
 Slovenian
 
-
-
 </td>
 <td valign="top">
 
 sl-SI
-
-
 
 </td>
 </tr>
@@ -884,14 +677,10 @@ sl-SI
 
 Spanish \(Spain\)
 
-
-
 </td>
 <td valign="top">
 
 es-ES
-
-
 
 </td>
 </tr>
@@ -900,14 +689,10 @@ es-ES
 
 Spanish \(Mexico\)
 
-
-
 </td>
 <td valign="top">
 
 es-MX
-
-
 
 </td>
 </tr>
@@ -916,14 +701,10 @@ es-MX
 
 Swedish
 
-
-
 </td>
 <td valign="top">
 
 sv-SE
-
-
 
 </td>
 </tr>
@@ -932,14 +713,10 @@ sv-SE
 
 Thai
 
-
-
 </td>
 <td valign="top">
 
 th-TH
-
-
 
 </td>
 </tr>
@@ -948,14 +725,10 @@ th-TH
 
 Turkish
 
-
-
 </td>
 <td valign="top">
 
 tr-TR
-
-
 
 </td>
 </tr>
@@ -964,14 +737,10 @@ tr-TR
 
 Ukrainian
 
-
-
 </td>
 <td valign="top">
 
 uk-UA
-
-
 
 </td>
 </tr>
@@ -980,14 +749,10 @@ uk-UA
 
 Vietnamese
 
-
-
 </td>
 <td valign="top">
 
 vi-VN
-
-
 
 </td>
 </tr>
@@ -996,14 +761,10 @@ vi-VN
 
 Welsh
 
-
-
 </td>
 <td valign="top">
 
 cy-GB
-
-
 
 </td>
 </tr>

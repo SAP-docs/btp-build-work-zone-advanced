@@ -34,14 +34,10 @@ Shows a row for each user with the following columns of information:
 
 Row item
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -50,14 +46,10 @@ Description
 
 **User ID** 
 
-
-
 </td>
 <td valign="top">
 
 SAP Build Work Zone, advanced edition user ID
-
-
 
 </td>
 </tr>
@@ -66,14 +58,10 @@ SAP Build Work Zone, advanced edition user ID
 
 **Email Address** 
 
-
-
 </td>
 <td valign="top">
 
 The user's email address
-
-
 
 </td>
 </tr>
@@ -82,14 +70,10 @@ The user's email address
 
 **First Name** 
 
-
-
 </td>
 <td valign="top">
 
 The user's first name
-
-
 
 </td>
 </tr>
@@ -98,14 +82,10 @@ The user's first name
 
 **Last Name** 
 
-
-
 </td>
 <td valign="top">
 
 The user's last name
-
-
 
 </td>
 </tr>
@@ -114,14 +94,10 @@ The user's last name
 
 **\(time period\)** 
 
-
-
 </td>
 <td valign="top">
 
 The total number of content views by the user in each week/month in the specified period
-
-
 
 </td>
 </tr>
@@ -130,14 +106,10 @@ The total number of content views by the user in each week/month in the specifie
 
 **Total** 
 
-
-
 </td>
 <td valign="top">
 
 The total number of content views by the user in the entire specified period
-
-
 
 </td>
 </tr>

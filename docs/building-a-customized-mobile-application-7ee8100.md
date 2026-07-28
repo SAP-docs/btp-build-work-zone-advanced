@@ -8,6 +8,9 @@ Developers can build customized mobile apps based on the source code that is del
 
 ## Overview
 
+> ### Note:  
+> As of the 1st of July 2025, the option of creating customized versions of the 'SAP Build Work Zone Advanced’ mobile application using the Mobile Development Kit \(MDK\) for SAP Mobile Services is **no longer supported**. With the SAP Build Work Zone Advanced mobile application being in maintenance mode, the source code is no longer provided.
+
 Using the Mobile Development Kit for SAP Mobile Services, developers can customize the source code delivered with SAP Build Work Zone, advanced edition to create mobile apps.
 
 For more information about Mobile Development Kit, see [Mobile Development Kit - Introduction](https://help.sap.com/doc/f53c64b93e5140918d676b927a3cd65b/Cloud/en-US/docs-en/guides/getting-started/mdk/overview.html)
@@ -23,7 +26,7 @@ For more information about Mobile Development Kit, see [Mobile Development Kit -
     2.  Verify that your system is set up to run builds for SAP Build Work Zone, advanced edition by running the MDK Dependencies Installer tool. This tool detects all the components to install or update, allowing you to update or install them instantly.
         -   Select the relevant installer for your operating system.
 
-            ![](images/MDK_b923f82.png)
+            ![Diagram showing the relevant installers for your operating system.](images/MDK_b923f82.png)
 
         -   Ensure that all the checks have passed.
 
@@ -39,7 +42,7 @@ For more information about Mobile Development Kit, see [Mobile Development Kit -
 
 2.  Download the source ZIP file from the following location: [SAP Build Work Zone, advanced edition source](https://launchpad.support.sap.com/#/softwarecenter/template/products/_APP=00200682500000001943&_EVENT=DISPHIER&HEADER=Y&FUNCTIONBAR=N&EVENT=TREE&NE=NAVIGATE&ENR=73555000100200016343&V=MAINT) and unzip it. The ZIP file contains the following structure:
 
-    ![](images/SWZ_ZIP_f33c617.png)
+    ![Screen capture showing the structure of the source ZIP file that is downloaded: App_Resources, BrandedSettings.json, extensions, MDKProject.json, and metadata.](images/SWZ_ZIP_f33c617.png)
 
 
 
@@ -105,21 +108,15 @@ For more information about Mobile Development Kit, see [Mobile Development Kit -
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Value
-
-
 
 </th>
 </tr>
@@ -128,14 +125,10 @@ Value
 
 "ApplicationDisplayName"
 
-
-
 </td>
 <td valign="top">
 
 Modify
-
-
 
 </td>
 <td valign="top">
@@ -144,8 +137,6 @@ Enter app display name.
 
 Open the i18n.properties file \(located under `DWP.mdkproject/metadata/i18n`\), and enter a value for the key “app\_display\_name”
 
-
-
 </td>
 </tr>
 <tr>
@@ -153,14 +144,10 @@ Open the i18n.properties file \(located under `DWP.mdkproject/metadata/i18n`\), 
 
 "DetailLabelViewText"
 
-
-
 </td>
 <td valign="top">
 
 Modify
-
-
 
 </td>
 <td valign="top">
@@ -171,8 +158,6 @@ Open the i18n.properties file \(located under `DWP.mdkproject/metadata/i18n`\), 
 
 This description will be shown in the mobile welcome page when launching it for the first time.
 
-
-
 </td>
 </tr>
 <tr>
@@ -180,21 +165,15 @@ This description will be shown in the mobile welcome page when launching it for 
 
 "EnableOverrides"
 
-
-
 </td>
 <td valign="top">
 
 Modify
 
-
-
 </td>
 <td valign="top">
 
 Change the value from true to false
-
-
 
 </td>
 </tr>
@@ -203,14 +182,10 @@ Change the value from true to false
 
 “AppId”
 
-
-
 </td>
 <td valign="top">
 
 Add
-
-
 
 </td>
 <td valign="top">
@@ -230,14 +205,10 @@ To find the App ID:
 
 “ServerUrl”
 
-
-
 </td>
 <td valign="top">
 
 Add
-
-
 
 </td>
 <td valign="top">
@@ -256,21 +227,15 @@ Replace the “*WZ domain*” in the code sample above with the server URL that 
 
 “AuthorizationEndpointUrl”
 
-
-
 </td>
 <td valign="top">
 
 Add
 
-
-
 </td>
 <td valign="top">
 
 \[“*WZ domain*”\]/oauth2/api/v1/authorize
-
-
 
 </td>
 </tr>
@@ -279,21 +244,15 @@ Add
 
 “RedirectUrl”
 
-
-
 </td>
 <td valign="top">
 
 Add
 
-
-
 </td>
 <td valign="top">
 
 \[“*WZ domain*”\]
-
-
 
 </td>
 </tr>
@@ -302,21 +261,15 @@ Add
 
 “TokenUrl”
 
-
-
 </td>
 <td valign="top">
 
 Add
 
-
-
 </td>
 <td valign="top">
 
 \[“*WZ domain*”\]/oauth2/api/v1/token
-
-
 
 </td>
 </tr>
